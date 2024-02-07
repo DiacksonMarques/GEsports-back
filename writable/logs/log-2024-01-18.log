@@ -1,0 +1,1868 @@
+CRITICAL - 2024-01-18 09:42:36 --> CodeIgniter\Validation\Exceptions\ValidationException: "min_lenght" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenght')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('username', 'username', 'teste', [...], [...])
+ 3 SYSTEMPATH\BaseModel.php(1534): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(771): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\UserController.php(35): CodeIgniter\Model->insert(Object(stdClass))
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 09:42:38 --> CodeIgniter\Validation\Exceptions\ValidationException: "min_lenght" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenght')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('username', 'username', 'teste', [...], [...])
+ 3 SYSTEMPATH\BaseModel.php(1534): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(771): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\UserController.php(35): CodeIgniter\Model->insert(Object(stdClass))
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 09:43:36 --> CodeIgniter\Validation\Exceptions\ValidationException: "min_lenght" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenght')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('username', 'username', 'aceadmin', [...], [...])
+ 3 SYSTEMPATH\BaseModel.php(1534): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(771): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\UserController.php(35): CodeIgniter\Model->insert(Object(stdClass))
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 09:43:59 --> CodeIgniter\Validation\Exceptions\ValidationException: "min_lenght" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenght')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('username', 'username', 'aceadmin', [...], [...])
+ 3 SYSTEMPATH\BaseModel.php(1534): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(771): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\UserController.php(35): CodeIgniter\Model->insert(Object(stdClass))
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 09:45:32 --> CodeIgniter\Validation\Exceptions\ValidationException: "min_lenght" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenght')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('username', 'username', 'teste2', [...], [...])
+ 3 SYSTEMPATH\BaseModel.php(1534): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(959): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], [...])
+ 6 APPPATH\Controllers\UserController.php(53): CodeIgniter\Model->update('1', Object(stdClass))
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->update('1')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 10:29:37 --> ErrorException: Undefined variable $messages
+in APPPATH\Controllers\UserController.php on line 40.
+ 1 APPPATH\Controllers\UserController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $messages', 'C:\\ace-api\\app\\Controllers\\UserController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 10:29:40 --> ErrorException: Undefined variable $messages
+in APPPATH\Controllers\UserController.php on line 40.
+ 1 APPPATH\Controllers\UserController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $messages', 'C:\\ace-api\\app\\Controllers\\UserController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 10:35:03 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 588.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(588): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON('Syntax error')
+ 2 APPPATH\Controllers\UserController.php(70): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->update('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 10:45:42 --> TypeError: App\Controllers\UserController::failUnauthorized(): Argument #1 ($description) must be of type string, null given, called in C:\ace-api\app\Controllers\UserController.php on line 24
+in SYSTEMPATH\API\ResponseTrait.php on line 196.
+ 1 APPPATH\Controllers\UserController.php(24): App\Controllers\UserController->failUnauthorized(null)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 10:46:13 --> ErrorException: Undefined variable $bearer_token
+in APPPATH\Controllers\UserController.php on line 25.
+ 1 APPPATH\Controllers\UserController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bearer_token', 'C:\\ace-api\\app\\Controllers\\UserController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 10:46:21 --> ErrorException: Undefined variable $bearer_token
+in APPPATH\Controllers\UserController.php on line 25.
+ 1 APPPATH\Controllers\UserController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bearer_token', 'C:\\ace-api\\app\\Controllers\\UserController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 10:47:37 --> TypeError: App\Controllers\UserController::failUnauthorized(): Argument #1 ($description) must be of type string, null given, called in C:\ace-api\app\Controllers\UserController.php on line 23
+in SYSTEMPATH\API\ResponseTrait.php on line 196.
+ 1 APPPATH\Controllers\UserController.php(23): App\Controllers\UserController->failUnauthorized(null)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 10:49:11 --> ErrorException: Undefined variable $model
+in APPPATH\Libraries\JwtLibraryLibraries.php on line 49.
+ 1 APPPATH\Libraries\JwtLibraryLibraries.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\ace-api\\app\\Libraries\\JwtLibraryLibraries.php', 49)
+ 2 APPPATH\Controllers\UserController.php(20): App\Libraries\JwtLibraryLibraries->is_jwt_valid('eyJ1c2VybmFtZSI6InRlc3RlIiwicGFzc3dvcmQiOiJ0ZXN0ZTEyMyJ9.eyJleHBpcmF0aW9uIjoxNzA1ODMzNjQwfQ')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 11:03:05 --> ErrorException: Undefined variable $model
+in APPPATH\Libraries\JwtLibraryLibraries.php on line 49.
+ 1 APPPATH\Libraries\JwtLibraryLibraries.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\ace-api\\app\\Libraries\\JwtLibraryLibraries.php', 49)
+ 2 APPPATH\Controllers\UserController.php(20): App\Libraries\JwtLibraryLibraries->is_jwt_valid('eyJ1c2VybmFtZSI6InRlc3RlIiwicGFzc3dvcmQiOiJ0ZXN0ZTEyMyJ9.eyJleHBpcmF0aW9uIjoxNzA1ODMzNjQwfQ')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 11:04:00 --> ErrorException: Undefined variable $model
+in APPPATH\Libraries\JwtLibraryLibraries.php on line 49.
+ 1 APPPATH\Libraries\JwtLibraryLibraries.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\ace-api\\app\\Libraries\\JwtLibraryLibraries.php', 49)
+ 2 APPPATH\Controllers\UserController.php(20): App\Libraries\JwtLibraryLibraries->is_jwt_valid('eyJ1c2VybmFtZSI6InRlc3RlIiwicGFzc3dvcmQiOiJ0ZXN0ZTEyMyJ9.eyJleHBpcmF0aW9uIjoxNzA1ODMzNjQwfQ')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 11:04:02 --> ErrorException: Undefined variable $model
+in APPPATH\Libraries\JwtLibraryLibraries.php on line 49.
+ 1 APPPATH\Libraries\JwtLibraryLibraries.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\ace-api\\app\\Libraries\\JwtLibraryLibraries.php', 49)
+ 2 APPPATH\Controllers\UserController.php(20): App\Libraries\JwtLibraryLibraries->is_jwt_valid('eyJ1c2VybmFtZSI6InRlc3RlIiwicGFzc3dvcmQiOiJ0ZXN0ZTEyMyJ9.eyJleHBpcmF0aW9uIjoxNzA1ODMzNjQwfQ')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 11:04:13 --> ErrorException: Undefined variable $model
+in APPPATH\Libraries\JwtLibraryLibraries.php on line 49.
+ 1 APPPATH\Libraries\JwtLibraryLibraries.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\ace-api\\app\\Libraries\\JwtLibraryLibraries.php', 49)
+ 2 APPPATH\Controllers\UserController.php(20): App\Libraries\JwtLibraryLibraries->is_jwt_valid('eyJ1c2VybmFtZSI6InRlc3RlIiwicGFzc3dvcmQiOiJ0ZXN0ZTEyMyJ9.eyJleHBpcmF0aW9uIjoxNzA1ODMzNjQwfQ')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 11:04:14 --> ErrorException: Undefined variable $model
+in APPPATH\Libraries\JwtLibraryLibraries.php on line 49.
+ 1 APPPATH\Libraries\JwtLibraryLibraries.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\ace-api\\app\\Libraries\\JwtLibraryLibraries.php', 49)
+ 2 APPPATH\Controllers\UserController.php(20): App\Libraries\JwtLibraryLibraries->is_jwt_valid('eyJ1c2VybmFtZSI6InRlc3RlIiwicGFzc3dvcmQiOiJ0ZXN0ZTEyMyJ9.eyJleHBpcmF0aW9uIjoxNzA1ODMzNjQwfQ')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 11:04:32 --> ErrorException: Undefined variable $model
+in APPPATH\Libraries\JwtLibraryLibraries.php on line 49.
+ 1 APPPATH\Libraries\JwtLibraryLibraries.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\ace-api\\app\\Libraries\\JwtLibraryLibraries.php', 49)
+ 2 APPPATH\Controllers\UserController.php(20): App\Libraries\JwtLibraryLibraries->is_jwt_valid('eyJ1c2VybmFtZSI6InRlc3RlIiwicGFzc3dvcmQiOiJ0ZXN0ZTEyMyJ9.eyJleHBpcmF0aW9uIjoxNzA1ODMzNjQwfQ')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 11:11:42 --> ParseError: syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\UserController.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\ace-api\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 11:23:41 --> ErrorException: Undefined property: App\Controllers\UserController::$jwtLib
+in APPPATH\Controllers\UserController.php on line 125.
+ 1 APPPATH\Controllers\UserController.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$jwtLib', 'C:\\ace-api\\app\\Controllers\\UserController.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 11:24:47 --> ErrorException: Undefined property: App\Controllers\UserController::$jwtLib
+in APPPATH\Controllers\UserController.php on line 125.
+ 1 APPPATH\Controllers\UserController.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$jwtLib', 'C:\\ace-api\\app\\Controllers\\UserController.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 11:25:11 --> ErrorException: Undefined property: App\Controllers\UserController::$jwtLib
+in APPPATH\Controllers\UserController.php on line 125.
+ 1 APPPATH\Controllers\UserController.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$jwtLib', 'C:\\ace-api\\app\\Controllers\\UserController.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 11:25:22 --> ErrorException: Undefined property: App\Controllers\UserController::$jwtLib
+in APPPATH\Controllers\UserController.php on line 125.
+ 1 APPPATH\Controllers\UserController.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$jwtLib', 'C:\\ace-api\\app\\Controllers\\UserController.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 11:25:30 --> ErrorException: Undefined property: App\Controllers\UserController::$jwtLib
+in APPPATH\Controllers\UserController.php on line 125.
+ 1 APPPATH\Controllers\UserController.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$jwtLib', 'C:\\ace-api\\app\\Controllers\\UserController.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 11:25:49 --> ErrorException: Undefined property: App\Controllers\UserController::$jwtLib
+in APPPATH\Controllers\UserController.php on line 125.
+ 1 APPPATH\Controllers\UserController.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$jwtLib', 'C:\\ace-api\\app\\Controllers\\UserController.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 11:26:02 --> ErrorException: Undefined property: App\Controllers\UserController::$jwtLib
+in APPPATH\Controllers\UserController.php on line 125.
+ 1 APPPATH\Controllers\UserController.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$jwtLib', 'C:\\ace-api\\app\\Controllers\\UserController.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 11:27:12 --> ErrorException: Undefined property: App\Controllers\UserController::$jwtLib
+in APPPATH\Controllers\UserController.php on line 125.
+ 1 APPPATH\Controllers\UserController.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$jwtLib', 'C:\\ace-api\\app\\Controllers\\UserController.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 11:37:18 --> Some variable did not contain a value.
+ERROR - 2024-01-18 11:37:44 --> Some variable did not contain a value.
+CRITICAL - 2024-01-18 11:53:40 --> TypeError: Unsupported operand types: int + string
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 11:53:42 --> TypeError: Unsupported operand types: int + string
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 11:54:27 --> TypeError: App\Controllers\UserController::failUnauthorized(): Argument #1 ($description) must be of type string, array given, called in C:\ace-api\app\Controllers\UserController.php on line 22
+in SYSTEMPATH\API\ResponseTrait.php on line 196.
+ 1 APPPATH\Controllers\UserController.php(22): App\Controllers\UserController->failUnauthorized([...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 11:57:06 --> TypeError: App\Controllers\UserController::failUnauthorized(): Argument #1 ($description) must be of type string, array given, called in C:\ace-api\app\Controllers\UserController.php on line 23
+in SYSTEMPATH\API\ResponseTrait.php on line 196.
+ 1 APPPATH\Controllers\UserController.php(23): App\Controllers\UserController->failUnauthorized([...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 12:56:30 --> Error: Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('users', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 12:57:01 --> Error: Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('users', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 12:57:14 --> Error: Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('users', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 12:57:15 --> Error: Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('users', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 12:57:16 --> Error: Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('users', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 12:57:45 --> Error: Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('users', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 13:45:30 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ace-db`.`user`, CONSTRAINT `roles_id` FOREIGN KEY (`roles_id`) REFERENCES `roles` (`id`)) in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\ace-api\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\ace-api\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\ace-api\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\ace-api\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\ace-api\app\Controllers\UserController.php(45): CodeIgniter\Model->insert(Object(stdClass))
+#8 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\UserController->create()
+#9 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-18 13:45:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`ace-db`.`user`, CONSTRAINT `roles_id` FOREIGN KEY (`roles_id`) REFERENCES `roles` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `username`, `email`, `password`, `token`) VALUES (:name:, :username:, :email:, :password:, :token:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserController.php(45): CodeIgniter\Model->insert(Object(stdClass))
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 13:45:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`ace-db`.`user`, CONSTRAINT `roles_id` FOREIGN KEY (`roles_id`) REFERENCES `roles` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`name`, `username`, `email`, `password`, `token`) VALUES (\'TESTE\', \'teste\', \'test@gmail\', \'teste123\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`name`, `username`, `email`, `password`, `token`) VALUES (\'TESTE\', \'teste\', \'test@gmail\', \'teste123\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `username`, `email`, `password`, `token`) VALUES (:name:, :username:, :email:, :password:, :token:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\UserController.php(45): CodeIgniter\Model->insert(Object(stdClass))
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 13:45:30 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ace-db`.`user`, CONSTRAINT `roles_id` FOREIGN KEY (`roles_id`) REFERENCES `roles` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `user` (`name`, `username`, `email`, `password`, `token`) VALUES (\'TESTE\', \'teste\', \'test@gmail\', \'teste123\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`name`, `username`, `email`, `password`, `token`) VALUES (\'TESTE\', \'teste\', \'test@gmail\', \'teste123\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`name`, `username`, `email`, `password`, `token`) VALUES (\'TESTE\', \'teste\', \'test@gmail\', \'teste123\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `username`, `email`, `password`, `token`) VALUES (:name:, :username:, :email:, :password:, :token:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\UserController.php(45): CodeIgniter\Model->insert(Object(stdClass))
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->create()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 13:47:02 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ace-db`.`user`, CONSTRAINT `roles_id` FOREIGN KEY (`roles_id`) REFERENCES `roles` (`id`)) in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\ace-api\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\ace-api\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\ace-api\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\ace-api\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\ace-api\app\Controllers\UserController.php(45): CodeIgniter\Model->insert(Object(stdClass))
+#8 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\UserController->create()
+#9 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-18 13:47:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`ace-db`.`user`, CONSTRAINT `roles_id` FOREIGN KEY (`roles_id`) REFERENCES `roles` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `username`, `email`, `password`, `token`, `roles_id`) VALUES (:name:, :username:, :email:, :password:, :token:, :roles_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserController.php(45): CodeIgniter\Model->insert(Object(stdClass))
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 13:47:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`ace-db`.`user`, CONSTRAINT `roles_id` FOREIGN KEY (`roles_id`) REFERENCES `roles` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`name`, `username`, `email`, `password`, `token`, `roles_id`) VALUES (\'TESTE\', \'teste2\', \'test2@gmail\', \'teste123\', NULL, 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`name`, `username`, `email`, `password`, `token`, `roles_id`) VALUES (\'TESTE\', \'teste2\', \'test2@gmail\', \'teste123\', NULL, 0)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `username`, `email`, `password`, `token`, `roles_id`) VALUES (:name:, :username:, :email:, :password:, :token:, :roles_id:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\UserController.php(45): CodeIgniter\Model->insert(Object(stdClass))
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 13:47:02 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ace-db`.`user`, CONSTRAINT `roles_id` FOREIGN KEY (`roles_id`) REFERENCES `roles` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `user` (`name`, `username`, `email`, `password`, `token`, `roles_id`) VALUES (\'TESTE\', \'teste2\', \'test2@gmail\', \'teste123\', NULL, 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`name`, `username`, `email`, `password`, `token`, `roles_id`) VALUES (\'TESTE\', \'teste2\', \'test2@gmail\', \'teste123\', NULL, 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`name`, `username`, `email`, `password`, `token`, `roles_id`) VALUES (\'TESTE\', \'teste2\', \'test2@gmail\', \'teste123\', NULL, 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`name`, `username`, `email`, `password`, `token`, `roles_id`) VALUES (:name:, :username:, :email:, :password:, :token:, :roles_id:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\UserController.php(45): CodeIgniter\Model->insert(Object(stdClass))
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->create()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 13:59:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3 in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `roles`....', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`....')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`....')
+#3 C:\ace-api\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`....', Array, false)
+#4 C:\ace-api\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ace-api\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\ace-api\app\Controllers\UserController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+#8 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-18 13:59:24 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(25): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 13:59:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(25): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 13:59:24 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 14:00:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3 in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `roles`....', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`....')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`....')
+#3 C:\ace-api\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`....', Array, false)
+#4 C:\ace-api\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ace-api\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\ace-api\app\Controllers\UserController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+#8 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-18 14:00:11 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(25): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:00:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(25): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:00:11 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 14:00:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3 in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `roles`....', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`....')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`....')
+#3 C:\ace-api\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`....', Array, false)
+#4 C:\ace-api\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ace-api\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\ace-api\app\Controllers\UserController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+#8 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-18 14:00:54 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(25): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:00:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(25): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:00:54 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 14:01:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3 in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `roles`....', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`....')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`....')
+#3 C:\ace-api\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`....', Array, false)
+#4 C:\ace-api\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ace-api\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\ace-api\app\Controllers\UserController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+#8 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-18 14:01:11 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(25): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:01:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(25): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:01:11 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 14:01:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3 in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `roles`....', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`....')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`....')
+#3 C:\ace-api\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`....', Array, false)
+#4 C:\ace-api\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ace-api\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\ace-api\app\Controllers\UserController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+#8 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-18 14:01:28 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(25): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:01:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`.`role`, `user`.*
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`.`role`, `user`.*
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(25): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:01:28 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`.`role`, `user`.*
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`.`role`, `user`.*
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 14:07:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3 in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `roles`....', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`....')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`....')
+#3 C:\ace-api\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`....', Array, false)
+#4 C:\ace-api\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ace-api\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\ace-api\app\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+#8 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-18 14:07:13 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:07:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`.`role`, `user`.*
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`.`role`, `user`.*
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:07:13 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`.`role`, `user`.*
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`.`role`, `user`.*
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 14:07:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`' at line 3 in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\ace-api\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\ace-api\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ace-api\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\ace-api\app\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+#8 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-18 14:07:31 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:07:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:07:31 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 14:07:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`' at line 3 in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `roles`....', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`....')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`....')
+#3 C:\ace-api\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`....', Array, false)
+#4 C:\ace-api\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ace-api\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\ace-api\app\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+#8 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-18 14:07:41 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:07:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`.`role`
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`.`role`
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:07:41 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `roles`.`role`
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`.`role`
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`.`role`
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`
+FROM `user`
+JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 14:07:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3 in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `roles`....', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`....')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`....')
+#3 C:\ace-api\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`....', Array, false)
+#4 C:\ace-api\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ace-api\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\ace-api\app\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+#8 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-18 14:07:57 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:07:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:07:57 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 14:08:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3 in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `roles`....', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`....')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`....')
+#3 C:\ace-api\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`....', Array, false)
+#4 C:\ace-api\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ace-api\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\ace-api\app\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+#8 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-18 14:08:00 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:08:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:08:00 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.`role`, `user`.*
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 14:09:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3 in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, `role...', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `role...')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `role...')
+#3 C:\ace-api\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *, `role...', Array, false)
+#4 C:\ace-api\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ace-api\app\Controllers\UserController.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+#7 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-18 14:09:19 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *, `roles`.`role`
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\UserController.php(26): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:09:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `roles`.`role`
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `roles`.`role`
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *, `roles`.`role`
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\UserController.php(26): CodeIgniter\Model->__call('get', [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:09:19 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, `roles`.`role`
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `roles`.`role`
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `roles`.`role`
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *, `roles`.`role`
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserController.php(26): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 14:09:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3 in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, `role...', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `role...')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `role...')
+#3 C:\ace-api\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *, `role...', Array, false)
+#4 C:\ace-api\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ace-api\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\ace-api\app\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+#8 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-18 14:09:29 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *, `roles`.`role`
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:09:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `roles`.`role`
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `roles`.`role`
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *, `roles`.`role`
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:09:29 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`
+ORDER BY `user`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, `roles`.`role`
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `roles`.`role`
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `roles`.`role`
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *, `roles`.`role`
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`
+ORDER BY `user`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(26): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 14:13:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`' at line 3 in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\ace-api\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\ace-api\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ace-api\app\Controllers\UserController.php(24): CodeIgniter\Model->__call('get', Array)
+#6 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+#7 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-18 14:13:40 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`', [], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\UserController.php(24): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:13:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`', [], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\UserController.php(24): CodeIgniter\Model->__call('get', [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:13:40 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`', [], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserController.php(24): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 14:13:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`' at line 3 in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\ace-api\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\ace-api\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ace-api\app\Controllers\UserController.php(24): CodeIgniter\Model->__call('get', Array)
+#6 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+#7 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-18 14:13:43 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`', [], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\UserController.php(24): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:13:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`', [], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\UserController.php(24): CodeIgniter\Model->__call('get', [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:13:43 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`', [], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserController.php(24): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 14:18:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`' at line 3 in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\ace-api\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\ace-api\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ace-api\app\Controllers\UserController.php(24): CodeIgniter\Model->__call('get', Array)
+#6 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+#7 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-18 14:18:27 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`', [], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\UserController.php(24): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:18:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`', [], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\UserController.php(24): CodeIgniter\Model->__call('get', [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:18:27 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`user`.`roles_id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+LEFT JOIN `roles` ON `roles`.`id` =`=` `user`.`roles_id`', [], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserController.php(24): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 14:28:51 --> mysqli_sql_exception: Unknown column 'u.roles_id' in 'on clause' in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\ace-api\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\ace-api\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ace-api\app\Controllers\UserController.php(23): CodeIgniter\Model->__call('get', Array)
+#6 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+#7 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-18 14:28:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'u.roles_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\UserController.php(23): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:28:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'u.roles_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\UserController.php(23): CodeIgniter\Model->__call('get', [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:28:51 --> [Caused by] mysqli_sql_exception: Unknown column 'u.roles_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `user`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserController.php(23): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 14:29:13 --> mysqli_sql_exception: Unknown column 'r.id' in 'on clause' in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\ace-api\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\ace-api\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ace-api\app\Controllers\UserController.php(23): CodeIgniter\Model->__call('get', Array)
+#6 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+#7 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-18 14:29:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'r.id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+JOIN `user` `u` ON `u`.`roles_id` = `r`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\UserController.php(23): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:29:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'r.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+JOIN `user` `u` ON `u`.`roles_id` = `r`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+JOIN `user` `u` ON `u`.`roles_id` = `r`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+JOIN `user` `u` ON `u`.`roles_id` = `r`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\UserController.php(23): CodeIgniter\Model->__call('get', [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:29:13 --> [Caused by] mysqli_sql_exception: Unknown column 'r.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `user`
+JOIN `user` `u` ON `u`.`roles_id` = `r`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+JOIN `user` `u` ON `u`.`roles_id` = `r`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+JOIN `user` `u` ON `u`.`roles_id` = `r`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+JOIN `user` `u` ON `u`.`roles_id` = `r`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserController.php(23): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 14:30:53 --> mysqli_sql_exception: Unknown column 'u.roles_id' in 'on clause' in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\ace-api\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\ace-api\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\ace-api\app\Controllers\UserController.php(23): CodeIgniter\Model->__call('get', Array)
+#6 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+#7 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-18 14:30:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'u.roles_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\UserController.php(23): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:30:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'u.roles_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\UserController.php(23): CodeIgniter\Model->__call('get', [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:30:53 --> [Caused by] mysqli_sql_exception: Unknown column 'u.roles_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `user`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\UserController.php(23): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->listAll()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:43:24 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\ace-api\app\Controllers\UserController.php on line 122 and at least 2 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 614.
+ 1 APPPATH\Controllers\UserController.php(122): CodeIgniter\Database\BaseBuilder->join('roles r\', \'u.roles_id =5')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:45:09 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\ace-api\app\Controllers\UserController.php on line 122 and at least 2 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 614.
+ 1 APPPATH\Controllers\UserController.php(122): CodeIgniter\Database\BaseBuilder->join('roles r\', \'u.roles_id =5')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:45:39 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\ace-api\app\Controllers\UserController.php on line 122 and at least 2 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 614.
+ 1 APPPATH\Controllers\UserController.php(122): CodeIgniter\Database\BaseBuilder->join('roles r\', \'u.roles_id = 1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:45:49 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\ace-api\app\Controllers\UserController.php on line 122 and at least 2 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 614.
+ 1 APPPATH\Controllers\UserController.php(122): CodeIgniter\Database\BaseBuilder->join('roles r\', \'u.roles_id = r.id')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 14:49:33 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Controllers\UserController.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 16:54:06 --> Error: Call to undefined function App\Controllers\get()
+in APPPATH\Controllers\SchoolController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SchoolController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 16:55:25 --> Error: Call to undefined method App\Controllers\SchoolController::get()
+in APPPATH\Controllers\SchoolController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SchoolController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 16:55:46 --> Error: Call to undefined method App\Controllers\SchoolController::get()
+in APPPATH\Controllers\SchoolController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SchoolController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 16:55:48 --> Error: Call to undefined method App\Controllers\SchoolController::get()
+in APPPATH\Controllers\SchoolController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SchoolController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 16:55:58 --> Error: Call to undefined method App\Controllers\SchoolController::get()
+in APPPATH\Controllers\SchoolController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SchoolController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-18 18:18:17 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ace-db`.`athlete`, CONSTRAINT `responsible_id` FOREIGN KEY (`responsible_id`) REFERENCES `responsible` (`id`) ON UPDATE CASCADE) in C:\ace-api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\ace-api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `at...', 0)
+#1 C:\ace-api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 C:\ace-api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 C:\ace-api\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 C:\ace-api\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\ace-api\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\ace-api\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\ace-api\app\Controllers\AthleteController.php(45): CodeIgniter\Model->insert(Object(stdClass))
+#8 C:\ace-api\system\CodeIgniter.php(941): App\Controllers\AthleteController->create()
+#9 C:\ace-api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+#10 C:\ace-api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\ace-api\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-18 18:18:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`ace-db`.`athlete`, CONSTRAINT `responsible_id` FOREIGN KEY (`responsible_id`) REFERENCES `responsible` (`id`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `athlete` (`name`, `dd-phone`, `number-phone`, `cep`, `adress`, `neighborhood`, `city`) VALUES (:name:, :dd-phone:, :number-phone:, :cep:, :adress:, :neighborhood:, :city:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AthleteController.php(45): CodeIgniter\Model->insert(Object(stdClass))
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 18:18:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`ace-db`.`athlete`, CONSTRAINT `responsible_id` FOREIGN KEY (`responsible_id`) REFERENCES `responsible` (`id`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `athlete` (`name`, `dd-phone`, `number-phone`, `cep`, `adress`, `neighborhood`, `city`) VALUES (\'Marcos Sousa\', 88, 988090947, 630303000, \'Rua Ninguem\', \'Ninguem\', \'Lugar Nenhum\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `athlete` (`name`, `dd-phone`, `number-phone`, `cep`, `adress`, `neighborhood`, `city`) VALUES (\'Marcos Sousa\', 88, 988090947, 630303000, \'Rua Ninguem\', \'Ninguem\', \'Lugar Nenhum\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `athlete` (`name`, `dd-phone`, `number-phone`, `cep`, `adress`, `neighborhood`, `city`) VALUES (:name:, :dd-phone:, :number-phone:, :cep:, :adress:, :neighborhood:, :city:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\AthleteController.php(45): CodeIgniter\Model->insert(Object(stdClass))
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->create()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 18:18:17 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ace-db`.`athlete`, CONSTRAINT `responsible_id` FOREIGN KEY (`responsible_id`) REFERENCES `responsible` (`id`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `athlete` (`name`, `dd-phone`, `number-phone`, `cep`, `adress`, `neighborhood`, `city`) VALUES (\'Marcos Sousa\', 88, 988090947, 630303000, \'Rua Ninguem\', \'Ninguem\', \'Lugar Nenhum\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `athlete` (`name`, `dd-phone`, `number-phone`, `cep`, `adress`, `neighborhood`, `city`) VALUES (\'Marcos Sousa\', 88, 988090947, 630303000, \'Rua Ninguem\', \'Ninguem\', \'Lugar Nenhum\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `athlete` (`name`, `dd-phone`, `number-phone`, `cep`, `adress`, `neighborhood`, `city`) VALUES (\'Marcos Sousa\', 88, 988090947, 630303000, \'Rua Ninguem\', \'Ninguem\', \'Lugar Nenhum\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `athlete` (`name`, `dd-phone`, `number-phone`, `cep`, `adress`, `neighborhood`, `city`) VALUES (:name:, :dd-phone:, :number-phone:, :cep:, :adress:, :neighborhood:, :city:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\AthleteController.php(45): CodeIgniter\Model->insert(Object(stdClass))
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->create()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 18:29:23 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\AthleteController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 18:29:32 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\AthleteController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 18:29:57 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 588.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(588): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON('Syntax error')
+ 2 APPPATH\Controllers\AthleteController.php(40): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 18:30:06 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 588.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(588): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON('Syntax error')
+ 2 APPPATH\Controllers\AthleteController.php(40): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 18:31:24 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 588.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(588): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON('Syntax error')
+ 2 APPPATH\Controllers\AthleteController.php(40): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 18:31:40 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 588.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(588): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON('Syntax error')
+ 2 APPPATH\Controllers\AthleteController.php(40): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 18:31:54 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\AthleteController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 18:39:25 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\AthleteController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 18:39:58 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\AthleteController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 18:42:08 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\AthleteController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 18:42:18 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\AthleteController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 18:42:20 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\AthleteController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 18:42:49 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\AthleteController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-18 21:14:52 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 588.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(588): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON('Syntax error')
+ 2 APPPATH\Controllers\FrequencyController.php(40): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FrequencyController->create()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrequencyController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,43 @@
+CRITICAL - 2024-02-06 14:56:11 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\SchoolController.php on line 18.
+ 1 APPPATH\Controllers\SchoolController.php(18): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SchoolController->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 15:01:15 --> Error: Undefined constant "App\Controllers\iterable_expression"
+in APPPATH\Controllers\StoreController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\StoreController->getAllCitys()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StoreController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 15:01:28 --> Error: Undefined constant "App\Controllers\iterable_expression"
+in APPPATH\Controllers\StoreController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\StoreController->getAllCitys()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StoreController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 15:03:14 --> Error: Undefined constant "App\Controllers\iterable_expression"
+in APPPATH\Controllers\StoreController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\StoreController->getAllCitys()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StoreController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 15:03:17 --> Error: Undefined constant "App\Controllers\iterable_expression"
+in APPPATH\Controllers\StoreController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\StoreController->getAllCitys()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StoreController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 15:03:37 --> Error: Undefined constant "App\Controllers\iterable_expression"
+in APPPATH\Controllers\StoreController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\StoreController->getAllCitys()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StoreController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 15:03:40 --> Error: Undefined constant "App\Controllers\iterable_expression"
+in APPPATH\Controllers\StoreController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\StoreController->getAllCitys()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StoreController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
