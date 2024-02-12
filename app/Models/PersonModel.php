@@ -32,7 +32,7 @@ class PersonModel extends Model{
         'height' => 'required',
         'weight' => 'required',
         'name' => 'required|min_length[5]',
-        'birthDate' => 'required|min_length[5]',
+        'birthDate' => 'required|min_length[8]',
         //'cpf' => 'required|min_length[11]|max_length[11],is_unique',
         //'rg' => 'required|max_length[14],is_unique',
         //'issuingBody' => 'required|max_length[5]',
@@ -42,7 +42,7 @@ class PersonModel extends Model{
         //'neighborhood' => 'required|min_length[5]',
         //'city' => 'required|min_length[5]',
         'gender' => 'required',
-        'naturalness' => 'required|min_length[5]',
+        'naturalness' => 'required|min_length[3]',
         'ddPhone' => 'required|max_length[2]|min_length[2]',
         'numberPhone' => 'required|max_length[9]|min_length[9]',
     ];

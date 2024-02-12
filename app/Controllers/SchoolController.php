@@ -4,6 +4,7 @@ use CodeIgniter\RESTful\ResourceController;
 use CodeIgniter\API\ResponseTrait;
 use Exception;
 use App\Models\SchoolModel;
+use App\Models\MessagesModel;
 
 
 class SchoolController extends ResourceController{
@@ -36,17 +37,11 @@ class SchoolController extends ResourceController{
     }
 
     public function create(){
-        $model = new SchoolModel();
-        $data = $this->request->getJSON();
-        $rules = [
-            'name' => 'required|min_length[5]',
-        ];
-       
-
         try {
-            if (!$this->validate($rules)) {
-                return $this->fail($this->validator->getErrors());
-            }
+            $model = new SchoolModel();
+            $messageModel = new MessagesModel();
+            $model->setValidationMessages($messageModel->fieldValidationMessageSchool());
+            $data = $this->request->getJSON();     
 
             $responseData = $model->insert($data);
 

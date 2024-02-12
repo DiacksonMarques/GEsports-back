@@ -4,6 +4,7 @@ use CodeIgniter\RESTful\ResourceController;
 use CodeIgniter\API\ResponseTrait;
 use Exception;
 use App\Models\PersonModel;
+use App\Models\MessagesModel;
 
 
 class PersonController extends ResourceController{
@@ -129,6 +130,8 @@ class PersonController extends ResourceController{
 
     public function createEnrollment(){
         $model = new PersonModel();
+        $messageModel = new MessagesModel();
+        $model->setValidationMessages($messageModel->fieldValidationMessagePerson());
         $data = $this->request->getJSON();
         
         try {
