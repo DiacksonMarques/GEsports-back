@@ -98,3 +98,4 @@ $routes->post('checkToken', 'UserController::checkToken');
 
 //Store
 $routes->get('citys', 'StoreController::getAllCitys');
+$routes->get('donwloadTerm', 'StoreController::dowloadTerm');

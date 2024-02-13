@@ -128,15 +128,13 @@ class PersonController extends ResourceController{
               
     }
 
-    public function createEnrollment(){
-        $model = new PersonModel();
-        $messageModel = new MessagesModel();
-        $model->setValidationMessages($messageModel->fieldValidationMessagePerson());
-        $data = $this->request->getJSON();
-        
+    public function createEnrollment(){    
         try {
-
             $model = new PersonModel();
+            $messageModel = new MessagesModel();
+            $model->setValidationMessages($messageModel->fieldValidationMessagePerson());
+            $data = $this->request->getJSON();
+
             $buider = $model->builder();
             $buider->orderBy('id','DESC');
 
@@ -149,7 +147,6 @@ class PersonController extends ResourceController{
             $responseData = $model->insert($data);
 
             if($responseData){
-                
                 return $this->respondCreated($data);
             } else {
                 return $this->fail($model->errors());

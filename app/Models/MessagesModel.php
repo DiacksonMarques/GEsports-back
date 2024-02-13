@@ -36,12 +36,12 @@ class MessagesModel {
             'ddPhone' => [
                 'required' => 'O DDD é obrigátorio.',
                 'min_length' => 'O campo do DDD deve ter pelo menos 2 caracteres.',
-                'max_length' => 'O campo do DDD deve ter no máximo 2 caracteres.'
+                'max_length' => 'O campo DDD não pode exceder 2 caracteres.'
             ],
             'numberPhone' => [
                 'required' => 'O telefone é obrigátorio.',
                 'min_length' => 'O campo do telefone deve ter pelo menos 9 caracteres.',
-                'max_length' => 'O campo do telefone deve ter no máximo 9 caracteres.'
+                'max_length' => 'O campo telefone não pode exceder 9 caracteres.'
             ],
         ];
     }
