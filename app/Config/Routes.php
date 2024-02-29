@@ -29,11 +29,9 @@ $routes->delete('responsible/(:segment)', 'ResponsibleController::delete/$1', ['
 //Person
 $routes->get('persons', 'PersonController::getAll', ['filter' => 'auth']);
 $routes->get('person/(:segment)', 'PersonController::getOne/$1', ['filter' => 'auth']);
-$routes->post('person', 'PersonController::create', ['filter' => 'auth']);
+$routes->post('person', 'PersonController::create');
 $routes->put('person/(:segment)', 'PersonController::update/$1', ['filter' => 'auth']);
 $routes->delete('person/(:segment)', 'PersonController::delete/$1', ['filter' => 'auth']);
-$routes->post('personEnrollment', 'PersonController::createEnrollment');
-$routes->get('personEnrollment/(:segment)', 'PersonController::getEnrollment/$1');
 
 //Athlete
 $routes->get('athletes', 'AthleteController::getAll', ['filter' => 'auth']);
@@ -91,6 +89,14 @@ $routes->post('role', 'RolesController::create', ['filter' => 'auth']);
 $routes->put('role/(:segment)', 'RolesController::update/$1', ['filter' => 'auth']);
 $routes->delete('role/(:segment)', 'RolesController::delete/$1', ['filter' => 'auth']);
 
+//Category
+$routes->get('categorys', 'CategoryController::getAll', ['filter' => 'auth']);
+$routes->get('category/(:segment)', 'CategoryController::getOne/$1', ['filter' => 'auth']);
+$routes->post('category', 'CategoryController::create', ['filter' => 'auth']);
+$routes->put('category/(:segment)', 'CategoryController::update/$1', ['filter' => 'auth']);
+$routes->delete('category/(:segment)', 'CategoryController::delete/$1', ['filter' => 'auth']);
+$routes->get('categorysEnrollment', 'CategoryController::getAll');
+
 //Login
 $routes->post('login', 'UserController::login');
 $routes->post('logout', 'UserController::logout');
@@ -99,3 +105,7 @@ $routes->post('checkToken', 'UserController::checkToken');
 //Store
 $routes->get('citys', 'StoreController::getAllCitys');
 $routes->get('donwloadTerm', 'StoreController::dowloadTerm');
+
+
+$routes->post('personEnrollment', 'EnrolmentController::createEnrollment');
+$routes->get('personEnrollment/(:segment)', 'EnrolmentController::getEnrollment/$1');

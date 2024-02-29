@@ -3,16 +3,15 @@
 use CodeIgniter\RESTful\ResourceController;
 use CodeIgniter\API\ResponseTrait;
 use Exception;
-use App\Models\PersonModel;
-use App\Models\MessagesModel;
+use App\Models\CategoryModel;
 
 
-class PersonController extends ResourceController{
+class CategoryController extends ResourceController{
     use ResponseTrait;
 
     public function getAll(){
         try{
-            $model = new PersonModel();
+            $model = new CategoryModel();
             $data = $model->findAll();
             
             if($data){
@@ -27,7 +26,7 @@ class PersonController extends ResourceController{
 
     public function getOne($id = null){
         try{
-            $model = new PersonModel();
+            $model = new CategoryModel();
             $data = $model->getWhere(['id' => $id])->getResult();
             
             return $this->respond($data);
@@ -37,21 +36,12 @@ class PersonController extends ResourceController{
     }
 
     public function create(){
-        $model = new PersonModel();
+        $model = new CategoryModel();
         $data = $this->request->getJSON();
-        
+       
+
         try {
 
-            $model = new PersonModel();
-            $buider = $model->builder();
-            $buider->orderBy('id','DESC');
-
-            $dataPerson = $model->first();
-            if(!$dataPerson){
-                $dataPerson = array('id'=>0);
-            }
-
-            $data->matricula = date("Y")."".date("m")."".$dataPerson["id"]+1;
             $responseData = $model->insert($data);
 
             if($responseData){
@@ -66,7 +56,7 @@ class PersonController extends ResourceController{
                 return $this->respondCreated($response);
             } else {
                 return $this->fail($model->errors());
-            } 
+            }
         } catch (Exception $e) {
            return $this->fail($e->getMessage());
         }
@@ -77,7 +67,7 @@ class PersonController extends ResourceController{
     }
 
     public function update($id = null){
-        $model = new PersonModel();
+        $model = new CategoryModel();
         $data = $this->request->getJSON();
 
         try {
@@ -103,7 +93,7 @@ class PersonController extends ResourceController{
     }
 
     public function delete($id = null){
-        $model = new PersonModel();
+        $model = new CategoryModel();
         $data = $model->find($id);
         
         
@@ -126,37 +116,5 @@ class PersonController extends ResourceController{
             return $this->fail($e->getMessage());
         }
               
-    }
-
-    public function createEnrollment(){    
-        try {
-            $model = new PersonModel();
-            $messageModel = new MessagesModel();
-            $model->setValidationMessages($messageModel->fieldValidationMessagePerson());
-            $data = $this->request->getJSON();
-
-            $buider = $model->builder();
-            $buider->orderBy('id','DESC');
-
-            $dataPerson = $model->first();
-            if(!$dataPerson){
-                $dataPerson = array('id'=>0);
-            }
-
-            $data->matricula = date("Y")."".date("m").".".$dataPerson["id"]+1;
-            $responseData = $model->insert($data);
-
-            if($responseData){
-                return $this->respondCreated($data);
-            } else {
-                return $this->fail($model->errors());
-            } 
-        } catch (Exception $e) {
-           return $this->fail($e->getMessage());
-        }
-
-        
-
-        return $this->fail($model->errors());
     }
 }
