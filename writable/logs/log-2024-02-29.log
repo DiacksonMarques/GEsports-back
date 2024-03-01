@@ -1128,3 +1128,238 @@ WHERE `p`.`id` = 221', [], false)
  5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
  6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-29 20:48:34 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=9892 in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'D:\\xamp\\htdocs\\...', 184)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ace-db', 3306, '', 0)
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 D:\xamp\htdocs\GEsports-back\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\xamp\htdocs\GEsports-back\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#7 D:\xamp\htdocs\GEsports-back\app\Controllers\CategoryController.php(15): CodeIgniter\BaseModel->findAll()
+#8 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\CategoryController->getAll()
+#9 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#10 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ace-db', 3306, '', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xamp\htdocs\GEsports-back\app\Controllers\CategoryController.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\CategoryController->getAll()
+#8 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#9 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xamp\htdocs\GEsports-back\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xamp\htdocs\GEsports-back\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xamp\htdocs\GEsports-back\app\Controllers\CategoryController.php(15): CodeIgniter\BaseModel->findAll()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\CategoryController->getAll()
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#8 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-02-29 20:48:34 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=9892 in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'D:\\xamp\\htdocs\\...', 184)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ace-db', 3306, '', 0)
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 D:\xamp\htdocs\GEsports-back\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\xamp\htdocs\GEsports-back\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#7 D:\xamp\htdocs\GEsports-back\app\Controllers\SchoolController.php(16): CodeIgniter\BaseModel->findAll()
+#8 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\SchoolController->getAll()
+#9 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+#10 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ace-db', 3306, '', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xamp\htdocs\GEsports-back\app\Controllers\SchoolController.php(16): CodeIgniter\BaseModel->findAll()
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\SchoolController->getAll()
+#8 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+#9 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xamp\htdocs\GEsports-back\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xamp\htdocs\GEsports-back\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xamp\htdocs\GEsports-back\app\Controllers\SchoolController.php(16): CodeIgniter\BaseModel->findAll()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\SchoolController->getAll()
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+#8 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-02-29 20:48:34 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=9892 in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'D:\\xamp\\htdocs\\...', 184)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ace-db', 3306, '', 0)
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nam...', Array, false)
+#5 D:\xamp\htdocs\GEsports-back\app\Controllers\EnrolmentController.php(27): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollment('222222.22')
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+#8 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ace-db', 3306, '', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nam...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\EnrolmentController.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollment('222222.22')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nam...', Array, false)
+#3 D:\xamp\htdocs\GEsports-back\app\Controllers\EnrolmentController.php(27): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollment('222222.22')
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-02-29 20:48:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\CategoryController.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CategoryController->getAll()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 20:48:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`name`, `p`.`gender`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 22', [], false)
+ 3 APPPATH\Controllers\EnrolmentController.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollment('222222.22')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 20:48:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `school`', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\SchoolController.php(16): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SchoolController->getAll()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 20:58:27 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::getWhere()
+in APPPATH\Controllers\EnrolmentController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollment('222222.18')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 20:59:06 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::getWhere()
+in APPPATH\Controllers\EnrolmentController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollment('222222.18')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 20:59:12 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::getWhere()
+in APPPATH\Controllers\EnrolmentController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollment('222222.18')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 21:00:14 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::getWhere()
+in APPPATH\Controllers\EnrolmentController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollment('222222.18')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 21:00:53 --> ParseError: syntax error, unexpected identifier "count"
+in APPPATH\Controllers\EnrolmentController.php on line 40.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\EnrolmentController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EnrolmentController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EnrolmentController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\EnrolmentController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 21:01:05 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::getWhere()
+in APPPATH\Controllers\EnrolmentController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollment('222222.18')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 21:01:10 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::getWhere()
+in APPPATH\Controllers\EnrolmentController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollment('222222.18')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 21:01:25 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::getWhere()
+in APPPATH\Controllers\EnrolmentController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollment('222222.18')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 21:01:44 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::getWhere()
+in APPPATH\Controllers\EnrolmentController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollment('222222.18')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 21:01:56 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::getWhere()
+in APPPATH\Controllers\EnrolmentController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollment('222222.18')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 21:02:07 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::getWhere()
+in APPPATH\Controllers\EnrolmentController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollment('222222.18')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -17,7 +17,6 @@ class EnrolmentController extends ResourceController{
         try{
             $enrollmentId = explode(".", $enrollment);
 
-            $model = new PersonModel();
             $model = db_connect();
             $builder = $model->table('person p');
             $builder->join('athlete a', 'a.person_id = p.id');
@@ -34,6 +33,12 @@ class EnrolmentController extends ResourceController{
 
             if(count($data) > 0){
                 $response['value'] = $data[0];
+            } else {
+                $modelPerson = new PersonModel();
+                $dataPerson = $modelPerson->getWhere(['id' => $enrollmentId[1]])->getResult();
+                if(count($dataPerson) > 0){
+                    $response['value'] = $dataPerson[0];
+                } 
             }
             
             

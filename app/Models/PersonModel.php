@@ -35,7 +35,7 @@ class PersonModel extends Model{
         'birthDate' => 'required|min_length[8]',
         'cpf' => 'required|min_length[11]|max_length[11]',
         'rg' => 'required|min_length[5]|max_length[14]',
-        'issuingBody' => 'required|max_length[5]',
+        'issuingBody' => 'required|max_length[8]',
         'ufEmitter' => 'required|min_length[2]|max_length[2]',
         'cep' => 'required|max_length[8]|min_length[8]',
         'adress' => 'required|min_length[3]',
