@@ -12,7 +12,7 @@ class PersonModel extends Model{
         'birthDate',
         'cpf',
         'rg',
-        'issuing-body',
+        'issuingBody',
         'ufEmitter',
         'cep',
         'adress',

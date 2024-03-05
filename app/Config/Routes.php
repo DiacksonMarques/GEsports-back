@@ -109,3 +109,5 @@ $routes->get('donwloadTerm', 'StoreController::dowloadTerm');
 
 $routes->post('personEnrollment', 'EnrolmentController::createEnrollment');
 $routes->get('personEnrollment/(:segment)', 'EnrolmentController::getEnrollment/$1');
+$routes->get('personEnrollmentAthelete/(:segment)', 'EnrolmentController::getEnrollmentAthelete/$1');
+$routes->put('personEnrollment/(:segment)', 'EnrolmentController::updateEnrollment/$1');
