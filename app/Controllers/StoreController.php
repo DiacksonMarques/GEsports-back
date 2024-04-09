@@ -24,6 +24,24 @@ class StoreController extends ResourceController{
         }
     }
 
+    public function getTypeMenus($role = null) {
+        try{
+            $json  = file_get_contents(ROOTPATH.'/app/Assets/Json/menus.json');
+            $jsonObj  = json_decode($json);
+            $response = null;
+
+            foreach ($jsonObj as &$value) {
+                if($value->role == $role){
+                    $response = $value;
+                }
+            }
+
+            return $this->respond($response);
+        } catch (Exception $e) {
+            return $this->fail($e->getMessage());
+        }
+    }
+
     public function dowloadTerm() {
         try{
             $file  = ROOTPATH.'/app/Assets/Document/TERMO.pdf';

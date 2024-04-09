@@ -1,0 +1,1003 @@
+CRITICAL - 2024-03-15 13:24:17 --> Error: Class "App\Controllers\JwtLibraryLibraries" not found
+in APPPATH\Controllers\PaymentController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PaymentController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:24:31 --> Error: Class "App\Controllers\JwtLibraryLibraries" not found
+in APPPATH\Controllers\PaymentController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PaymentController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:24:39 --> Error: Class "App\Controllers\JwtLibraryLibraries" not found
+in APPPATH\Controllers\PaymentController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PaymentController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:24:49 --> Error: Class "App\Controllers\JwtLibraryLibraries" not found
+in APPPATH\Controllers\PaymentController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PaymentController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:24:51 --> Error: Class "App\Controllers\JwtLibraryLibraries" not found
+in APPPATH\Controllers\PaymentController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PaymentController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:24:57 --> Error: Class "App\Controllers\JwtLibraryLibraries" not found
+in APPPATH\Controllers\PaymentController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PaymentController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:24:58 --> Error: Class "App\Controllers\JwtLibraryLibraries" not found
+in APPPATH\Controllers\PaymentController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PaymentController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:25:05 --> Error: Class "App\Controllers\JwtLibraryLibraries" not found
+in APPPATH\Controllers\PaymentController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PaymentController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:25:06 --> Error: Class "App\Controllers\JwtLibraryLibraries" not found
+in APPPATH\Controllers\PaymentController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PaymentController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:25:15 --> Error: Class "App\Controllers\JwtLibraryLibraries" not found
+in APPPATH\Controllers\PaymentController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PaymentController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:25:39 --> Error: Class "App\Controllers\JwtLibraryLibraries" not found
+in APPPATH\Controllers\PaymentController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PaymentController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:25:50 --> Error: Class "App\Controllers\JwtLibraryLibraries" not found
+in APPPATH\Controllers\PaymentController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PaymentController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-15 13:32:45 --> mysqli_sql_exception: Unknown column 'py.athlete_id' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\PaymentController.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-15 13:32:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'py.athlete_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 2 APPPATH\Controllers\PaymentController.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:32:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'py.athlete_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 4 APPPATH\Controllers\PaymentController.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:32:45 --> [Caused by] mysqli_sql_exception: Unknown column 'py.athlete_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 5 APPPATH\Controllers\PaymentController.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-15 13:34:02 --> mysqli_sql_exception: Unknown column 'py.athlete_id' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\PaymentController.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-15 13:34:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'py.athlete_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 2 APPPATH\Controllers\PaymentController.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:34:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'py.athlete_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 4 APPPATH\Controllers\PaymentController.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:34:02 --> [Caused by] mysqli_sql_exception: Unknown column 'py.athlete_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 5 APPPATH\Controllers\PaymentController.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-15 13:34:50 --> mysqli_sql_exception: Unknown column 'py.athlete_id' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\PaymentController.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-15 13:34:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'py.athlete_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 2 APPPATH\Controllers\PaymentController.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:34:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'py.athlete_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 4 APPPATH\Controllers\PaymentController.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:34:50 --> [Caused by] mysqli_sql_exception: Unknown column 'py.athlete_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 5 APPPATH\Controllers\PaymentController.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-15 13:34:52 --> mysqli_sql_exception: Unknown column 'py.athlete_id' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\PaymentController.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-15 13:34:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'py.athlete_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 2 APPPATH\Controllers\PaymentController.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:34:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'py.athlete_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 4 APPPATH\Controllers\PaymentController.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:34:52 --> [Caused by] mysqli_sql_exception: Unknown column 'py.athlete_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user` `u`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 5 APPPATH\Controllers\PaymentController.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-15 13:36:38 --> mysqli_sql_exception: Unknown column 'mp.monthlyPayment_id' in 'on clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\PaymentController.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-15 13:36:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mp.monthlyPayment_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+JOIN `monthly-payment` `mp` ON `mp`.`monthlyPayment_id` = `fp`.`id`', [], false)
+ 2 APPPATH\Controllers\PaymentController.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:36:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mp.monthlyPayment_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+JOIN `monthly-payment` `mp` ON `mp`.`monthlyPayment_id` = `fp`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+JOIN `monthly-payment` `mp` ON `mp`.`monthlyPayment_id` = `fp`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+JOIN `monthly-payment` `mp` ON `mp`.`monthlyPayment_id` = `fp`.`id`', [], false)
+ 4 APPPATH\Controllers\PaymentController.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 13:36:38 --> [Caused by] mysqli_sql_exception: Unknown column 'mp.monthlyPayment_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+JOIN `monthly-payment` `mp` ON `mp`.`monthlyPayment_id` = `fp`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+JOIN `monthly-payment` `mp` ON `mp`.`monthlyPayment_id` = `fp`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+JOIN `monthly-payment` `mp` ON `mp`.`monthlyPayment_id` = `fp`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+JOIN `monthly-payment` `mp` ON `mp`.`monthlyPayment_id` = `fp`.`id`', [], false)
+ 5 APPPATH\Controllers\PaymentController.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-15 16:29:23 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ace-db', 3306, '', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 D:\xamp\htdocs\GEsports-back\app\Libraries\JwtLibraryLibraries.php(48): CodeIgniter\BaseModel->first()
+#7 D:\xamp\htdocs\GEsports-back\app\Filters\Auth.php(33): App\Libraries\JwtLibraryLibraries->is_jwt_valid('eyJpZCI6IjIwIiw...')
+#8 D:\xamp\htdocs\GEsports-back\system\Filters\Filters.php(182): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#9 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('paymentUser', 'before')
+#10 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xamp\htdocs\GEsports-back\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xamp\htdocs\GEsports-back\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 D:\xamp\htdocs\GEsports-back\app\Libraries\JwtLibraryLibraries.php(48): CodeIgniter\BaseModel->first()
+#6 D:\xamp\htdocs\GEsports-back\app\Filters\Auth.php(33): App\Libraries\JwtLibraryLibraries->is_jwt_valid('eyJpZCI6IjIwIiw...')
+#7 D:\xamp\htdocs\GEsports-back\system\Filters\Filters.php(182): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('paymentUser', 'before')
+#9 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-03-15 16:29:55 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ace-db', 3306, '', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 D:\xamp\htdocs\GEsports-back\app\Libraries\JwtLibraryLibraries.php(48): CodeIgniter\BaseModel->first()
+#7 D:\xamp\htdocs\GEsports-back\app\Filters\Auth.php(33): App\Libraries\JwtLibraryLibraries->is_jwt_valid('eyJpZCI6IjIwIiw...')
+#8 D:\xamp\htdocs\GEsports-back\system\Filters\Filters.php(182): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#9 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('paymentUser', 'before')
+#10 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xamp\htdocs\GEsports-back\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xamp\htdocs\GEsports-back\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 D:\xamp\htdocs\GEsports-back\app\Libraries\JwtLibraryLibraries.php(48): CodeIgniter\BaseModel->first()
+#6 D:\xamp\htdocs\GEsports-back\app\Filters\Auth.php(33): App\Libraries\JwtLibraryLibraries->is_jwt_valid('eyJpZCI6IjIwIiw...')
+#7 D:\xamp\htdocs\GEsports-back\system\Filters\Filters.php(182): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('paymentUser', 'before')
+#9 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-03-15 16:30:24 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ace-db', 3306, '', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 D:\xamp\htdocs\GEsports-back\app\Libraries\JwtLibraryLibraries.php(48): CodeIgniter\BaseModel->first()
+#7 D:\xamp\htdocs\GEsports-back\app\Filters\Auth.php(33): App\Libraries\JwtLibraryLibraries->is_jwt_valid('eyJpZCI6IjIwIiw...')
+#8 D:\xamp\htdocs\GEsports-back\system\Filters\Filters.php(182): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#9 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('paymentUser', 'before')
+#10 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xamp\htdocs\GEsports-back\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xamp\htdocs\GEsports-back\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 D:\xamp\htdocs\GEsports-back\app\Libraries\JwtLibraryLibraries.php(48): CodeIgniter\BaseModel->first()
+#6 D:\xamp\htdocs\GEsports-back\app\Filters\Auth.php(33): App\Libraries\JwtLibraryLibraries->is_jwt_valid('eyJpZCI6IjIwIiw...')
+#7 D:\xamp\htdocs\GEsports-back\system\Filters\Filters.php(182): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('paymentUser', 'before')
+#9 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-03-15 16:30:41 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ace-db', 3306, '', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 D:\xamp\htdocs\GEsports-back\app\Libraries\JwtLibraryLibraries.php(48): CodeIgniter\BaseModel->first()
+#7 D:\xamp\htdocs\GEsports-back\app\Filters\Auth.php(33): App\Libraries\JwtLibraryLibraries->is_jwt_valid('eyJpZCI6IjIwIiw...')
+#8 D:\xamp\htdocs\GEsports-back\system\Filters\Filters.php(182): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#9 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('user', 'before')
+#10 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xamp\htdocs\GEsports-back\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xamp\htdocs\GEsports-back\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 D:\xamp\htdocs\GEsports-back\app\Libraries\JwtLibraryLibraries.php(48): CodeIgniter\BaseModel->first()
+#6 D:\xamp\htdocs\GEsports-back\app\Filters\Auth.php(33): App\Libraries\JwtLibraryLibraries->is_jwt_valid('eyJpZCI6IjIwIiw...')
+#7 D:\xamp\htdocs\GEsports-back\system\Filters\Filters.php(182): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('user', 'before')
+#9 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-03-15 16:30:57 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ace-db', 3306, '', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 D:\xamp\htdocs\GEsports-back\app\Libraries\JwtLibraryLibraries.php(48): CodeIgniter\BaseModel->first()
+#7 D:\xamp\htdocs\GEsports-back\app\Filters\Auth.php(33): App\Libraries\JwtLibraryLibraries->is_jwt_valid('eyJ1c2VybmFtZSI...')
+#8 D:\xamp\htdocs\GEsports-back\system\Filters\Filters.php(182): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#9 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('menus/ATHLETE', 'before')
+#10 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xamp\htdocs\GEsports-back\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xamp\htdocs\GEsports-back\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 D:\xamp\htdocs\GEsports-back\app\Libraries\JwtLibraryLibraries.php(48): CodeIgniter\BaseModel->first()
+#6 D:\xamp\htdocs\GEsports-back\app\Filters\Auth.php(33): App\Libraries\JwtLibraryLibraries->is_jwt_valid('eyJ1c2VybmFtZSI...')
+#7 D:\xamp\htdocs\GEsports-back\system\Filters\Filters.php(182): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('menus/ATHLETE', 'before')
+#9 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-03-15 16:31:13 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ace-db', 3306, '', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\system\Model.php(872): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(190): CodeIgniter\Model->__call('getWhere', Array)
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->checkToken()
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xamp\htdocs\GEsports-back\system\Model.php(872): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(190): CodeIgniter\Model->__call('getWhere', Array)
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->checkToken()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-15 16:31:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `token` = :token:', [...], false)
+ 3 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 4 APPPATH\Controllers\UserController.php(190): CodeIgniter\Model->__call('getWhere', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkToken()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-15 16:31:18 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ace-db', 3306, '', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\system\Model.php(872): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(190): CodeIgniter\Model->__call('getWhere', Array)
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->checkToken()
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xamp\htdocs\GEsports-back\system\Model.php(872): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(190): CodeIgniter\Model->__call('getWhere', Array)
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->checkToken()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-15 16:31:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `token` = :token:', [...], false)
+ 3 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 4 APPPATH\Controllers\UserController.php(190): CodeIgniter\Model->__call('getWhere', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkToken()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-15 16:31:36 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ace-db', 3306, '', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\system\Model.php(872): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(190): CodeIgniter\Model->__call('getWhere', Array)
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->checkToken()
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xamp\htdocs\GEsports-back\system\Model.php(872): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(190): CodeIgniter\Model->__call('getWhere', Array)
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->checkToken()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-15 16:31:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `token` = :token:', [...], false)
+ 3 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 4 APPPATH\Controllers\UserController.php(190): CodeIgniter\Model->__call('getWhere', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkToken()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-15 16:32:22 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ace-db', 3306, '', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\system\Model.php(872): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(190): CodeIgniter\Model->__call('getWhere', Array)
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->checkToken()
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xamp\htdocs\GEsports-back\system\Model.php(872): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(190): CodeIgniter\Model->__call('getWhere', Array)
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->checkToken()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-15 16:32:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `token` = :token:', [...], false)
+ 3 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 4 APPPATH\Controllers\UserController.php(190): CodeIgniter\Model->__call('getWhere', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkToken()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-15 16:33:24 --> mysqli_sql_exception: Unknown column 'mp' in 'field list' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `py`.`id...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `py`.`id...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `py`.`id...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `py`.`id...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\PaymentController.php(63): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-15 16:33:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mp' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `py`.`id`, `py`.`paymentDate`, `mp`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 2 APPPATH\Controllers\PaymentController.php(63): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 16:33:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mp' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `py`.`id`, `py`.`paymentDate`, `mp`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `py`.`id`, `py`.`paymentDate`, `mp`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `py`.`id`, `py`.`paymentDate`, `mp`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 4 APPPATH\Controllers\PaymentController.php(63): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 16:33:24 --> [Caused by] mysqli_sql_exception: Unknown column 'mp' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `py`.`id`, `py`.`paymentDate`, `mp`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `py`.`id`, `py`.`paymentDate`, `mp`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `py`.`id`, `py`.`paymentDate`, `mp`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `py`.`id`, `py`.`paymentDate`, `mp`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 5 APPPATH\Controllers\PaymentController.php(63): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-15 16:33:44 --> mysqli_sql_exception: Unknown column 'mp' in 'field list' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `py`.`id...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `py`.`id...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `py`.`id...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `py`.`id...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\PaymentController.php(63): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-15 16:33:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mp' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `py`.`id`, `py`.`paymentDate`, `mp` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 2 APPPATH\Controllers\PaymentController.php(63): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 16:33:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mp' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `py`.`id`, `py`.`paymentDate`, `mp` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `py`.`id`, `py`.`paymentDate`, `mp` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `py`.`id`, `py`.`paymentDate`, `mp` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 4 APPPATH\Controllers\PaymentController.php(63): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 16:33:44 --> [Caused by] mysqli_sql_exception: Unknown column 'mp' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `py`.`id`, `py`.`paymentDate`, `mp` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `py`.`id`, `py`.`paymentDate`, `mp` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `py`.`id`, `py`.`paymentDate`, `mp` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `py`.`id`, `py`.`paymentDate`, `mp` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 5 APPPATH\Controllers\PaymentController.php(63): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-15 16:33:46 --> mysqli_sql_exception: Unknown column 'mp' in 'field list' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `py`.`id...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `py`.`id...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `py`.`id...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `py`.`id...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\PaymentController.php(63): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-15 16:33:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mp' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `py`.`id`, `py`.`paymentDate`, `mp` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 2 APPPATH\Controllers\PaymentController.php(63): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 16:33:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mp' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `py`.`id`, `py`.`paymentDate`, `mp` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `py`.`id`, `py`.`paymentDate`, `mp` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `py`.`id`, `py`.`paymentDate`, `mp` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 4 APPPATH\Controllers\PaymentController.php(63): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 16:33:46 --> [Caused by] mysqli_sql_exception: Unknown column 'mp' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `py`.`id`, `py`.`paymentDate`, `mp` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `py`.`id`, `py`.`paymentDate`, `mp` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `py`.`id`, `py`.`paymentDate`, `mp` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `py`.`id`, `py`.`paymentDate`, `mp` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 5 APPPATH\Controllers\PaymentController.php(63): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-15 16:34:04 --> mysqli_sql_exception: Unknown column 'mp*' in 'field list' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `py`.`id...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `py`.`id...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `py`.`id...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `py`.`id...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\PaymentController.php(63): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-15 16:34:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mp*' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `py`.`id`, `py`.`paymentDate`, `mp*` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 2 APPPATH\Controllers\PaymentController.php(63): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 16:34:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mp*' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `py`.`id`, `py`.`paymentDate`, `mp*` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `py`.`id`, `py`.`paymentDate`, `mp*` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `py`.`id`, `py`.`paymentDate`, `mp*` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 4 APPPATH\Controllers\PaymentController.php(63): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-15 16:34:04 --> [Caused by] mysqli_sql_exception: Unknown column 'mp*' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `py`.`id`, `py`.`paymentDate`, `mp*` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `py`.`id`, `py`.`paymentDate`, `mp*` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `py`.`id`, `py`.`paymentDate`, `mp*` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `py`.`id`, `py`.`paymentDate`, `mp*` as `VV`, `fp`.`description` as `formPayment`, `mf`.`value` as `valuePayment`
+FROM `payment` `py`
+JOIN `form-payment` `fp` ON `py`.`formPayment_id` = `fp`.`id`
+JOIN `monthly-fee` `mf` ON `py`.`monthlyFee_id` = `mf`.`id`
+LEFT JOIN `monthly-payment` `mp` ON `py`.`monthlyPayment_id` = `mp`.`id`
+WHERE `py`.`athlete_id` = \'4\'', [], false)
+ 5 APPPATH\Controllers\PaymentController.php(63): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PaymentController->getPaymentsUser()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

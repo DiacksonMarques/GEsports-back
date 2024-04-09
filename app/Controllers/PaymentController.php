@@ -5,9 +5,15 @@ use CodeIgniter\API\ResponseTrait;
 use Exception;
 use App\Models\PaymentModel;
 
+use App\Libraries\JwtLibraryLibraries;
 
 class PaymentController extends ResourceController{
     use ResponseTrait;
+    private $jwtLib;
+
+    public function __construct() {
+        $this->jwtLib = new JwtLibraryLibraries();
+	}
 
     public function getAll(){
         try{
@@ -30,6 +36,33 @@ class PaymentController extends ResourceController{
             $data = $model->getWhere(['id' => $id])->getResult();
             
             return $this->respond($data);
+        } catch (Exception $e) {
+            return $this->fail($e->getMessage());
+        }
+    }
+
+    public function getPaymentsUser(){
+        try{
+           $bearer_token = $this->jwtLib->get_bearer_token();
+
+            $model = db_connect();
+            $builder = $model->table('user u');
+            $builder->join('person p', 'u.person_id = p.id');
+            $builder->join('athlete a', 'a.person_id = p.id');
+            $builder->select('a.id, u.name, u.person_id');
+            $builder->where("u.token = '".$bearer_token."'");
+            $query = $builder->get()->getResult();
+            $dataAthlete = $query[0];
+
+            $builderPayment = $model->table('payment py');
+            $builderPayment->join('form-payment fp', 'py.formPayment_id = fp.id');
+            $builderPayment->join('monthly-fee mf', 'py.monthlyFee_id = mf.id');
+            $builderPayment->join('monthly-payment mp', 'py.monthlyPayment_id = mp.id', 'left');
+            $builderPayment->select('py.id, py.paymentDate, fp.description as formPayment, mf.value as valuePayment, mp.maturity');
+            $builderPayment->where("py.athlete_id = '".$dataAthlete->id."'");
+            $queryPayment = $builderPayment->get()->getResult();
+            
+            return $this->respond($queryPayment);
         } catch (Exception $e) {
             return $this->fail($e->getMessage());
         }

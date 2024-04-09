@@ -77,6 +77,7 @@ $routes->delete('monthlyPayment/(:segment)', 'MonthlyPaymentController::delete/$
 
 //Payment
 $routes->get('payments', 'PaymentController::getAll', ['filter' => 'auth']);
+$routes->get('paymentUser', 'PaymentController::getPaymentsUser', ['filter' => 'auth']);
 $routes->get('payment/(:segment)', 'PaymentController::getOne/$1', ['filter' => 'auth']);
 $routes->post('payment', 'PaymentController::create', ['filter' => 'auth']);
 $routes->put('payment/(:segment)', 'PaymentController::update/$1', ['filter' => 'auth']);
@@ -105,6 +106,7 @@ $routes->post('checkToken', 'UserController::checkToken');
 //Store
 $routes->get('citys', 'StoreController::getAllCitys');
 $routes->get('donwloadTerm', 'StoreController::dowloadTerm');
+$routes->get('menus/(:segment)', 'StoreController::getTypeMenus/$1', ['filter' => 'auth']);
 
 
 $routes->post('personEnrollment', 'EnrolmentController::createEnrollment');
