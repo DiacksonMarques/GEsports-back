@@ -50,4 +50,13 @@ class StoreController extends ResourceController{
             return $this->fail($e->getMessage());
         }
     }
+
+    public function dowloadRegulation() {
+        try{
+            $file  = ROOTPATH.'/app/Assets/Document/REGULAMENT_ I_COPA_ACE_2024.pdf';
+            return $this->response->download($file , null );
+        } catch (Exception $e) {
+            return $this->fail($e->getMessage());
+        }
+    }
 }

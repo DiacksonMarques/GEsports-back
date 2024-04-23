@@ -106,6 +106,7 @@ $routes->post('checkToken', 'UserController::checkToken');
 //Store
 $routes->get('citys', 'StoreController::getAllCitys');
 $routes->get('donwloadTerm', 'StoreController::dowloadTerm');
+$routes->get('donwloadRegulation', 'StoreController::dowloadRegulation');
 $routes->get('menus/(:segment)', 'StoreController::getTypeMenus/$1', ['filter' => 'auth']);
 
 
@@ -113,3 +114,8 @@ $routes->post('personEnrollment', 'EnrolmentController::createEnrollment');
 $routes->get('personEnrollment/(:segment)', 'EnrolmentController::getEnrollment/$1');
 $routes->get('personEnrollmentAthelete/(:segment)', 'EnrolmentController::getEnrollmentAthelete/$1');
 $routes->put('personEnrollment/(:segment)', 'EnrolmentController::updateEnrollment/$1');
+
+//Championship
+$routes->get('gruops', 'ChampionshipController::getGruops');
+$routes->post('gruop', 'ChampionshipController::postGruop');
+$routes->post('team', 'ChampionshipController::createTeam');

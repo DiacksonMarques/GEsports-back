@@ -1,0 +1,6 @@
+CRITICAL - 2024-04-17 11:56:56 --> Error: Call to undefined function App\Controllers\returnDb()
+in APPPATH\Controllers\ChampionshipController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->getGruops()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
