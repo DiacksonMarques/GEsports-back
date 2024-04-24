@@ -33,10 +33,9 @@ class ChampionshipController extends ResourceController{
 
     public function createTeam() {
       try {
-        $contents = file_get_contents(ROOTPATH.'/app/Assets/Json/championship.json');
         $data = $this->request->getJSON();
 
-        $jsonObj  = json_decode($contents);
+        $jsonObj  = $this->returnDb();
         $teams = $jsonObj->teams;
 
         $newId = count($teams);
@@ -46,7 +45,18 @@ class ChampionshipController extends ResourceController{
         file_put_contents(ROOTPATH.'/app/Assets/Json/championship.json', json_encode($jsonObj));
         
         return $this->respond($jsonObj->teams[$newId]);
-      } catch (\Throwable $th) {
+      } catch (Exception $e) {
+        return $this->fail($e->getMessage());
+      }
+    }
+
+    public function allTeams() {
+      try {
+        $jsonObj  = $this->returnDb();
+        $teams = $jsonObj->teams;
+
+        return $this->respond($teams);
+      } catch (Exception $e) {
         return $this->fail($e->getMessage());
       }
     }
