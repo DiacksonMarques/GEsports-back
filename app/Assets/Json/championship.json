@@ -1,1 +1,236 @@
-{"teams":[{"name":"Fenix voleibol clube","acronym":"F\u00caN","responsible":{"name":"Alexsandro ","phone":"(88) 9 9732-3010"},"city":{"name":"Juazeiro do norte ","uf":"Ce"},"instagram":"@fenixvoleibolclube","id":0,"enrollment":"02050"}],"group":[{"name":"1\u00ba Chave","teams":[0,1,2]},{"name":"2\u00ba Chave","teams":[3,4,5]},{"name":"3\u00ba Chave","teams":[6,7,8]}],"games":[{"teamOne":0,"teamTwo":1,"sets":[{"teamOne":25,"teamTwo":20},{"teamOne":25,"teamTwo":20},{"teamOne":0,"teamTwo":0}]},{"teamOne":5,"teamTwo":7,"sets":[{"teamOne":25,"teamTwo":20},{"teamOne":15,"teamTwo":25},{"teamOne":25,"teamTwo":10}]},{"teamOne":4,"teamTwo":8,"sets":[{"teamOne":25,"teamTwo":20},{"teamOne":25,"teamTwo":5},{"teamOne":0,"teamTwo":0}]}]}
+{
+    "teams": [
+        {
+            "name": "Fenix voleibol clube",
+            "acronym": "F\u00caN",
+            "responsible": {
+                "name": "Alexsandro ",
+                "phone": "(88) 9 9732-3010"
+            },
+            "city": {
+                "name": "Juazeiro do norte ",
+                "uf": "CE"
+            },
+            "instagram": "@fenixvoleibolclube",
+            "id": 0,
+            "enrollment": "02050"
+        },
+        {
+            "name": "Cariri V\u00f4lei ",
+            "acronym": "CRV",
+            "responsible": {
+                "name": "Gustavo",
+                "phone": "(88) 9 9742-8799"
+            },
+            "city": {
+                "name": "Crato",
+                "uf": "CE"
+            },
+            "instagram": "@caririvolei",
+            "id": 1,
+            "enrollment": "12050"
+        },
+        {
+            "name": "JUC\u00c1S V\u00d4LEI ",
+            "acronym": "JCS",
+            "responsible": {
+                "name": "Alex Silva",
+                "phone": "(85) 9 9610-7276"
+            },
+            "city": {
+                "name": "Juc\u00e1s ",
+                "uf": "CE"
+            },
+            "instagram": "@jucasvoleifem",
+            "id": 2,
+            "enrollment": "22050"
+        },
+        {
+            "name": "Barbalha",
+            "acronym": "BVC",
+            "responsible": {
+                "name": "J\u00fanior Felix",
+                "phone": "(88) 9 8178-7004"
+            },
+            "city": {
+                "name": "Barbalha",
+                "uf": "CE"
+            },
+            "instagram": "@barbalhavolei",
+            "id": 3,
+            "enrollment": "32050"
+        },
+        {
+            "name": "Santana Raptor",
+            "acronym": "SRS",
+            "responsible": {
+                "name": "Ednei Alencar",
+                "phone": "(88) 9 9706-0507"
+            },
+            "city": {
+                "name": "Santana do Cariri",
+                "uf": "CE"
+            },
+            "instagram": "@santana_raptor_volei_club",
+            "id": 4,
+            "enrollment": "42050"
+        },
+        {
+            "name": "F\u00eanix ",
+            "acronym": "FNX",
+            "responsible": {
+                "name": "Kauan Alberty Medeiros ",
+                "phone": "(87) 9 9160-9456"
+            },
+            "city": {
+                "name": "Moreilandia ",
+                "uf": "PF"
+            },
+            "instagram": "@fenixmoreilandia",
+            "id": 6,
+            "enrollment": "62050"
+        },
+        {
+            "name": "Racheiras ",
+            "acronym": "RCS",
+            "responsible": {
+                "name": "Renata ",
+                "phone": "(88) 9 8853-3506"
+            },
+            "city": {
+                "name": "Juazeiro do Norte ",
+                "uf": "CE"
+            },
+            "instagram": "@racheiras",
+            "id": 75,
+            "enrollment": "752050"
+        },
+        {
+            "name": "Guerreiras CARIRI",
+            "acronym": "GEC",
+            "responsible": {
+                "name": "Ana Karine de Morais Ferreira Pacifico ",
+                "phone": "(88) 9 8808-9650"
+            },
+            "city": {
+                "name": "Crato",
+                "uf": "CE"
+            },
+            "instagram": "@guerreiras_crato",
+            "id": 77,
+            "enrollment": "772050"
+        },
+        {
+            "name": "GOLINHAS ",
+            "acronym": "GVF",
+            "responsible": {
+                "name": "Carlos Gardel ",
+                "phone": "(88) 9 9298-9213"
+            },
+            "city": {
+                "name": "ARARIPE ",
+                "uf": "CE"
+            },
+            "instagram": "@golinhasvoleifeminino",
+            "id": 10,
+            "enrollment": "102050"
+        },
+        {
+            "name": "Guerreiros da bola ",
+            "acronym": "GRB",
+            "responsible": {
+                "name": "Kaio Arthur ",
+                "phone": "(85) 9 9872-8900"
+            },
+            "city": {
+                "name": "Juazeiro do Norte ",
+                "uf": "CE"
+            },
+            "instagram": "@guerreirosdabola__",
+            "id": 11,
+            "enrollment": "112050"
+        }
+    ],
+    "group": [
+        {
+            "name": "1\u00ba Chave",
+            "teams": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "name": "2\u00ba Chave",
+            "teams": [
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "name": "3\u00ba Chave",
+            "teams": [
+                6,
+                7,
+                8
+            ]
+        }
+    ],
+    "games": [
+        {
+            "teamOne": 0,
+            "teamTwo": 1,
+            "sets": [
+                {
+                    "teamOne": 25,
+                    "teamTwo": 20
+                },
+                {
+                    "teamOne": 25,
+                    "teamTwo": 20
+                },
+                {
+                    "teamOne": 0,
+                    "teamTwo": 0
+                }
+            ]
+        },
+        {
+            "teamOne": 5,
+            "teamTwo": 7,
+            "sets": [
+                {
+                    "teamOne": 25,
+                    "teamTwo": 20
+                },
+                {
+                    "teamOne": 15,
+                    "teamTwo": 25
+                },
+                {
+                    "teamOne": 25,
+                    "teamTwo": 10
+                }
+            ]
+        },
+        {
+            "teamOne": 4,
+            "teamTwo": 8,
+            "sets": [
+                {
+                    "teamOne": 25,
+                    "teamTwo": 20
+                },
+                {
+                    "teamOne": 25,
+                    "teamTwo": 5
+                },
+                {
+                    "teamOne": 0,
+                    "teamTwo": 0
+                }
+            ]
+        }
+    ]
+}

@@ -116,7 +116,5 @@ $routes->get('personEnrollmentAthelete/(:segment)', 'EnrolmentController::getEnr
 $routes->put('personEnrollment/(:segment)', 'EnrolmentController::updateEnrollment/$1');
 
 //Championship
-$routes->get('gruops', 'ChampionshipController::getGruops');
-$routes->post('gruop', 'ChampionshipController::postGruop');
 $routes->post('team', 'ChampionshipController::createTeam');
-$routes->post('teams', 'ChampionshipController::allTeams');
+$routes->get('teams', 'ChampionshipController::allTeams');
