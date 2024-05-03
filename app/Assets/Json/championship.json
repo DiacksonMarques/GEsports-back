@@ -12,6 +12,7 @@
                 "uf": "CE"
             },
             "instagram": "@fenixvoleibolclube",
+            "naipe": "--",
             "id": 0,
             "enrollment": "02050"
         },
@@ -27,6 +28,7 @@
                 "uf": "CE"
             },
             "instagram": "@caririvolei",
+            "naipe": "MAS",
             "id": 1,
             "enrollment": "12050"
         },
@@ -42,6 +44,7 @@
                 "uf": "CE"
             },
             "instagram": "@jucasvoleifem",
+            "naipe": "FEM",
             "id": 2,
             "enrollment": "22050"
         },
@@ -57,6 +60,7 @@
                 "uf": "CE"
             },
             "instagram": "@barbalhavolei",
+            "naipe": "--",
             "id": 3,
             "enrollment": "32050"
         },
@@ -72,6 +76,7 @@
                 "uf": "CE"
             },
             "instagram": "@santana_raptor_volei_club",
+            "naipe": "MAS",
             "id": 4,
             "enrollment": "42050"
         },
@@ -87,6 +92,7 @@
                 "uf": "PF"
             },
             "instagram": "@fenixmoreilandia",
+            "naipe": "--",
             "id": 6,
             "enrollment": "62050"
         },
@@ -102,6 +108,7 @@
                 "uf": "CE"
             },
             "instagram": "@racheiras",
+            "naipe": "FEM",
             "id": 75,
             "enrollment": "752050"
         },
@@ -117,6 +124,7 @@
                 "uf": "CE"
             },
             "instagram": "@guerreiras_crato",
+            "naipe": "FEM",
             "id": 77,
             "enrollment": "772050"
         },
@@ -132,6 +140,7 @@
                 "uf": "CE"
             },
             "instagram": "@golinhasvoleifeminino",
+            "naipe": "FEM",
             "id": 10,
             "enrollment": "102050"
         },
@@ -147,8 +156,25 @@
                 "uf": "CE"
             },
             "instagram": "@guerreirosdabola__",
+            "naipe": "--",
             "id": 11,
             "enrollment": "112050"
+        },
+        {
+            "name": "Diocesano Conceito ",
+            "acronym": "DIO",
+            "responsible": {
+                "name": "Conrado",
+                "phone": "(88) 9 8182-3482"
+            },
+            "city": {
+                "name": "Crato",
+                "uf": "Ce"
+            },
+            "instagram": "@volei_dio",
+            "naipe": "MAS",
+            "id": 10,
+            "enrollment": "102050"
         }
     ],
     "group": [

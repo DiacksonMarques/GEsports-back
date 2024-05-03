@@ -55,6 +55,26 @@ class ChampionshipController extends ResourceController{
         $jsonObj  = $this->returnDb();
         $teams = $jsonObj->teams;
 
+        foreach ($teams  as &$team) {
+          switch ($team->naipe) {
+            case 'MAS':
+              $team->naipe == 'Masc';
+              break;
+
+            case 'FEM':
+              $team->naipe == 'Femi';
+              break;
+            
+            case 'AMB':
+              $team->naipe == 'Masc|Femi';
+              break;
+                
+            default:
+              $team->naipe = '??';
+              break;
+          }
+      }
+
         return $this->respond($teams);
       } catch (Exception $e) {
         return $this->fail($e->getMessage());
