@@ -156,7 +156,7 @@
                 "uf": "CE"
             },
             "instagram": "@guerreirosdabola__",
-            "naipe": "--",
+            "naipe": "MAS",
             "id": 11,
             "enrollment": "112050"
         },
@@ -175,6 +175,54 @@
             "naipe": "MAS",
             "id": 10,
             "enrollment": "102050"
+        },
+        {
+            "name": "V\u00f4lei V\u00e1rzea Vlegre",
+            "acronym": "VVA",
+            "responsible": {
+                "name": "Higor Mendes Luciano",
+                "phone": "(88) 9 9711-3531"
+            },
+            "city": {
+                "name": "V\u00e1rzea Alegre ",
+                "uf": "CE"
+            },
+            "instagram": "@volei.varzea",
+            "naipe": "MAS",
+            "id": 11,
+            "enrollment": "112050"
+        },
+        {
+            "name": "V\u00e1rzea V\u00f4lei",
+            "acronym": "CVV",
+            "responsible": {
+                "name": "Idelvan",
+                "phone": "(88) 9 9932-7506"
+            },
+            "city": {
+                "name": "V\u00e1rzea Alegre ",
+                "uf": "CE"
+            },
+            "instagram": "@varzeavoleifeminino",
+            "naipe": "FEM",
+            "id": 12,
+            "enrollment": "122050"
+        },
+        {
+            "name": "CZ V\u00d4LEI ",
+            "acronym": "CZV",
+            "responsible": {
+                "name": "Jordan F\u00e9lix ",
+                "phone": "(83) 9 9183-6060"
+            },
+            "city": {
+                "name": "Cajazeiras",
+                "uf": "PB"
+            },
+            "instagram": "@czvolei",
+            "naipe": "AMB",
+            "id": 13,
+            "enrollment": "132050"
         }
     ],
     "group": [
