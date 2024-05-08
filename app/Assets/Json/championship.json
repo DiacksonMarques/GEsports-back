@@ -12,7 +12,7 @@
                 "uf": "CE"
             },
             "instagram": "@fenixvoleibolclube",
-            "naipe": "--",
+            "naipe": "MAS",
             "id": 0,
             "enrollment": "02050"
         },
@@ -60,7 +60,7 @@
                 "uf": "CE"
             },
             "instagram": "@barbalhavolei",
-            "naipe": "--",
+            "naipe": "MAS",
             "id": 3,
             "enrollment": "32050"
         },
@@ -89,10 +89,10 @@
             },
             "city": {
                 "name": "Moreilandia ",
-                "uf": "PF"
+                "uf": "PE"
             },
             "instagram": "@fenixmoreilandia",
-            "naipe": "--",
+            "naipe": "AMB",
             "id": 6,
             "enrollment": "62050"
         },
@@ -172,7 +172,7 @@
                 "uf": "Ce"
             },
             "instagram": "@volei_dio",
-            "naipe": "MAS",
+            "naipe": "AMB",
             "id": 10,
             "enrollment": "102050"
         },
@@ -223,6 +223,134 @@
             "naipe": "AMB",
             "id": 13,
             "enrollment": "132050"
+        },
+        {
+            "name": "Infante V\u00f4lei",
+            "acronym": "INF",
+            "responsible": {
+                "name": "Matheus Lima Patr\u00edcio",
+                "phone": "(88) 9 8145-6990"
+            },
+            "city": {
+                "name": "Juazeiro do Norte",
+                "uf": "CE"
+            },
+            "instagram": "@infantevolei ",
+            "naipe": "MAS",
+            "id": 14,
+            "enrollment": "142050"
+        },
+        {
+            "name": "Tigre Volleyball\/CCV",
+            "acronym": "TIG",
+            "responsible": {
+                "name": "Rog\u00e9rio Paes",
+                "phone": "(88) 9 9344-8526"
+            },
+            "city": {
+                "name": "Cascavel",
+                "uf": "CE"
+            },
+            "instagram": "@pad_tigreesportes",
+            "naipe": "MAS",
+            "id": 15,
+            "enrollment": "152050"
+        },
+        {
+            "name": "Tigre Volleyball\/CCV",
+            "acronym": "TIG",
+            "responsible": {
+                "name": "Rog\u00e9rio Paes",
+                "phone": "(88) 9 9344-8526"
+            },
+            "city": {
+                "name": "Cascavel",
+                "uf": "CE"
+            },
+            "instagram": "@pad_tigreesportes",
+            "naipe": "MAS",
+            "id": 16,
+            "enrollment": "162050"
+        },
+        {
+            "name": "Templo do v\u00f4lei ",
+            "acronym": "TDV",
+            "responsible": {
+                "name": "Rafael Oliveira",
+                "phone": "(88) 9 9909-1492"
+            },
+            "city": {
+                "name": "Juazeiro do norte ",
+                "uf": "CE"
+            },
+            "instagram": "@templodovolei",
+            "naipe": "MAS",
+            "id": 17,
+            "enrollment": "172050"
+        },
+        {
+            "name": "Sousa V\u00f4lei ",
+            "acronym": "SVC",
+            "responsible": {
+                "name": "Rodrigo Bento Rodrigues ",
+                "phone": "(83) 9 8191-4462"
+            },
+            "city": {
+                "name": "Sousa",
+                "uf": "PB"
+            },
+            "instagram": "@sousavolei_",
+            "naipe": "MAS",
+            "id": 18,
+            "enrollment": "182050"
+        },
+        {
+            "name": "River Piranhese de V\u00f4lei",
+            "acronym": "RPV",
+            "responsible": {
+                "name": "Abra\u00e3o Lira",
+                "phone": "(83) 9 9418-5769"
+            },
+            "city": {
+                "name": "S\u00e3o Jos\u00e9 de Piranhas",
+                "uf": "PB"
+            },
+            "instagram": "@riverpiranhese.volei",
+            "naipe": "MAS",
+            "id": 20,
+            "enrollment": "202050"
+        },
+        {
+            "name": "V\u00f4lei Iguatu ",
+            "acronym": "IGT",
+            "responsible": {
+                "name": "Dimas Matias L L Fernandes ",
+                "phone": "(88) 9 9715-9675"
+            },
+            "city": {
+                "name": "Iguatu ",
+                "uf": "CE"
+            },
+            "instagram": "@voleiiguatumasculino",
+            "naipe": "MAS",
+            "id": 21,
+            "enrollment": "212050"
+        },
+        {
+            "name": "Tutano",
+            "acronym": "TVS",
+            "responsible": {
+                "name": "Afonso ",
+                "phone": "(88) 9 9713-2979"
+            },
+            "city": {
+                "name": "Sobral",
+                "uf": "CE"
+            },
+            "instagram": "@tutanovolei",
+            "naipe": "MAS",
+            "id": 22,
+            "enrollment": "222050"
         }
     ],
     "group": [

@@ -39,6 +39,7 @@ $routes->get('athlete/(:segment)', 'AthleteController::getOne/$1', ['filter' => 
 $routes->post('athlete', 'AthleteController::create', ['filter' => 'auth']);
 $routes->put('athlete/(:segment)', 'AthleteController::update/$1', ['filter' => 'auth']);
 $routes->delete('athlete/(:segment)', 'AthleteController::delete/$1', ['filter' => 'auth']);
+$routes->get('athleteSeach/(:segment)', 'AthleteController::getAthleteSeach/$1');
 
 //Frequency
 $routes->get('frequencys', 'FrequencyController::getAll', ['filter' => 'auth']);
@@ -118,3 +119,8 @@ $routes->put('personEnrollment/(:segment)', 'EnrolmentController::updateEnrollme
 //Championship
 $routes->post('team', 'ChampionshipController::createTeam');
 $routes->get('teams', 'ChampionshipController::allTeams');
+
+
+//Raffle
+$routes->get('raffleAthlete/(:segment)', 'RaffleController::getRaffle/$1');
+$routes->post('raffleAthlete', 'RaffleController::createRaffleAthlete');
