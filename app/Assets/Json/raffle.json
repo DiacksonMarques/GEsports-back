@@ -1,6 +1,1 @@
-[
-    {
-        "idAthlete": "0",
-        "lastNumber": 0
-    }
-]
+[{"idAthlete":"0","lastNumber":25},{"idAthlete":"A202402372","numberRaffle":[{"number":1,"person":null,"typePayment":null},{"number":2,"person":null,"typePayment":null},{"number":3,"person":null,"typePayment":null},{"number":4,"person":null,"typePayment":null},{"number":5,"person":null,"typePayment":null}]},{"idAthlete":"A202402364","numberRaffle":[{"number":6,"person":null,"typePayment":null},{"number":7,"person":null,"typePayment":null},{"number":8,"person":null,"typePayment":null},{"number":9,"person":null,"typePayment":null},{"number":10,"person":null,"typePayment":null}]},{"idAthlete":"A202403423","numberRaffle":[{"number":11,"person":null,"typePayment":null},{"number":12,"person":null,"typePayment":null},{"number":13,"person":null,"typePayment":null},{"number":14,"person":null,"typePayment":null},{"number":15,"person":null,"typePayment":null}]},{"idAthlete":"A202402338","numberRaffle":[{"number":16,"person":null,"typePayment":null},{"number":17,"person":null,"typePayment":null},{"number":18,"person":null,"typePayment":null},{"number":19,"person":null,"typePayment":null},{"number":20,"person":null,"typePayment":null},{"number":21,"person":null,"typePayment":null},{"number":22,"person":null,"typePayment":null},{"number":23,"person":null,"typePayment":null},{"number":24,"person":null,"typePayment":null},{"number":25,"person":null,"typePayment":null}]}]

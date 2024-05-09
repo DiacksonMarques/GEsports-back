@@ -1,0 +1,24 @@
+CRITICAL - 2024-05-09 11:35:51 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\RaffleController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RaffleController->getAllRaffle()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RaffleController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-09 11:36:13 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\RaffleController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RaffleController->getAllRaffle()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RaffleController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-09 12:32:38 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\RaffleController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RaffleController->getAllRaffle()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RaffleController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-09 12:41:59 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\RaffleController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RaffleController->getAllRaffle()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RaffleController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

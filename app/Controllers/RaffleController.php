@@ -3,6 +3,7 @@
 use CodeIgniter\RESTful\ResourceController;
 use CodeIgniter\API\ResponseTrait;
 use Exception;
+use App\Models\AthleteModel;
 
 class RaffleController extends ResourceController{
     use ResponseTrait;
@@ -25,6 +26,25 @@ class RaffleController extends ResourceController{
         file_put_contents(ROOTPATH.'/app/Assets/Json/raffle.json', json_encode($jsonObj));
     }
 
+    private function getAthleteSeach($value = null){
+      try{
+          $model = db_connect();
+          $builder = $model->table('athlete a');
+          $builder->join('person p', 'a.person_id = p.id');
+          $builder->join('category c', 'a.category_id = c.id');
+          $builder->where('p.name =', $value);
+          $builder->orWhere('p.cpf =', $value);
+          $builder->orWhere('p.rg =', $value);
+          $builder->orWhere('a.enrolment =', $value);
+          $builder->select('a.enrolment, p.id, p.name, c.name as category');
+          $query = $builder->get()->getResult();
+          
+          return count($query) > 0 ? $query[0] : (object)["enrolment" => null];
+      } catch (Exception $e) {
+          return [];
+      }
+  }
+
     public function getRaffle($enrolment = null) {
       try{
             $raffles = $this->returnDb();
@@ -34,6 +54,43 @@ class RaffleController extends ResourceController{
 
             if($raffleAthleteIndex != false){
                 $response = $raffles[$raffleAthleteIndex];
+            }
+
+            return $this->respond($response);
+      } catch (Exception $e) {
+          return $this->fail($e->getMessage());
+      }
+    }
+
+    public function getAllRaffle() {
+      try{
+            $raffles = $this->returnDb();
+
+            $response = [];
+
+            foreach($raffles as &$raffle){
+              $athlete = $this->getAthleteSeach($raffle->idAthlete);
+              
+              if($athlete->enrolment){
+                $athleteRaffle = [
+                  "enrolment" => $athlete->enrolment,
+                  "name" => $athlete->name,
+                  "category" => $athlete->category,
+                  "qtdRaflles" => count($raffle->numberRaffle),
+                  "qtdRaflleSolds" => null,
+                ];
+  
+                $qtdRaflleSolds = 0;
+                foreach($raffle->numberRaffle as &$number){
+                  if($number->person){
+                    $qtdRaflleSolds++;
+                  }
+                }
+  
+                $athleteRaffle['qtdRaflleSolds'] = $qtdRaflleSolds;
+  
+                $response[] = $athleteRaffle;
+              }
             }
 
             return $this->respond($response);
@@ -59,7 +116,7 @@ class RaffleController extends ResourceController{
 
 
         if($rafflesAthlete != null){
-            for ($i=0; $i < 5; $i++) { 
+            for ($i=0; $i < 8; $i++) { 
                 $lastNumberAthlete++;
                 $newNumberAthlete = [
                     'number'   => $lastNumberAthlete,
@@ -85,7 +142,7 @@ class RaffleController extends ResourceController{
             'numberRaffle' => []
         ];
 
-        for ($i=0; $i < 5; $i++) { 
+        for ($i=0; $i < 8; $i++) { 
             $lastNumberAthlete++;
             $newNumberAthlete = [
                 'number'   => $lastNumberAthlete,
