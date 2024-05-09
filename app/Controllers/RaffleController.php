@@ -166,76 +166,35 @@ class RaffleController extends ResourceController{
       }
     }
 
-    public function allTeams() {
-      try {
-        $jsonObj  = $this->returnDb();
-        $teams = $jsonObj->teams;
+    public function addNumberRaflle(){
+     try {
+        $data = $this->request->getJSON();
+        $raffles = $this->returnDb();
+        $response = [];
 
-        foreach ($teams  as &$team) {
-          switch ($team->naipe) {
-            case 'MAS':
-              $team->naipe = 'Masc';
-              break;
+        foreach($data as &$raffle){
+          $raffleSelecedIndex = array_search($raffle->enrolment, array_column($raffles, 'idAthlete'));
 
-            case 'FEM':
-              $team->naipe = 'Femi';
-              break;
-            
-            case 'AMB':
-              $team->naipe = 'Masc|Femi';
-              break;
-                
-            default:
-              $team->naipe = '??';
-              break;
-          }
-      }
+          $numbersRaffles = $raffles[$raffleSelecedIndex]->numberRaffle;
 
-        return $this->respond($teams);
-      } catch (Exception $e) {
+          $numberSelecedIndex = array_search($raffle->number, array_column($numbersRaffles, 'number'));
+          $numberSeleced = $numbersRaffles[$numberSelecedIndex];
+          
+          $numberSeleced->person = $raffle->person;
+          $numberSeleced->typePayment = $raffle->typePayment;
+
+          $raffles[$raffleSelecedIndex]->numberRaffle[$numberSelecedIndex] = $numberSeleced;
+
+          $response[] = $numberSeleced;
+        }
+
+        $this->saveRaffle($raffles);
+
+        return $this->respond($response);
+
+     } catch (Exception $e) {
         return $this->fail($e->getMessage());
-      }
     }
 
-  /*if($method === 'DELETE'){
-    if($json[$path[0]]){
-      if($param1==""){
-        echo 'error';
-      }else{
-        $encontrado = findById($json[$path[0]], $param1);
-        if($encontrado>=0){
-          echo json_encode($json[$path[0]][$encontrado]);
-          unset($json[$path[0]][$encontrado]);
-          file_put_contents('db.json', json_encode($json));
-        }else{
-          echo 'ERROR.';
-          exit;
-        }
-      }
-    }else{
-      echo 'error.';
-    }
   }
-
-  if($method === 'PUT'){
-    if($json[$path[0]]){
-      if($param1==""){
-        echo 'error';
-      }else{
-        $encontrado = findById($json[$path[0]], $param1);
-        if($encontrado>=0){
-          $jsonBody = json_decode($body, true);
-          $jsonBody['id'] = $param1;
-          $json[$path[0]][$encontrado] = $jsonBody;
-          echo json_encode($json[$path[0]][$encontrado]);
-          file_put_contents('db.json', json_encode($json));
-        }else{
-          echo 'ERROR.';
-          exit;
-        }
-      }
-    }else{
-      echo 'error.';
-    }
-  } */
 }
