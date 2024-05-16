@@ -11,7 +11,14 @@ class StoreController extends ResourceController{
 
     public function getAllCitys(){
         try{
-            $json = file_get_contents("https://servicodados.ibge.gov.br/api/v1/localidades/municipios?orderBy=nome");
+            $arrContextOptions=array(
+                "ssl"=>array(
+                    "verify_peer"=>false,
+                    "verify_peer_name"=>false,
+                ),
+            );
+
+            $json = file_get_contents("https://servicodados.ibge.gov.br/api/v1/localidades/municipios?orderBy=nome", false, stream_context_create($arrContextOptions));
             $data = json_decode($json,true);
 
             foreach ($data as $indice => $valor){

@@ -36,7 +36,7 @@ class RaffleController extends ResourceController{
           $builder->orWhere('p.cpf =', $value);
           $builder->orWhere('p.rg =', $value);
           $builder->orWhere('a.enrolment =', $value);
-          $builder->select('a.enrolment, p.id, p.name, c.name as category');
+          $builder->select('a.enrolment, p.id, p.name, p.gender,c.name as category, c.id as categoryId');
           $query = $builder->get()->getResult();
           
           return count($query) > 0 ? $query[0] : (object)["enrolment" => null];
@@ -90,6 +90,56 @@ class RaffleController extends ResourceController{
                 $athleteRaffle['qtdRaflleSolds'] = $qtdRaflleSolds;
   
                 $response[] = $athleteRaffle;
+              }
+            }
+
+            return $this->respond($response);
+      } catch (Exception $e) {
+          return $this->fail($e->getMessage());
+      }
+    }
+
+    public function getAllRaffleNumber() {
+      try{
+            $raffles = $this->returnDb();
+
+            $response = [
+              "AdultoFem" => 0,
+              "AdultoMas" => 0,
+              "Sub17Mas" => 0,
+              "Sub17Fem" => 0,
+              "Sub14" => 0,
+            ];
+
+            foreach($raffles as &$raffle){
+              $athlete = $this->getAthleteSeach($raffle->idAthlete);
+              
+              if($athlete->enrolment){
+                switch ($athlete->categoryId) {
+                  case 1:
+                    $response['Sub14']++;
+                    break;
+
+                  case 2:
+                    if($athlete->gender == "MASCULINO"){
+                      $response['Sub17Mas']++;
+                    } else if($athlete->gender == "FEMININO"){
+                      $response['Sub17Fem']++;
+                    }
+                    break;
+
+                  case 3:
+                    if($athlete->gender == "MASCULINO"){
+                      $response['AdultoMas']++;
+                    } else if($athlete->gender == "FEMININO"){
+                      $response['AdultoFem']++;
+                    }
+                    break;
+                
+                  default:
+                    # code...
+                    break;
+                }
               }
             }
 

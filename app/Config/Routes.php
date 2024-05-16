@@ -124,5 +124,6 @@ $routes->get('teams', 'ChampionshipController::allTeams');
 //Raffle
 $routes->get('raffleAthlete/(:segment)', 'RaffleController::getRaffle/$1');
 $routes->get('raffleAthleteAll', 'RaffleController::getAllRaffle');
+$routes->get('raffleAthleteAllCount', 'RaffleController::getAllRaffleNumber');
 $routes->post('raffleAthlete', 'RaffleController::createRaffleAthlete');
 $routes->post('addNumberRaflle', 'RaffleController::addNumberRaflle');
