@@ -4,11 +4,11 @@
             "name": "Fenix voleibol clube",
             "acronym": "F\u00caN",
             "responsible": {
-                "name": "Alexsandro ",
+                "name": "Alexsandro",
                 "phone": "(88) 9 9732-3010"
             },
             "city": {
-                "name": "Juazeiro do norte ",
+                "name": "Juazeiro do norte",
                 "uf": "CE"
             },
             "instagram": "@fenixvoleibolclube",
@@ -17,7 +17,7 @@
             "enrollment": "02050"
         },
         {
-            "name": "Cariri V\u00f4lei ",
+            "name": "Cariri V\u00f4lei",
             "acronym": "CRV",
             "responsible": {
                 "name": "Gustavo",
@@ -33,14 +33,14 @@
             "enrollment": "12050"
         },
         {
-            "name": "JUC\u00c1S V\u00d4LEI ",
+            "name": "JUC\u00c1S V\u00d4LEI",
             "acronym": "JCS",
             "responsible": {
                 "name": "Alex Silva",
                 "phone": "(85) 9 9610-7276"
             },
             "city": {
-                "name": "Juc\u00e1s ",
+                "name": "Juc\u00e1s",
                 "uf": "CE"
             },
             "instagram": "@jucasvoleifem",
@@ -81,14 +81,14 @@
             "enrollment": "42050"
         },
         {
-            "name": "F\u00eanix ",
+            "name": "F\u00eanix",
             "acronym": "FNX",
             "responsible": {
-                "name": "Kauan Alberty Medeiros ",
+                "name": "Kauan Alberty Medeiros",
                 "phone": "(87) 9 9160-9456"
             },
             "city": {
-                "name": "Moreilandia ",
+                "name": "Moreilandia",
                 "uf": "PE"
             },
             "instagram": "@fenixmoreilandia",
@@ -97,14 +97,14 @@
             "enrollment": "62050"
         },
         {
-            "name": "Racheiras ",
+            "name": "Racheiras",
             "acronym": "RCS",
             "responsible": {
-                "name": "Renata ",
+                "name": "Renata",
                 "phone": "(88) 9 8853-3506"
             },
             "city": {
-                "name": "Juazeiro do Norte ",
+                "name": "Juazeiro do Norte",
                 "uf": "CE"
             },
             "instagram": "@racheiras",
@@ -116,7 +116,7 @@
             "name": "Guerreiras CARIRI",
             "acronym": "GEC",
             "responsible": {
-                "name": "Ana Karine de Morais Ferreira Pacifico ",
+                "name": "Ana Karine de Morais Ferreira Pacifico",
                 "phone": "(88) 9 8808-9650"
             },
             "city": {
@@ -129,30 +129,30 @@
             "enrollment": "772050"
         },
         {
-            "name": "GOLINHAS ",
+            "name": "GOLINHAS",
             "acronym": "GVF",
             "responsible": {
-                "name": "Carlos Gardel ",
+                "name": "Carlos Gardel",
                 "phone": "(88) 9 9298-9213"
             },
             "city": {
-                "name": "ARARIPE ",
+                "name": "ARARIPE",
                 "uf": "CE"
             },
             "instagram": "@golinhasvoleifeminino",
             "naipe": "FEM",
-            "id": 10,
+            "id": 30,
             "enrollment": "102050"
         },
         {
-            "name": "Guerreiros da bola ",
+            "name": "Guerreiros da bola",
             "acronym": "GRB",
             "responsible": {
-                "name": "Kaio Arthur ",
+                "name": "Kaio Arthur",
                 "phone": "(85) 9 9872-8900"
             },
             "city": {
-                "name": "Juazeiro do Norte ",
+                "name": "Juazeiro do Norte",
                 "uf": "CE"
             },
             "instagram": "@guerreirosdabola__",
@@ -161,7 +161,7 @@
             "enrollment": "112050"
         },
         {
-            "name": "Diocesano Conceito ",
+            "name": "Diocesano Conceito",
             "acronym": "DIO",
             "responsible": {
                 "name": "Conrado",
@@ -184,7 +184,7 @@
                 "phone": "(88) 9 9711-3531"
             },
             "city": {
-                "name": "V\u00e1rzea Alegre ",
+                "name": "V\u00e1rzea Alegre",
                 "uf": "CE"
             },
             "instagram": "@volei.varzea",
@@ -200,7 +200,7 @@
                 "phone": "(88) 9 9932-7506"
             },
             "city": {
-                "name": "V\u00e1rzea Alegre ",
+                "name": "V\u00e1rzea Alegre",
                 "uf": "CE"
             },
             "instagram": "@varzeavoleifeminino",
@@ -209,10 +209,10 @@
             "enrollment": "122050"
         },
         {
-            "name": "CZ V\u00d4LEI ",
+            "name": "CZ V\u00d4LEI",
             "acronym": "CZV",
             "responsible": {
-                "name": "Jordan F\u00e9lix ",
+                "name": "Jordan F\u00e9lix",
                 "phone": "(83) 9 9183-6060"
             },
             "city": {
@@ -235,7 +235,7 @@
                 "name": "Juazeiro do Norte",
                 "uf": "CE"
             },
-            "instagram": "@infantevolei ",
+            "instagram": "@infantevolei",
             "naipe": "MAS",
             "id": 14,
             "enrollment": "142050"
@@ -273,14 +273,14 @@
             "enrollment": "162050"
         },
         {
-            "name": "Templo do v\u00f4lei ",
+            "name": "Templo do v\u00f4lei",
             "acronym": "TDV",
             "responsible": {
                 "name": "Rafael Oliveira",
                 "phone": "(88) 9 9909-1492"
             },
             "city": {
-                "name": "Juazeiro do norte ",
+                "name": "Juazeiro do norte",
                 "uf": "CE"
             },
             "instagram": "@templodovolei",
@@ -289,10 +289,10 @@
             "enrollment": "172050"
         },
         {
-            "name": "Sousa V\u00f4lei ",
+            "name": "Sousa V\u00f4lei",
             "acronym": "SVC",
             "responsible": {
-                "name": "Rodrigo Bento Rodrigues ",
+                "name": "Rodrigo Bento Rodrigues",
                 "phone": "(83) 9 8191-4462"
             },
             "city": {
@@ -321,14 +321,14 @@
             "enrollment": "202050"
         },
         {
-            "name": "V\u00f4lei Iguatu ",
+            "name": "V\u00f4lei Iguatu",
             "acronym": "IGT",
             "responsible": {
-                "name": "Dimas Matias L L Fernandes ",
+                "name": "Dimas Matias L L Fernandes",
                 "phone": "(88) 9 9715-9675"
             },
             "city": {
-                "name": "Iguatu ",
+                "name": "Iguatu",
                 "uf": "CE"
             },
             "instagram": "@voleiiguatumasculino",
@@ -340,7 +340,7 @@
             "name": "Tutano",
             "acronym": "TVS",
             "responsible": {
-                "name": "Afonso ",
+                "name": "Afonso",
                 "phone": "(88) 9 9713-2979"
             },
             "city": {
@@ -351,88 +351,386 @@
             "naipe": "MAS",
             "id": 22,
             "enrollment": "222050"
+        },
+        {
+            "name": "Kariris",
+            "acronym": "KAR",
+            "responsible": {
+                "name": "Rennan",
+                "phone": "(85) 9 9937-5266"
+            },
+            "city": {
+                "name": "Barbalha",
+                "uf": "Ce"
+            },
+            "instagram": "@atleticakariris",
+            "naipe": "MAS",
+            "id": 22,
+            "enrollment": "222050"
+        },
+        {
+            "name": "Kariris",
+            "acronym": "KAR",
+            "responsible": {
+                "name": "Rennan",
+                "phone": "(85) 9 9937-5266"
+            },
+            "city": {
+                "name": "Barbalha",
+                "uf": "Ce"
+            },
+            "instagram": "@atleticakariris",
+            "naipe": "MAS",
+            "id": 23,
+            "enrollment": "232050"
+        },
+        {
+            "name": "Kariris",
+            "acronym": "KAR",
+            "responsible": {
+                "name": "Rennan",
+                "phone": "(85) 9 9937-5266"
+            },
+            "city": {
+                "name": "Barbalha",
+                "uf": "Ce"
+            },
+            "instagram": "@atleticakariris",
+            "naipe": "MAS",
+            "id": 24,
+            "enrollment": "242050"
+        },
+        {
+            "name": "Atl\u00e9tico Kariri",
+            "acronym": "ATK",
+            "responsible": {
+                "name": "CiceroRrenan Pinheiro Bezerra Borges",
+                "phone": "(88) 9 8811-0005"
+            },
+            "city": {
+                "name": "Juazeiro do Norte",
+                "uf": "Ce"
+            },
+            "instagram": "@atleticokariri",
+            "naipe": "AMB",
+            "id": 25,
+            "enrollment": "252050"
+        },
+        {
+            "name": "Aurora v\u00f4lei",
+            "acronym": "AUV",
+            "responsible": {
+                "name": "Fabr\u00edcio",
+                "phone": "(88) 9 9948-9194"
+            },
+            "city": {
+                "name": "Aurora",
+                "uf": "Ce"
+            },
+            "instagram": "Aurora.volei",
+            "naipe": "MAS",
+            "id": 26,
+            "enrollment": "262050"
+        },
+        {
+            "name": "Aurora v\u00f4lei",
+            "acronym": "AUV",
+            "responsible": {
+                "name": "Fabr\u00edcio",
+                "phone": "(88) 9 9948-9194"
+            },
+            "city": {
+                "name": "Aurora",
+                "uf": "Ce"
+            },
+            "instagram": "Aurora.volei",
+            "naipe": "MAS",
+            "id": 27,
+            "enrollment": "272050"
+        },
+        {
+            "name": "ACE",
+            "acronym": "ACE",
+            "responsible": {
+                "name": "TODOS",
+                "phone": "(88) 8 8888-8888"
+            },
+            "city": {
+                "name": "Juazeiro do norte",
+                "uf": "CE"
+            },
+            "instagram": "@ace",
+            "naipe": "AMB",
+            "id": 28,
+            "enrollment": "282050"
+        },
+        {
+            "name": "CPM",
+            "acronym": "CPM",
+            "responsible": {
+                "name": "MUEL",
+                "phone": "(88) 8 8888-8888"
+            },
+            "city": {
+                "name": "Juazeiro do norte",
+                "uf": "CE"
+            },
+            "instagram": "@CPM",
+            "naipe": "FEM",
+            "id": 29,
+            "enrollment": "292050"
         }
     ],
     "group": [
         {
+            "id": 0,
+            "naipe": "FEM",
             "name": "1\u00ba Chave",
             "teams": [
-                0,
-                1,
-                2
+                28,
+                10,
+                29
+            ],
+            "classification": [
+                {
+                    "teamId": 28,
+                    "points": 15,
+                    "setsWon": 4,
+                    "pointBalance": 10
+                },
+                {
+                    "teamId": 29,
+                    "points": 10,
+                    "setsWon": 4,
+                    "pointBalance": 10
+                },
+                {
+                    "teamId": 10,
+                    "points": 2,
+                    "setsWon": 4,
+                    "pointBalance": 10
+                }
             ]
         },
         {
+            "id": 1,
+            "naipe": "FEM",
             "name": "2\u00ba Chave",
             "teams": [
-                3,
-                4,
-                5
+                25,
+                12,
+                13
+            ],
+            "classification": [
+                {
+                    "teamId": 13,
+                    "points": 0,
+                    "setsWon": 0,
+                    "pointBalance": 0
+                },
+                {
+                    "teamId": 25,
+                    "points": 0,
+                    "setsWon": 0,
+                    "pointBalance": 0
+                },
+                {
+                    "teamId": 12,
+                    "points": 0,
+                    "setsWon": 0,
+                    "pointBalance": 0
+                }
             ]
         },
         {
+            "id": 2,
+            "naipe": "FEM",
             "name": "3\u00ba Chave",
             "teams": [
-                6,
-                7,
-                8
+                75,
+                77,
+                2
+            ],
+            "classification": [
+                {
+                    "teamId": 75,
+                    "points": 0,
+                    "setsWon": 0,
+                    "pointBalance": 0
+                },
+                {
+                    "teamId": 77,
+                    "points": 0,
+                    "setsWon": 0,
+                    "pointBalance": 0
+                },
+                {
+                    "teamId": 2,
+                    "points": 0,
+                    "setsWon": 0,
+                    "pointBalance": 0
+                }
             ]
         }
     ],
-    "games": [
+    "games": {
+        "groupStatge": [
+            {
+                "groupId": 0,
+                "teamHome": 28,
+                "teamAway": 29,
+                "setHome": 2,
+                "setAway": 0,
+                "sets": [
+                    {
+                        "teamOne": 25,
+                        "teamTwo": 20
+                    },
+                    {
+                        "teamOne": 25,
+                        "teamTwo": 15
+                    },
+                    {
+                        "teamOne": 0,
+                        "teamTwo": 0
+                    }
+                ]
+            }
+        ],
+        "finalSatege": [
+            {
+                "groupId": 0,
+                "teamHome": 28,
+                "teamAway": 29,
+                "setHome": 2,
+                "setAway": 0,
+                "sets": [
+                    {
+                        "teamOne": 25,
+                        "teamTwo": 20
+                    },
+                    {
+                        "teamOne": 25,
+                        "teamTwo": 15
+                    },
+                    {
+                        "teamOne": 0,
+                        "teamTwo": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "classificationFEM": [
         {
-            "teamOne": 0,
-            "teamTwo": 1,
-            "sets": [
-                {
-                    "teamOne": 25,
-                    "teamTwo": 20
-                },
-                {
-                    "teamOne": 25,
-                    "teamTwo": 20
-                },
-                {
-                    "teamOne": 0,
-                    "teamTwo": 0
-                }
-            ]
+            "teamId": 75,
+            "points": 0,
+            "setsWon": 0,
+            "pointBalance": 0
         },
         {
-            "teamOne": 5,
-            "teamTwo": 7,
-            "sets": [
-                {
-                    "teamOne": 25,
-                    "teamTwo": 20
-                },
-                {
-                    "teamOne": 15,
-                    "teamTwo": 25
-                },
-                {
-                    "teamOne": 25,
-                    "teamTwo": 10
-                }
-            ]
+            "teamId": 25,
+            "points": 0,
+            "setsWon": 0,
+            "pointBalance": 0
         },
         {
-            "teamOne": 4,
-            "teamTwo": 8,
-            "sets": [
-                {
-                    "teamOne": 25,
-                    "teamTwo": 20
-                },
-                {
-                    "teamOne": 25,
-                    "teamTwo": 5
-                },
-                {
-                    "teamOne": 0,
-                    "teamTwo": 0
-                }
-            ]
+            "teamId": 77,
+            "points": 0,
+            "setsWon": 0,
+            "pointBalance": 0
+        },
+        {
+            "teamId": 13,
+            "points": 0,
+            "setsWon": 0,
+            "pointBalance": 0
+        },
+        {
+            "teamId": 2,
+            "points": 0,
+            "setsWon": 0,
+            "pointBalance": 0
+        },
+        {
+            "teamId": 25,
+            "points": 0,
+            "setsWon": 0,
+            "pointBalance": 0
+        },
+        {
+            "teamId": 12,
+            "points": 0,
+            "setsWon": 0,
+            "pointBalance": 0
+        },
+        {
+            "teamId": 13,
+            "points": 0,
+            "setsWon": 0,
+            "pointBalance": 0
+        },
+        {
+            "teamId": 12,
+            "points": 0,
+            "setsWon": 0,
+            "pointBalance": 0
+        }
+    ],
+    "classificationMAS": [
+        {
+            "teamId": 75,
+            "points": 0,
+            "setsWon": 0,
+            "pointBalance": 0
+        },
+        {
+            "teamId": 25,
+            "points": 0,
+            "setsWon": 0,
+            "pointBalance": 0
+        },
+        {
+            "teamId": 77,
+            "points": 0,
+            "setsWon": 0,
+            "pointBalance": 0
+        },
+        {
+            "teamId": 13,
+            "points": 0,
+            "setsWon": 0,
+            "pointBalance": 0
+        },
+        {
+            "teamId": 2,
+            "points": 0,
+            "setsWon": 0,
+            "pointBalance": 0
+        },
+        {
+            "teamId": 25,
+            "points": 0,
+            "setsWon": 0,
+            "pointBalance": 0
+        },
+        {
+            "teamId": 12,
+            "points": 0,
+            "setsWon": 0,
+            "pointBalance": 0
+        },
+        {
+            "teamId": 13,
+            "points": 0,
+            "setsWon": 0,
+            "pointBalance": 0
+        },
+        {
+            "teamId": 12,
+            "points": 0,
+            "setsWon": 0,
+            "pointBalance": 0
         }
     ]
 }

@@ -119,6 +119,7 @@ $routes->put('personEnrollment/(:segment)', 'EnrolmentController::updateEnrollme
 //Championship
 $routes->post('team', 'ChampionshipController::createTeam');
 $routes->get('teams', 'ChampionshipController::allTeams');
+$routes->get('gruops/(:segment)', 'ChampionshipController::getGruops/$1');
 
 
 //Raffle

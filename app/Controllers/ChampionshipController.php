@@ -13,22 +13,16 @@ class ChampionshipController extends ResourceController{
         $contents = file_get_contents(ROOTPATH.'/app/Assets/Json/championship.json');
         return json_decode($contents);
     }
-    public function getGruops($role = null) {
-      try{
-          $response = $this->returnDb();
 
-          foreach ($response  as &$group) {
-              $index = 0;
-              foreach($group->teams as &$team){
-                  $group->teams[$index] = $this->dbJsson->teams[$team];
-                  $index++;
-              }
-          }
-
-          return $this->respond($response);
-      } catch (Exception $e) {
-          return $this->fail($e->getMessage());
+    private function getTeams($idTeam = null) {
+      $jsonObj  = $this->returnDb();
+      foreach ($jsonObj->teams  as &$team) {
+        if($team->id == $idTeam){ 
+          return $team;
+        }
       }
+
+      return null;
     }
 
     public function createTeam() {
@@ -81,45 +75,56 @@ class ChampionshipController extends ResourceController{
       }
     }
 
-  /*if($method === 'DELETE'){
-    if($json[$path[0]]){
-      if($param1==""){
-        echo 'error';
-      }else{
-        $encontrado = findById($json[$path[0]], $param1);
-        if($encontrado>=0){
-          echo json_encode($json[$path[0]][$encontrado]);
-          unset($json[$path[0]][$encontrado]);
-          file_put_contents('db.json', json_encode($json));
-        }else{
-          echo 'ERROR.';
-          exit;
-        }
-      }
-    }else{
-      echo 'error.';
-    }
-  }
+    public function getGruops($role = null) {
+      try{
+          $jsonObj = $this->returnDb();
+          $response = [];
 
-  if($method === 'PUT'){
-    if($json[$path[0]]){
-      if($param1==""){
-        echo 'error';
-      }else{
-        $encontrado = findById($json[$path[0]], $param1);
-        if($encontrado>=0){
-          $jsonBody = json_decode($body, true);
-          $jsonBody['id'] = $param1;
-          $json[$path[0]][$encontrado] = $jsonBody;
-          echo json_encode($json[$path[0]][$encontrado]);
-          file_put_contents('db.json', json_encode($json));
-        }else{
-          echo 'ERROR.';
-          exit;
-        }
+          $index = 0;
+          foreach ($jsonObj->group  as &$group) {
+            if($role == $group->naipe){ 
+              $position = 0;
+
+              $response[]['name'] = $group->name;
+              $response[$index]['teams'] = [];
+              
+              foreach($group->classification as &$team){
+                $teamS = $this->getTeams($team->teamId);
+                $position++;
+                $response[$index]['teams'][] = [
+                  "id" => $teamS->id,
+                  "name" => $teamS->name,
+                  "position" => $position,
+                  "points" => $team->points
+                ];
+              } 
+
+              $index ++;
+            }
+          }
+
+          return $this->respond($response);
+      } catch (Exception $e) {
+          return $this->fail($e->getMessage());
       }
-    }else{
-      echo 'error.';
     }
-  } */
+
+    
+    /* public function getGruops($role = null) {
+      try{
+          $response = $this->returnDb();
+
+          foreach ($response  as &$group) {
+              $index = 0;
+              foreach($group->teams as &$team){
+                  $group->teams[$index] = $this->dbJsson->teams[$team];
+                  $index++;
+              }
+          }
+
+          return $this->respond($response);
+      } catch (Exception $e) {
+          return $this->fail($e->getMessage());
+      }
+    } */
 }
