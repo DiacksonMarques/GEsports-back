@@ -120,6 +120,11 @@ $routes->put('personEnrollment/(:segment)', 'EnrolmentController::updateEnrollme
 $routes->post('team', 'ChampionshipController::createTeam');
 $routes->get('teams', 'ChampionshipController::allTeams');
 $routes->get('gruops/(:segment)', 'ChampionshipController::getGruops/$1');
+$routes->get('games/(:segment)', 'ChampionshipController::getGames/$1');
+$routes->get('calssification/(:segment)', 'ChampionshipController::overallCalssification/$1');
+$routes->get('gruopDetails/(:segment)', 'ChampionshipController::getGruopDetails/$1');
+$routes->get('finails/(:segment)', 'ChampionshipController::getFinailsGames/$1');
+$routes->post('createGame/(:segment)', 'ChampionshipController::setGameGruop/$1');
 
 
 //Raffle

@@ -1,0 +1,175 @@
+CRITICAL - 2024-05-24 09:03:34 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Controllers\ChampionshipController.php on line 130.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->getGruopDetails('0')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 10:48:50 --> Error: Attempt to assign property "naipe" on array
+in APPPATH\Controllers\ChampionshipController.php on line 232.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 10:49:13 --> Error: Attempt to assign property "naipe" on array
+in APPPATH\Controllers\ChampionshipController.php on line 232.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 10:49:20 --> Error: Attempt to assign property "naipe" on array
+in APPPATH\Controllers\ChampionshipController.php on line 232.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 10:49:23 --> Error: Attempt to assign property "naipe" on array
+in APPPATH\Controllers\ChampionshipController.php on line 232.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 11:21:17 --> Error: Attempt to assign property "naipe" on string
+in APPPATH\Controllers\ChampionshipController.php on line 232.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 11:22:25 --> Error: Attempt to assign property "naipe" on string
+in APPPATH\Controllers\ChampionshipController.php on line 232.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 11:54:09 --> ParseError: syntax error, unexpected token ",", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\ChampionshipController.php on line 259.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\ChampionshipController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ChampionshipController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ChampionshipController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ChampionshipController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 11:54:28 --> Error: Call to undefined function App\Controllers\updateClassification()
+in APPPATH\Controllers\ChampionshipController.php on line 248.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 11:54:52 --> Error: Call to undefined function App\Controllers\updateClassification()
+in APPPATH\Controllers\ChampionshipController.php on line 248.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 11:55:12 --> Error: Call to undefined function App\Controllers\updateClassification()
+in APPPATH\Controllers\ChampionshipController.php on line 248.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 11:55:48 --> ParseError: syntax error, unexpected token "return"
+in APPPATH\Controllers\ChampionshipController.php on line 249.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\ChampionshipController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ChampionshipController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ChampionshipController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ChampionshipController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 11:55:57 --> Error: Call to undefined function App\Controllers\updateClassification()
+in APPPATH\Controllers\ChampionshipController.php on line 248.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 11:56:13 --> Error: Call to undefined function App\Controllers\updateClassification()
+in APPPATH\Controllers\ChampionshipController.php on line 248.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 12:04:28 --> TypeError: array_column(): Argument #1 ($array) must be of type array, stdClass given
+in APPPATH\Controllers\ChampionshipController.php on line 260.
+ 1 APPPATH\Controllers\ChampionshipController.php(260): array_column(Object(stdClass), 'groupId')
+ 2 APPPATH\Controllers\ChampionshipController.php(248): App\Controllers\ChampionshipController->updateClassification(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 12:21:25 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Controllers\ChampionshipController.php on line 263.
+ 1 APPPATH\Controllers\ChampionshipController.php(248): App\Controllers\ChampionshipController->updateClassification(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 13:23:44 --> Error: Call to undefined function App\Controllers\build_sorter()
+in APPPATH\Controllers\ChampionshipController.php on line 282.
+ 1 APPPATH\Controllers\ChampionshipController.php(248): App\Controllers\ChampionshipController->updateClassification(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 13:23:53 --> Error: Call to undefined function App\Controllers\build_sorter()
+in APPPATH\Controllers\ChampionshipController.php on line 282.
+ 1 APPPATH\Controllers\ChampionshipController.php(248): App\Controllers\ChampionshipController->updateClassification(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 13:25:35 --> TypeError: usort(): Argument #2 ($callback) must be a valid callback, function "build_sorter" not found or invalid function name
+in APPPATH\Controllers\ChampionshipController.php on line 282.
+ 1 APPPATH\Controllers\ChampionshipController.php(282): usort([...], 'build_sorter')
+ 2 APPPATH\Controllers\ChampionshipController.php(248): App\Controllers\ChampionshipController->updateClassification(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 13:26:07 --> TypeError: usort(): Argument #2 ($callback) must be a valid callback, function "build_sorter" not found or invalid function name
+in APPPATH\Controllers\ChampionshipController.php on line 298.
+ 1 APPPATH\Controllers\ChampionshipController.php(298): usort([...], 'build_sorter')
+ 2 APPPATH\Controllers\ChampionshipController.php(248): App\Controllers\ChampionshipController->updateClassification(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 13:26:09 --> TypeError: usort(): Argument #2 ($callback) must be a valid callback, function "build_sorter" not found or invalid function name
+in APPPATH\Controllers\ChampionshipController.php on line 298.
+ 1 APPPATH\Controllers\ChampionshipController.php(298): usort([...], 'build_sorter')
+ 2 APPPATH\Controllers\ChampionshipController.php(248): App\Controllers\ChampionshipController->updateClassification(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 13:32:16 --> TypeError: usort(): Argument #2 ($callback) must be a valid callback, function "build_sorter" not found or invalid function name
+in APPPATH\Controllers\ChampionshipController.php on line 282.
+ 1 APPPATH\Controllers\ChampionshipController.php(282): usort([...], 'build_sorter')
+ 2 APPPATH\Controllers\ChampionshipController.php(248): App\Controllers\ChampionshipController->updateClassification(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 13:33:06 --> TypeError: usort(): Argument #2 ($callback) must be a valid callback, function "build_sorter" not found or invalid function name
+in APPPATH\Controllers\ChampionshipController.php on line 297.
+ 1 APPPATH\Controllers\ChampionshipController.php(297): usort([...], 'build_sorter')
+ 2 APPPATH\Controllers\ChampionshipController.php(248): App\Controllers\ChampionshipController->updateClassification(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 13:33:08 --> TypeError: usort(): Argument #2 ($callback) must be a valid callback, function "build_sorter" not found or invalid function name
+in APPPATH\Controllers\ChampionshipController.php on line 297.
+ 1 APPPATH\Controllers\ChampionshipController.php(297): usort([...], 'build_sorter')
+ 2 APPPATH\Controllers\ChampionshipController.php(248): App\Controllers\ChampionshipController->updateClassification(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 13:33:39 --> TypeError: usort(): Argument #2 ($callback) must be a valid callback, function "build_sorter" not found or invalid function name
+in APPPATH\Controllers\ChampionshipController.php on line 297.
+ 1 APPPATH\Controllers\ChampionshipController.php(297): usort([...], 'build_sorter')
+ 2 APPPATH\Controllers\ChampionshipController.php(248): App\Controllers\ChampionshipController->updateClassification(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->setGameGruop('FEM')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
