@@ -125,6 +125,7 @@ $routes->get('calssification/(:segment)', 'ChampionshipController::overallCalssi
 $routes->get('gruopDetails/(:segment)', 'ChampionshipController::getGruopDetails/$1');
 $routes->get('finails/(:segment)', 'ChampionshipController::getFinailsGames/$1');
 $routes->post('createGame/(:segment)', 'ChampionshipController::setGameGruop/$1');
+$routes->post('createGame/(:segment)/(:segment)', 'ChampionshipController::setGameGruop/$1/$2');
 
 
 //Raffle

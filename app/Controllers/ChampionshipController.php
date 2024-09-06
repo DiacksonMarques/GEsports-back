@@ -97,7 +97,7 @@ class ChampionshipController extends ResourceController{
 
         $index = 0;
         foreach ($jsonObj->group  as &$group) {
-          if($role == $group->naipe){ 
+          if($role == $group->naipe || $role == "AMB"){ 
             $position = 0;
 
             $response[]['name'] = $group->name;
@@ -225,14 +225,20 @@ class ChampionshipController extends ResourceController{
     }
   }
 
-  public function setGameGruop($role=null) { 
+  public function setGameGruop($role=null, $roleG=null) { 
     try{
       $data = $this->request->getJSON();
       $jsonObj = $this->returnDb();
       $response = [];
 
       foreach ($jsonObj->games->groupStatge  as &$game) {
-        if($game->naipe == $role){
+        if($game->naipe == $role && $roleG == null){
+          $newId = count($game->games);
+          
+          $data->id = $newId;
+
+          $game->games[$newId] = $data;
+        } else if($game->naipe == $roleG){
           $newId = count($game->games);
           
           $data->id = $newId;
@@ -242,7 +248,9 @@ class ChampionshipController extends ResourceController{
       }
 
       foreach ($jsonObj->gamesHistoric  as &$game) {
-        if($game->naipe == $role){
+        if($game->naipe == $role && $roleG == null){
+          $game->games[$data->id] = $data;
+        } else if($game->naipe == $roleG){
           $game->games[$data->id] = $data;
         }
       }
@@ -267,6 +275,9 @@ class ChampionshipController extends ResourceController{
 
     $someBalanceHome = 0;
     $someBalanceAwait = 0;
+    $setsBalanceHome = 0;
+    $setsBalanceAwait = 0;
+
     foreach($data->sets as &$set){
       $someBalanceHome = $someBalanceHome + $set->teamOne;
       $someBalanceAwait = $someBalanceAwait + $set->teamTwo;
@@ -275,12 +286,15 @@ class ChampionshipController extends ResourceController{
     $pointBalanceHome = $someBalanceHome - $someBalanceAwait;
     $pointBalanceAwait = $someBalanceAwait - $someBalanceHome;
 
+    $setsBalanceHome = $data->setHome - $data->setAway;
+    $setsBalanceAwait = $data->setAway - $data->setHome;
+
     $jsonObj->group[$indexGruopSelected]->classification[$indexTeamHome]->points= $jsonObj->group[$indexGruopSelected]->classification[$indexTeamHome]->points + $data->pointHome;
-    $jsonObj->group[$indexGruopSelected]->classification[$indexTeamHome]->setsWon= $jsonObj->group[$indexGruopSelected]->classification[$indexTeamHome]->setsWon + $data->setHome;
+    $jsonObj->group[$indexGruopSelected]->classification[$indexTeamHome]->setsWon= $jsonObj->group[$indexGruopSelected]->classification[$indexTeamHome]->setsWon + $setsBalanceHome;
     $jsonObj->group[$indexGruopSelected]->classification[$indexTeamHome]->pointBalance= $jsonObj->group[$indexGruopSelected]->classification[$indexTeamHome]->pointBalance + $pointBalanceHome;
 
     $jsonObj->group[$indexGruopSelected]->classification[$indexTeamAway]->points= $jsonObj->group[$indexGruopSelected]->classification[$indexTeamAway]->points + $data->pointAway;
-    $jsonObj->group[$indexGruopSelected]->classification[$indexTeamAway]->setsWon= $jsonObj->group[$indexGruopSelected]->classification[$indexTeamAway]->setsWon + $data->setAway;
+    $jsonObj->group[$indexGruopSelected]->classification[$indexTeamAway]->setsWon= $jsonObj->group[$indexGruopSelected]->classification[$indexTeamAway]->setsWon + $setsBalanceAwait;
     $jsonObj->group[$indexGruopSelected]->classification[$indexTeamAway]->pointBalance= $jsonObj->group[$indexGruopSelected]->classification[$indexTeamAway]->pointBalance + $pointBalanceAwait;
 
     usort($jsonObj->group[$indexGruopSelected]->classification, function ($a, $b) {
