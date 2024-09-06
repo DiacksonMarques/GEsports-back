@@ -29,11 +29,9 @@ $routes->delete('responsible/(:segment)', 'ResponsibleController::delete/$1', ['
 //Person
 $routes->get('persons', 'PersonController::getAll', ['filter' => 'auth']);
 $routes->get('person/(:segment)', 'PersonController::getOne/$1', ['filter' => 'auth']);
-$routes->post('person', 'PersonController::create', ['filter' => 'auth']);
+$routes->post('person', 'PersonController::create');
 $routes->put('person/(:segment)', 'PersonController::update/$1', ['filter' => 'auth']);
 $routes->delete('person/(:segment)', 'PersonController::delete/$1', ['filter' => 'auth']);
-$routes->post('personEnrollment', 'PersonController::createEnrollment');
-$routes->get('personEnrollment/(:segment)', 'PersonController::getEnrollment/$1');
 
 //Athlete
 $routes->get('athletes', 'AthleteController::getAll', ['filter' => 'auth']);
@@ -41,6 +39,7 @@ $routes->get('athlete/(:segment)', 'AthleteController::getOne/$1', ['filter' => 
 $routes->post('athlete', 'AthleteController::create', ['filter' => 'auth']);
 $routes->put('athlete/(:segment)', 'AthleteController::update/$1', ['filter' => 'auth']);
 $routes->delete('athlete/(:segment)', 'AthleteController::delete/$1', ['filter' => 'auth']);
+$routes->get('athleteSeach/(:segment)', 'AthleteController::getAthleteSeach/$1');
 
 //Frequency
 $routes->get('frequencys', 'FrequencyController::getAll', ['filter' => 'auth']);
@@ -79,6 +78,7 @@ $routes->delete('monthlyPayment/(:segment)', 'MonthlyPaymentController::delete/$
 
 //Payment
 $routes->get('payments', 'PaymentController::getAll', ['filter' => 'auth']);
+$routes->get('paymentUser', 'PaymentController::getPaymentsUser', ['filter' => 'auth']);
 $routes->get('payment/(:segment)', 'PaymentController::getOne/$1', ['filter' => 'auth']);
 $routes->post('payment', 'PaymentController::create', ['filter' => 'auth']);
 $routes->put('payment/(:segment)', 'PaymentController::update/$1', ['filter' => 'auth']);
@@ -91,6 +91,14 @@ $routes->post('role', 'RolesController::create', ['filter' => 'auth']);
 $routes->put('role/(:segment)', 'RolesController::update/$1', ['filter' => 'auth']);
 $routes->delete('role/(:segment)', 'RolesController::delete/$1', ['filter' => 'auth']);
 
+//Category
+$routes->get('categorys', 'CategoryController::getAll', ['filter' => 'auth']);
+$routes->get('category/(:segment)', 'CategoryController::getOne/$1', ['filter' => 'auth']);
+$routes->post('category', 'CategoryController::create', ['filter' => 'auth']);
+$routes->put('category/(:segment)', 'CategoryController::update/$1', ['filter' => 'auth']);
+$routes->delete('category/(:segment)', 'CategoryController::delete/$1', ['filter' => 'auth']);
+$routes->get('categorysEnrollment', 'CategoryController::getAll');
+
 //Login
 $routes->post('login', 'UserController::login');
 $routes->post('logout', 'UserController::logout');
@@ -98,3 +106,30 @@ $routes->post('checkToken', 'UserController::checkToken');
 
 //Store
 $routes->get('citys', 'StoreController::getAllCitys');
+$routes->get('donwloadTerm', 'StoreController::dowloadTerm');
+$routes->get('donwloadRegulation', 'StoreController::dowloadRegulation');
+$routes->get('menus/(:segment)', 'StoreController::getTypeMenus/$1', ['filter' => 'auth']);
+
+
+$routes->post('personEnrollment', 'EnrolmentController::createEnrollment');
+$routes->get('personEnrollment/(:segment)', 'EnrolmentController::getEnrollment/$1');
+$routes->get('personEnrollmentAthelete/(:segment)', 'EnrolmentController::getEnrollmentAthelete/$1');
+$routes->put('personEnrollment/(:segment)', 'EnrolmentController::updateEnrollment/$1');
+
+//Championship
+$routes->post('team', 'ChampionshipController::createTeam');
+$routes->get('teams', 'ChampionshipController::allTeams');
+$routes->get('gruops/(:segment)', 'ChampionshipController::getGruops/$1');
+$routes->get('games/(:segment)', 'ChampionshipController::getGames/$1');
+$routes->get('calssification/(:segment)', 'ChampionshipController::overallCalssification/$1');
+$routes->get('gruopDetails/(:segment)', 'ChampionshipController::getGruopDetails/$1');
+$routes->get('finails/(:segment)', 'ChampionshipController::getFinailsGames/$1');
+$routes->post('createGame/(:segment)', 'ChampionshipController::setGameGruop/$1');
+
+
+//Raffle
+$routes->get('raffleAthlete/(:segment)', 'RaffleController::getRaffle/$1');
+$routes->get('raffleAthleteAll', 'RaffleController::getAllRaffle');
+$routes->get('raffleAthleteAllCount', 'RaffleController::getAllRaffleNumber');
+$routes->post('raffleAthlete', 'RaffleController::createRaffleAthlete');
+$routes->post('addNumberRaflle', 'RaffleController::addNumberRaflle');

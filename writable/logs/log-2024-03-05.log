@@ -1,0 +1,292 @@
+ERROR - 2024-03-05 10:59:16 --> mysqli_sql_exception: Unknown column 'p' in 'field list' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `p`, `a`...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`, `a`...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`, `a`...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `p`, `a`...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\EnrolmentController.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollmentAthelete('2000.54')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-05 10:59:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'p' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54', [], false)
+ 2 APPPATH\Controllers\EnrolmentController.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollmentAthelete('2000.54')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 10:59:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'p' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54', [], false)
+ 4 APPPATH\Controllers\EnrolmentController.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollmentAthelete('2000.54')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 10:59:16 --> [Caused by] mysqli_sql_exception: Unknown column 'p' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54', [], false)
+ 5 APPPATH\Controllers\EnrolmentController.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollmentAthelete('2000.54')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-05 10:59:18 --> mysqli_sql_exception: Unknown column 'p' in 'field list' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `p`, `a`...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`, `a`...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`, `a`...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `p`, `a`...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\EnrolmentController.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollmentAthelete('2000.54')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-05 10:59:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'p' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54', [], false)
+ 2 APPPATH\Controllers\EnrolmentController.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollmentAthelete('2000.54')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 10:59:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'p' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54', [], false)
+ 4 APPPATH\Controllers\EnrolmentController.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollmentAthelete('2000.54')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 10:59:18 --> [Caused by] mysqli_sql_exception: Unknown column 'p' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54', [], false)
+ 5 APPPATH\Controllers\EnrolmentController.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollmentAthelete('2000.54')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-05 10:59:19 --> mysqli_sql_exception: Unknown column 'p' in 'field list' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `p`, `a`...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`, `a`...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`, `a`...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `p`, `a`...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\EnrolmentController.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollmentAthelete('2000.54')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-05 10:59:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'p' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54', [], false)
+ 2 APPPATH\Controllers\EnrolmentController.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollmentAthelete('2000.54')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 10:59:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'p' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54', [], false)
+ 4 APPPATH\Controllers\EnrolmentController.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollmentAthelete('2000.54')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 10:59:19 --> [Caused by] mysqli_sql_exception: Unknown column 'p' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54', [], false)
+ 5 APPPATH\Controllers\EnrolmentController.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollmentAthelete('2000.54')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-05 10:59:34 --> mysqli_sql_exception: Unknown column 'p' in 'field list' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `p`, `a`...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`, `a`...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`, `a`...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `p`, `a`...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\EnrolmentController.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollmentAthelete('2000.54')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-05 10:59:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'p' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54', [], false)
+ 2 APPPATH\Controllers\EnrolmentController.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollmentAthelete('2000.54')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 10:59:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'p' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54', [], false)
+ 4 APPPATH\Controllers\EnrolmentController.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollmentAthelete('2000.54')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 10:59:34 --> [Caused by] mysqli_sql_exception: Unknown column 'p' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `p`, `a`.`enrolment`, `c`.`name` as `category`, `c`.`id` as `categoryId`
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+LEFT JOIN `category` `c` ON `a`.`category_id` = `c`.`id`
+WHERE `p`.`id` = 54', [], false)
+ 5 APPPATH\Controllers\EnrolmentController.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnrolmentController->getEnrollmentAthelete('2000.54')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnrolmentController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

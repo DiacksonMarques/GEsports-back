@@ -1,0 +1,846 @@
+ERROR - 2024-03-14 10:02:05 --> mysqli_sql_exception: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-14 10:02:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', [], false)
+ 2 APPPATH\Controllers\UserController.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:02:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', [], false)
+ 4 APPPATH\Controllers\UserController.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:02:05 --> [Caused by] mysqli_sql_exception: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', [], false)
+ 5 APPPATH\Controllers\UserController.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 10:03:15 --> mysqli_sql_exception: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-14 10:03:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', [], false)
+ 2 APPPATH\Controllers\UserController.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:03:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', [], false)
+ 4 APPPATH\Controllers\UserController.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:03:15 --> [Caused by] mysqli_sql_exception: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', [], false)
+ 5 APPPATH\Controllers\UserController.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 10:04:20 --> mysqli_sql_exception: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-14 10:04:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', [], false)
+ 2 APPPATH\Controllers\UserController.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:04:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', [], false)
+ 4 APPPATH\Controllers\UserController.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:04:20 --> [Caused by] mysqli_sql_exception: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', [], false)
+ 5 APPPATH\Controllers\UserController.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 10:05:18 --> mysqli_sql_exception: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-14 10:05:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', [], false)
+ 2 APPPATH\Controllers\UserController.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:05:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', [], false)
+ 4 APPPATH\Controllers\UserController.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:05:18 --> [Caused by] mysqli_sql_exception: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', [], false)
+ 5 APPPATH\Controllers\UserController.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 10:09:10 --> mysqli_sql_exception: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-14 10:09:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', [], false)
+ 2 APPPATH\Controllers\UserController.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:09:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', [], false)
+ 4 APPPATH\Controllers\UserController.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:09:10 --> [Caused by] mysqli_sql_exception: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', [], false)
+ 5 APPPATH\Controllers\UserController.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 10:10:02 --> mysqli_sql_exception: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-14 10:10:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', [], false)
+ 2 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:10:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', [], false)
+ 4 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:10:02 --> [Caused by] mysqli_sql_exception: Unknown column 'eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0.eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`token` = `eyJ1c2VybmFtZSI6IkEyMDI0MDI1NSIsInBhc3N3b3JkIjoiQWNlMTIzNDU2In0`.`eyJleHBpcmF0aW9uIjoxNzEwNDE3NzAyfQ`', [], false)
+ 5 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 10:10:26 --> mysqli_sql_exception: Unknown column 'r.role' in 'field list' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-14 10:10:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'r.role' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`', [], false)
+ 2 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:10:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'r.role' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`', [], false)
+ 4 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:10:26 --> [Caused by] mysqli_sql_exception: Unknown column 'r.role' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`', [], false)
+ 5 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 10:10:44 --> mysqli_sql_exception: Unknown column 'r.role' in 'field list' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-14 10:10:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'r.role' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`', [], false)
+ 2 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:10:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'r.role' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`', [], false)
+ 4 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:10:44 --> [Caused by] mysqli_sql_exception: Unknown column 'r.role' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`', [], false)
+ 5 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 10:10:57 --> mysqli_sql_exception: Unknown column 'r.role' in 'field list' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-14 10:10:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'r.role' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`', [], false)
+ 2 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:10:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'r.role' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`', [], false)
+ 4 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:10:57 --> [Caused by] mysqli_sql_exception: Unknown column 'r.role' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`', [], false)
+ 5 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 10:10:58 --> mysqli_sql_exception: Unknown column 'r.role' in 'field list' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-14 10:10:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'r.role' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`', [], false)
+ 2 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:10:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'r.role' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`', [], false)
+ 4 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:10:58 --> [Caused by] mysqli_sql_exception: Unknown column 'r.role' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`', [], false)
+ 5 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 10:11:50 --> mysqli_sql_exception: Unknown column 'A20240255' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-14 10:11:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'A20240255' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255', [], false)
+ 2 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:11:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'A20240255' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255', [], false)
+ 4 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:11:50 --> [Caused by] mysqli_sql_exception: Unknown column 'A20240255' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255', [], false)
+ 5 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 10:11:51 --> mysqli_sql_exception: Unknown column 'A20240255' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-14 10:11:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'A20240255' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255', [], false)
+ 2 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:11:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'A20240255' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255', [], false)
+ 4 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:11:51 --> [Caused by] mysqli_sql_exception: Unknown column 'A20240255' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255', [], false)
+ 5 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 10:11:58 --> mysqli_sql_exception: Unknown column 'A20240255' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-14 10:11:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'A20240255' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255', [], false)
+ 2 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:11:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'A20240255' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255', [], false)
+ 4 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:11:58 --> [Caused by] mysqli_sql_exception: Unknown column 'A20240255' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255', [], false)
+ 5 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 10:12:00 --> mysqli_sql_exception: Unknown column 'A20240255' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-14 10:12:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'A20240255' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255', [], false)
+ 2 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:12:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'A20240255' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255', [], false)
+ 4 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:12:00 --> [Caused by] mysqli_sql_exception: Unknown column 'A20240255' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `u`.`id`, `u`.`name`, `u`.`username`, `r`.`role`, `u`.`person_id`
+FROM `user` `u`
+JOIN `roles` `r` ON `u`.`roles_id` = `r`.`id`
+WHERE `u`.`username` = A20240255', [], false)
+ 5 APPPATH\Controllers\UserController.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->getOne()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

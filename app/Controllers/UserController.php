@@ -31,10 +31,14 @@ class UserController extends ResourceController{
     public function getOne(){
         try{
             $bearer_token = $this->jwtLib->get_bearer_token();
-            $model = new UserModel();
-            $buider = $model->builder();
-            $buider->select('name,username,email,password');
-            $data = $model->getWhere(['token' => $bearer_token])->getResult();
+
+            $model = db_connect();
+            $builder = $model->table('user u');
+            $builder->join('roles r', 'u.roles_id = r.id');
+            $builder->where("u.token = '".$bearer_token."'");
+            $builder->select('u.id, u.name, u.username, r.role, u.person_id');
+            $query = $builder->get()->getResult();
+            $data = $query[0];
             
             return $this->respond($data);
         } catch (Exception $e) {
@@ -125,7 +129,7 @@ class UserController extends ResourceController{
         if($data){
             try {
                 if(!$this->jwtLib->is_jwt_valid($data['token'])){ 
-                    $data['token'] = $this->jwtLib->generate_jwt(array('username'=> $username, 'password'=> $password));
+                    $data['token'] = $this->jwtLib->generate_jwt(array('id' => $data['id'],'username'=> $username, 'password'=> $password));
                     $model->update($data['id'], $data);
                 }
                 

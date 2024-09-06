@@ -35,6 +35,24 @@ class AthleteController extends ResourceController{
         }
     }
 
+    public function getAthleteSeach($value = null){
+        try{
+            $model = db_connect();
+            $builder = $model->table('athlete a');
+            $builder->join('person p', 'a.person_id = p.id');
+            $builder->where('p.name =', $value);
+            $builder->orWhere('p.cpf =', $value);
+            $builder->orWhere('p.rg =', $value);
+            $builder->orWhere('a.enrolment =', $value);
+            $builder->select('a.enrolment, p.id, p.name');
+            $query = $builder->get()->getResult();
+            
+            return $this->respond(count($query) > 0 ? $query[0] : []);
+        } catch (Exception $e) {
+            return $this->fail($e->getMessage());
+        }
+    }
+
     public function create(){
         $model = new AthleteModel();
         $data = $this->request->getJSON();

@@ -9,15 +9,15 @@ class AthleteModel extends Model{
         'wingspan',
         'horizontal-jump',
         'vertical-jump',
-        'registration',
+        'enrolment',
         'person_id',
+        'category_id',
         'create_time',
     ];
     
     protected $validationRules = [
-        'wingspan' => 'required',
-        'horizontal-jump' => 'required',
-        'vertical-jump' => 'required',
-        'registration' => 'required|max_length[15],is_unique'
+        'enrolment' => 'required',
+        'person_id' => 'required',
+        'category_id' => 'required',
     ];
 }

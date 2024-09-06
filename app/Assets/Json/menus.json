@@ -1,0 +1,74 @@
+[
+    {
+      "role": "ATHLETE",
+      "menus": [
+        {
+          "icon": "home",
+          "name": "Home",
+          "route": "dashboard",
+          "children": null
+        },
+        {
+          "icon": "paid",
+          "name": "Financeiro",
+          "route": "financial",
+          "children": null
+        },
+        {
+          "icon": "home",
+          "name": "Teste",
+          "route": null,
+          "children": [
+            {
+              "name": "Teste",
+              "route": "dashboard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+        "role": "TEACHER",
+        "menus": []
+    },
+    {
+        "role": "FINAN",
+        "menus": []
+    },
+    {
+        "role": "ADMIN",
+        "menus": [
+          {
+            "icon": "home",
+            "name": "Home",
+            "route": "dashboard",
+            "children": null
+          },
+          {
+            "icon": "paid",
+            "name": "Financeiro",
+            "route": "financial",
+            "children": null
+          },
+          {
+            "icon": "groups",
+            "name": "Pessoas",
+            "route": null,
+            "children": [
+              {
+                "name": "Criar Atleta",
+                "route": "dashboard"
+              },
+              {
+                "name": "Atletas",
+                "route": "dashboard"
+              },
+              {
+                "name": "Pessoas Cadastradas",
+                "route": "dashboard"
+              }
+            ]
+          }
+        ]
+    } 
+]

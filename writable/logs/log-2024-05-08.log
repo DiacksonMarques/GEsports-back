@@ -1,0 +1,1292 @@
+CRITICAL - 2024-05-08 15:26:23 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH\Controllers\RaffleController.php on line 54.
+ 1 APPPATH\Controllers\RaffleController.php(54): count(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RaffleController->createRaffleAthlete()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RaffleController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 15:26:25 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH\Controllers\RaffleController.php on line 54.
+ 1 APPPATH\Controllers\RaffleController.php(54): count(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RaffleController->createRaffleAthlete()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RaffleController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 15:32:42 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH\Controllers\RaffleController.php on line 57.
+ 1 APPPATH\Controllers\RaffleController.php(57): count(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RaffleController->createRaffleAthlete()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RaffleController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 15:33:27 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH\Controllers\RaffleController.php on line 57.
+ 1 APPPATH\Controllers\RaffleController.php(57): count(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RaffleController->createRaffleAthlete()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RaffleController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 15:34:35 --> TypeError: Illegal offset type
+in APPPATH\Controllers\RaffleController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RaffleController->createRaffleAthlete()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RaffleController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 15:35:51 --> TypeError: array_key_last(): Argument #1 ($array) must be of type array, stdClass given
+in APPPATH\Controllers\RaffleController.php on line 57.
+ 1 APPPATH\Controllers\RaffleController.php(57): array_key_last(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RaffleController->createRaffleAthlete()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RaffleController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 15:36:33 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\RaffleController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RaffleController->createRaffleAthlete()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RaffleController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 15:52:20 --> Error: Attempt to modify property "numberRaffle" on array
+in APPPATH\Controllers\RaffleController.php on line 96.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RaffleController->createRaffleAthlete()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RaffleController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 15:52:52 --> Error: Attempt to modify property "numberRaffle" on array
+in APPPATH\Controllers\RaffleController.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RaffleController->createRaffleAthlete()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RaffleController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 15:53:12 --> Error: Attempt to modify property "numberRaffle" on array
+in APPPATH\Controllers\RaffleController.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RaffleController->createRaffleAthlete()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RaffleController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-08 17:06:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`p`.`rg`' at line 4 in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, `a`.`...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `a`.`...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `a`.`...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *, `a`.`...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('A202402377')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-08 17:06:12 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`p`.`rg`' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *, `a`.`category_id` as `category`, `p`.`id` as `id`
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `A202402377OR p`.`cpfA202402377OR` `p`.`rg`', [], false)
+ 2 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('A202402377')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:06:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`p`.`rg`' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `a`.`category_id` as `category`, `p`.`id` as `id`
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `A202402377OR p`.`cpfA202402377OR` `p`.`rg`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `a`.`category_id` as `category`, `p`.`id` as `id`
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `A202402377OR p`.`cpfA202402377OR` `p`.`rg`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *, `a`.`category_id` as `category`, `p`.`id` as `id`
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `A202402377OR p`.`cpfA202402377OR` `p`.`rg`', [], false)
+ 4 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('A202402377')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:06:12 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`p`.`rg`' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, `a`.`category_id` as `category`, `p`.`id` as `id`
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `A202402377OR p`.`cpfA202402377OR` `p`.`rg`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `a`.`category_id` as `category`, `p`.`id` as `id`
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `A202402377OR p`.`cpfA202402377OR` `p`.`rg`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `a`.`category_id` as `category`, `p`.`id` as `id`
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `A202402377OR p`.`cpfA202402377OR` `p`.`rg`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *, `a`.`category_id` as `category`, `p`.`id` as `id`
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `A202402377OR p`.`cpfA202402377OR` `p`.`rg`', [], false)
+ 5 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('A202402377')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-08 17:06:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`p`.`rg`' at line 4 in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, `a`.`...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `a`.`...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `a`.`...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *, `a`.`...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-08 17:06:20 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`p`.`rg`' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *, `a`.`category_id` as `category`, `p`.`id` as `id`
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`', [], false)
+ 2 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:06:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`p`.`rg`' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `a`.`category_id` as `category`, `p`.`id` as `id`
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `a`.`category_id` as `category`, `p`.`id` as `id`
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *, `a`.`category_id` as `category`, `p`.`id` as `id`
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`', [], false)
+ 4 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:06:20 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`p`.`rg`' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, `a`.`category_id` as `category`, `p`.`id` as `id`
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `a`.`category_id` as `category`, `p`.`id` as `id`
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `a`.`category_id` as `category`, `p`.`id` as `id`
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *, `a`.`category_id` as `category`, `p`.`id` as `id`
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`', [], false)
+ 5 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-08 17:07:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`p`.`rg`' at line 4 in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-08 17:07:23 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`p`.`rg`' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`', [], false)
+ 2 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:07:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`p`.`rg`' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`', [], false)
+ 4 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:07:23 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`p`.`rg`' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`', [], false)
+ 5 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-08 17:07:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`p`.`rg`' at line 3 in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-08 17:07:51 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`p`.`rg`' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`', [], false)
+ 2 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:07:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`p`.`rg`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`', [], false)
+ 4 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:07:51 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`p`.`rg`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `athlete` `a`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+WHERE `p`.`name` = `AAAOR p`.`cpfAAAOR` `p`.`rg`', [], false)
+ 5 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-08 17:11:03 --> mysqli_sql_exception: Unknown column 'AAA' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-08 17:11:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA', [], false)
+ 2 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:11:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA', [], false)
+ 4 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:11:03 --> [Caused by] mysqli_sql_exception: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA', [], false)
+ 5 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-08 17:11:22 --> mysqli_sql_exception: Unknown column 'AAA' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-08 17:11:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA', [], false)
+ 2 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:11:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA', [], false)
+ 4 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:11:22 --> [Caused by] mysqli_sql_exception: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA', [], false)
+ 5 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-08 17:12:14 --> mysqli_sql_exception: Unknown column 'AAA' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-08 17:12:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA', [], false)
+ 2 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:12:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA', [], false)
+ 4 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:12:14 --> [Caused by] mysqli_sql_exception: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `person` `p`
+JOIN `athlete` `a` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA OR p.cpfAAA OR `p`.`rg` = AAA', [], false)
+ 5 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-08 17:12:57 --> mysqli_sql_exception: Unknown column 'AAA' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-08 17:12:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `p`.`name` = AAA', [], false)
+ 2 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:12:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `p`.`name` = AAA')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `p`.`name` = AAA')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `p`.`name` = AAA', [], false)
+ 4 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:12:57 --> [Caused by] mysqli_sql_exception: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `p`.`name` = AAA', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `p`.`name` = AAA')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `p`.`name` = AAA')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `p`.`name` = AAA', [], false)
+ 5 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-08 17:14:00 --> mysqli_sql_exception: Unknown column 'AAA' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-08 17:14:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`id` = AAA', [], false)
+ 2 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:14:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`id` = AAA')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`id` = AAA')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`id` = AAA', [], false)
+ 4 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:14:00 --> [Caused by] mysqli_sql_exception: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`id` = AAA', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`id` = AAA')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`id` = AAA')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`id` = AAA', [], false)
+ 5 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-08 17:14:24 --> mysqli_sql_exception: Unknown column 'AA' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-08 17:14:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AA' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`id` = AA', [], false)
+ 2 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:14:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`id` = AA')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`id` = AA')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`id` = AA', [], false)
+ 4 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:14:24 --> [Caused by] mysqli_sql_exception: Unknown column 'AA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`id` = AA', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`id` = AA')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`id` = AA')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`id` = AA', [], false)
+ 5 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-08 17:15:01 --> mysqli_sql_exception: Unknown column 'AA' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-08 17:15:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AA' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = AA', [], false)
+ 2 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:15:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = AA')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = AA')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = AA', [], false)
+ 4 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:15:01 --> [Caused by] mysqli_sql_exception: Unknown column 'AA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = AA', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = AA')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = AA')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = AA', [], false)
+ 5 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-08 17:16:25 --> mysqli_sql_exception: Unknown column 'A20204' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-08 17:16:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'A20204' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20204', [], false)
+ 2 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:16:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'A20204' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20204')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20204')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20204', [], false)
+ 4 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:16:25 --> [Caused by] mysqli_sql_exception: Unknown column 'A20204' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20204', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20204')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20204')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20204', [], false)
+ 5 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-08 17:17:11 --> mysqli_sql_exception: Unknown column 'A20220317' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-08 17:17:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'A20220317' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20220317', [], false)
+ 2 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:17:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'A20220317' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20220317')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20220317')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20220317', [], false)
+ 4 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:17:11 --> [Caused by] mysqli_sql_exception: Unknown column 'A20220317' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20220317', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20220317')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20220317')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20220317', [], false)
+ 5 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-08 17:17:12 --> mysqli_sql_exception: Unknown column 'A20220317' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-08 17:17:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'A20220317' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20220317', [], false)
+ 2 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:17:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'A20220317' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20220317')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20220317')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20220317', [], false)
+ 4 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:17:12 --> [Caused by] mysqli_sql_exception: Unknown column 'A20220317' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20220317', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20220317')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20220317')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `p`.`id` = `a`.`person_id`
+WHERE `a`.`enrolment` = A20220317', [], false)
+ 5 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-08 17:18:52 --> mysqli_sql_exception: Unknown column 'AAA' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-08 17:18:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = "AAA"', [], false)
+ 2 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:18:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = "AAA"')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = "AAA"')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = "AAA"', [], false)
+ 4 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:18:52 --> [Caused by] mysqli_sql_exception: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = "AAA"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = "AAA"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = "AAA"')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = "AAA"', [], false)
+ 5 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-08 17:18:56 --> mysqli_sql_exception: Unknown column 'AAA' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-08 17:18:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = "AAA"', [], false)
+ 2 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:18:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = "AAA"')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = "AAA"')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = "AAA"', [], false)
+ 4 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:18:56 --> [Caused by] mysqli_sql_exception: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = "AAA"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = "AAA"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = "AAA"')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = "AAA"', [], false)
+ 5 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-08 17:19:10 --> mysqli_sql_exception: Unknown column 'AAA' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-08 17:19:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = AAA', [], false)
+ 2 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:19:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = AAA')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = AAA')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = AAA', [], false)
+ 4 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:19:10 --> [Caused by] mysqli_sql_exception: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = AAA', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = AAA')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = AAA')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA OR `p`.`rg` = AAA', [], false)
+ 5 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-08 17:19:42 --> mysqli_sql_exception: Unknown column 'AAA' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-08 17:19:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA', [], false)
+ 2 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:19:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA', [], false)
+ 4 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:19:42 --> [Caused by] mysqli_sql_exception: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = "AAA" OR `p`.`cpf` = AAA', [], false)
+ 5 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-08 17:21:42 --> mysqli_sql_exception: Unknown column 'AAA' in 'where clause' in D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\GEsports-back\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xamp\htdocs\GEsports-back\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xamp\htdocs\GEsports-back\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xamp\htdocs\GEsports-back\app\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+#6 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+#7 D:\xamp\htdocs\GEsports-back\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\GEsports-back\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-08 17:21:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA', [], false)
+ 2 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:21:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA', [], false)
+ 4 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-08 17:21:42 --> [Caused by] mysqli_sql_exception: Unknown column 'AAA' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `athlete` `a`
+JOIN `person` `p` ON `a`.`person_id` = `p`.`id`
+WHERE `p`.`name` = AAA', [], false)
+ 5 APPPATH\Controllers\AthleteController.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AthleteController->getAthleteSeach('AAA')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AthleteController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
