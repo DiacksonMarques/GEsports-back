@@ -134,3 +134,8 @@ $routes->get('raffleAthleteAll', 'RaffleController::getAllRaffle');
 $routes->get('raffleAthleteAllCount', 'RaffleController::getAllRaffleNumber');
 $routes->post('raffleAthlete', 'RaffleController::createRaffleAthlete');
 $routes->post('addNumberRaflle', 'RaffleController::addNumberRaflle');
+
+//Selective
+$routes->post('createCandidate', 'SelectiveController::createCandidate');
+$routes->post('putPixName', 'SelectiveController::putPixName');
+$routes->get('candidate/(:segment)', 'SelectiveController::getCandidate/$1');

@@ -1,0 +1,49 @@
+CRITICAL - 2024-09-26 18:51:26 --> Error: Attempt to modify property "candidates" on array
+in APPPATH\Controllers\SelectiveController.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->createCandidate()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-26 18:51:56 --> Error: Call to undefined function App\Controllers\saveSelective()
+in APPPATH\Controllers\SelectiveController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->createCandidate()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-26 18:52:24 --> Error: Call to undefined function App\Controllers\saveSelective()
+in APPPATH\Controllers\SelectiveController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->createCandidate()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-26 18:52:25 --> Error: Call to undefined function App\Controllers\saveSelective()
+in APPPATH\Controllers\SelectiveController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->createCandidate()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-26 18:54:01 --> Error: Call to undefined function App\Controllers\saveSelective()
+in APPPATH\Controllers\SelectiveController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->createCandidate()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-26 18:54:20 --> Error: Call to undefined function App\Controllers\saveSelective()
+in APPPATH\Controllers\SelectiveController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->createCandidate()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-26 19:15:29 --> ErrorException: Attempt to read property "enrollment" on array
+in APPPATH\Controllers\SelectiveController.php on line 47.
+ 1 APPPATH\Controllers\SelectiveController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "enrollment" on array', 'D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SelectiveController.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidate()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-26 22:06:20 --> Error: Attempt to assign property "value" on array
+in APPPATH\Controllers\SelectiveController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidate('202401')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
