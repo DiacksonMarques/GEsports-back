@@ -137,5 +137,13 @@ $routes->post('addNumberRaflle', 'RaffleController::addNumberRaflle');
 
 //Selective
 $routes->post('createCandidate', 'SelectiveController::createCandidate');
-$routes->post('putPixName', 'SelectiveController::putPixName');
+$routes->put('editCandidate', 'SelectiveController::editCandidate');
+$routes->put('putPixName', 'SelectiveController::putPixName');
+$routes->put('putDeferCanditate', 'SelectiveController::putDeferCanditate');
+$routes->put('putConfirmPresence', 'SelectiveController::putConfirmPresenceCanditate');
+$routes->put('putResultCanditate', 'SelectiveController::putResultCanditate');
 $routes->get('candidate/(:segment)', 'SelectiveController::getCandidate/$1');
+$routes->get('candidates', 'SelectiveController::getAllCandidate');
+$routes->get('candidatesNotDefer', 'SelectiveController::getCandidateNotDefer');
+$routes->get('candidateDefer', 'SelectiveController::getCandidateDefer');
+$routes->get('candidateForEvaluation/(:segment)/(:segment)', 'SelectiveController::getCandidateForEvaluation/$1/$2');

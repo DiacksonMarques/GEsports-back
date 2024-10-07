@@ -2,6 +2,7 @@
 
 use CodeIgniter\RESTful\ResourceController;
 use CodeIgniter\API\ResponseTrait;
+use \DateTime; 
 use Exception;
 
 class SelectiveController extends ResourceController{
@@ -48,6 +49,24 @@ class SelectiveController extends ResourceController{
         }
     }
 
+    public function editCandidate() {
+      try {
+        $data = $this->request->getJSON();
+
+        $candidates  = $this->returnDb();
+
+        $candidateIndex = array_search($data->enrollment, array_column($candidates, 'enrollment'));
+
+        $candidates[$candidateIndex] = $data;
+
+        $this->saveSelective($candidates);
+          
+        return $this->respond($candidates[$candidateIndex]);
+      } catch (Exception $e) {
+        return $this->fail($e->getMessage());
+      }
+  }
+
     public function putPixName(){
       try{
         $data = $this->request->getJSON();
@@ -67,10 +86,77 @@ class SelectiveController extends ResourceController{
       }
     }
 
+    public function putDeferCanditate(){
+      try{
+        $data = $this->request->getJSON();
+
+        $candidates  = $this->returnDb();
+
+        $candidateIndex = array_search($data->enrollment, array_column($candidates, 'enrollment'));
+
+        $candidates[$candidateIndex]->approvedPix = true;
+
+        $this->saveSelective($candidates);
+          
+        return $this->respond($candidates[$candidateIndex]);
+
+      } catch (Exception $e) {
+        return $this->fail($e->getMessage());
+      }
+    }
+
+    public function putConfirmPresenceCanditate(){
+      try{
+        $data = $this->request->getJSON();
+
+        $candidates  = $this->returnDb();
+
+        $candidateIndex = array_search($data->enrollment, array_column($candidates, 'enrollment'));
+
+        $candidates[$candidateIndex]->approvedRegistration = true;
+
+        $this->saveSelective($candidates);
+          
+        return $this->respond($candidates[$candidateIndex]);
+
+      } catch (Exception $e) {
+        return $this->fail($e->getMessage());
+      }
+    }
+
+    public function putResultCanditate(){
+      try{
+        $data = $this->request->getJSON();
+
+        $candidates  = $this->returnDb();
+
+        $candidateIndex = array_search($data->enrollment, array_column($candidates, 'enrollment'));
+
+        if($candidates[$candidateIndex]->result == null){
+          $candidates[$candidateIndex]->result = [];
+        }
+
+        $candidates[$candidateIndex]->result[] =  $data->result;
+
+        $this->saveSelective($candidates);
+          
+        return $this->respond($candidates[$candidateIndex]);
+
+      } catch (Exception $e) {
+        return $this->fail($e->getMessage());
+      }
+    }
+
     public function getCandidate($data=null){
       $candidates  = $this->returnDb();
       
       $candidateIndex = array_search($data, array_column($candidates, 'enrollment'));
+
+      if($candidateIndex == false){
+        $candidateIndex = array_search($data, array_column($candidates, 'cpf'));
+      }
+      
+      
 
       $response = [
         "status" => 200,
@@ -83,6 +169,76 @@ class SelectiveController extends ResourceController{
       }
       
       $response['value'] = $candidates[$candidateIndex];
+
+      return $this->respond($response);
+    }
+
+    public function getAllCandidate(){
+      $candidates  = $this->returnDb();
+
+      array_shift($candidates);
+
+      return $this->respond($candidates);
+    }
+
+    public function getCandidateNotDefer(){
+      $candidates  = $this->returnDb();
+      $response = [];
+
+      array_shift($candidates);
+
+      foreach($candidates as &$candidate){
+        if($candidate->namePix != "" && $candidate->approvedPix == false){
+          $response[] = $candidate;
+        }
+    }
+
+      return $this->respond($response);
+    }
+
+    public function getCandidateDefer(){
+      $candidates  = $this->returnDb();
+      $response = [];
+
+      array_shift($candidates);
+
+      foreach($candidates as &$candidate){
+        if($candidate->namePix != "" && $candidate->approvedPix == true && $candidate->approvedRegistration == false){
+          $response[] = $candidate;
+        }
+    }
+
+      return $this->respond($response);
+    }
+
+    public function getCandidateForEvaluation($hour=null, $gender=null){
+      $candidates  = $this->returnDb();
+      $response = [];
+
+      array_shift($candidates);
+
+      foreach($candidates as &$candidate){
+        if($candidate->approvedRegistration == true){
+          $yearToday = date('Y');
+          $birthYear = new DateTime($candidate->birthDate);
+
+          $age = $yearToday - $birthYear->format('Y');
+          $hourSelective = '0';
+
+          if($age > 18){
+            $hourSelective = '20';
+          } else if($age > 15 && $age <= 18 ){
+            $hourSelective ='19';
+          } else if($age <= 15 ){
+            $hourSelective = '18';
+          } 
+
+
+          if($hourSelective == $hour && $candidate->gender == $gender){
+            $response[] = $candidate;
+          } 
+        }
+    }
 
       return $this->respond($response);
     }

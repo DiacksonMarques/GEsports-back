@@ -1,0 +1,259 @@
+CRITICAL - 2024-10-07 11:46:39 --> Error: Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\SelectiveController.php on line 191.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 11:48:39 --> Error: Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\SelectiveController.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 11:48:52 --> Error: Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\SelectiveController.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 11:52:22 --> ErrorException: Undefined variable $birthYea
+in APPPATH\Controllers\SelectiveController.php on line 218.
+ 1 APPPATH\Controllers\SelectiveController.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $birthYea', 'D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SelectiveController.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 11:52:58 --> TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given
+in APPPATH\Controllers\SelectiveController.php on line 217.
+ 1 APPPATH\Controllers\SelectiveController.php(217): date('Y', '1997-12-12')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 11:52:59 --> TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given
+in APPPATH\Controllers\SelectiveController.php on line 217.
+ 1 APPPATH\Controllers\SelectiveController.php(217): date('Y', '1997-12-12')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 11:53:24 --> Error: Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\SelectiveController.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 11:53:26 --> Error: Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\SelectiveController.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 11:54:30 --> Error: Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\SelectiveController.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 11:54:31 --> Error: Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\SelectiveController.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 11:54:54 --> Error: Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\SelectiveController.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 11:55:36 --> Error: Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\SelectiveController.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 11:55:37 --> Error: Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\SelectiveController.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:00:47 --> TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given
+in APPPATH\Controllers\SelectiveController.php on line 217.
+ 1 APPPATH\Controllers\SelectiveController.php(217): date('Y', '1997-12-12')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:00:49 --> TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given
+in APPPATH\Controllers\SelectiveController.php on line 217.
+ 1 APPPATH\Controllers\SelectiveController.php(217): date('Y', '1997-12-12')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:00:55 --> TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given
+in APPPATH\Controllers\SelectiveController.php on line 217.
+ 1 APPPATH\Controllers\SelectiveController.php(217): date('Y', '1997-12-12')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:02:11 --> Error: Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\SelectiveController.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:02:12 --> Error: Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\SelectiveController.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:02:21 --> ErrorException: Undefined variable $birthYear
+in APPPATH\Controllers\SelectiveController.php on line 218.
+ 1 APPPATH\Controllers\SelectiveController.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $birthYear', 'D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SelectiveController.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:02:34 --> Error: Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\SelectiveController.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:03:57 --> Error: Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\SelectiveController.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:05:08 --> Error: Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\SelectiveController.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:06:57 --> Error: Object of type DateTime is not callable
+in APPPATH\Controllers\SelectiveController.php on line 221.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:07:10 --> TypeError: DateTime::__construct(): Argument #2 ($timezone) must be of type ?DateTimeZone, string given
+in APPPATH\Controllers\SelectiveController.php on line 220.
+ 1 APPPATH\Controllers\SelectiveController.php(220): DateTime->__construct('Y', '2019-03-15')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:07:11 --> TypeError: DateTime::__construct(): Argument #2 ($timezone) must be of type ?DateTimeZone, string given
+in APPPATH\Controllers\SelectiveController.php on line 220.
+ 1 APPPATH\Controllers\SelectiveController.php(220): DateTime->__construct('Y', '2019-03-15')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:07:31 --> TypeError: DateTime::__construct(): Argument #2 ($timezone) must be of type ?DateTimeZone, string given
+in APPPATH\Controllers\SelectiveController.php on line 220.
+ 1 APPPATH\Controllers\SelectiveController.php(220): DateTime->__construct('2024', '2019-03-15')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:21:56 --> TypeError: Unsupported operand types: string - DateTime
+in APPPATH\Controllers\SelectiveController.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:22:09 --> TypeError: Unsupported operand types: string - DateTime
+in APPPATH\Controllers\SelectiveController.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:22:31 --> TypeError: Unsupported operand types: string - DateTime
+in APPPATH\Controllers\SelectiveController.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:22:48 --> TypeError: Unsupported operand types: string - DateTime
+in APPPATH\Controllers\SelectiveController.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:22:51 --> TypeError: Unsupported operand types: string - DateTime
+in APPPATH\Controllers\SelectiveController.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('18', 'FEMININO')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:24:54 --> ErrorException: Undefined property: stdClass::$genger
+in APPPATH\Controllers\SelectiveController.php on line 207.
+ 1 APPPATH\Controllers\SelectiveController.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$genger', 'D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SelectiveController.php', 207)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('20', 'FEMININO')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:25:01 --> ErrorException: Undefined property: stdClass::$genger
+in APPPATH\Controllers\SelectiveController.php on line 207.
+ 1 APPPATH\Controllers\SelectiveController.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$genger', 'D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SelectiveController.php', 207)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('20', 'FEMININO')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:25:13 --> ErrorException: Undefined property: stdClass::$genger
+in APPPATH\Controllers\SelectiveController.php on line 207.
+ 1 APPPATH\Controllers\SelectiveController.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$genger', 'D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SelectiveController.php', 207)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('20', 'FEMININO')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:25:34 --> ErrorException: Undefined property: stdClass::$genger
+in APPPATH\Controllers\SelectiveController.php on line 207.
+ 1 APPPATH\Controllers\SelectiveController.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$genger', 'D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SelectiveController.php', 207)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('20', 'FEMININO')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:25:51 --> ErrorException: Undefined property: stdClass::$genger
+in APPPATH\Controllers\SelectiveController.php on line 207.
+ 1 APPPATH\Controllers\SelectiveController.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$genger', 'D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SelectiveController.php', 207)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('20', 'FEMININO')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:26:00 --> ErrorException: Undefined property: stdClass::$genger
+in APPPATH\Controllers\SelectiveController.php on line 208.
+ 1 APPPATH\Controllers\SelectiveController.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$genger', 'D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SelectiveController.php', 208)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('20', 'FEMININO')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 12:26:09 --> ErrorException: Undefined property: stdClass::$genger
+in APPPATH\Controllers\SelectiveController.php on line 208.
+ 1 APPPATH\Controllers\SelectiveController.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$genger', 'D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SelectiveController.php', 208)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidateForEvaluation('20', 'FEMININO')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 16:54:43 --> TypeError: array_search(): Argument #3 ($strict) must be of type bool, array given
+in APPPATH\Controllers\SelectiveController.php on line 153.
+ 1 APPPATH\Controllers\SelectiveController.php(153): array_search('32423423534', [...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidate('32423423534')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 17:02:32 --> TypeError: array_search(): Argument #3 ($strict) must be of type bool, array given
+in APPPATH\Controllers\SelectiveController.php on line 153.
+ 1 APPPATH\Controllers\SelectiveController.php(153): array_search('32423423534', [...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidate('32423423534')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
