@@ -136,8 +136,15 @@ class SelectiveController extends ResourceController{
           $candidates[$candidateIndex]->result = [];
         }
 
-        $candidates[$candidateIndex]->result[] =  $data->result;
+        $candidateResultIndex = array_search($data->result->appraiser, array_column($candidates[$candidateIndex]->result, 'appraiser'));
+        
+        if($candidateResultIndex != false || $candidateResultIndex == 0){
+          $candidates[$candidateIndex]->result[$candidateResultIndex] = $data->result;
+        } else {
+          $candidates[$candidateIndex]->result[] =  $data->result;
+        }
 
+        
         $this->saveSelective($candidates);
           
         return $this->respond($candidates[$candidateIndex]);

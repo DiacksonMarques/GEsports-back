@@ -257,3 +257,9 @@ in APPPATH\Controllers\SelectiveController.php on line 153.
  3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
  4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-07 21:54:24 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\SelectiveController.php on line 138.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->putResultCanditate()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

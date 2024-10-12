@@ -11,7 +11,7 @@
     "namePix": "",
     "cpf": "10000000000",
     "id": 0,
-    "enrollment": "202400"
+    "enrollment": "1"
   },
   {
     "id": 1,
@@ -71,7 +71,18 @@
     "approvedRegistration": true,
     "approvedSelective": false,
     "levelSelect": null,
-    "result": null
+    "result": [
+      {
+        "headline": 3,
+        "touch": 3,
+        "service": 3,
+        "frontDesk": 3,
+        "defense": 3,
+        "attack": 3,
+        "lock": 4,
+        "appraiser": "Diackson"
+      }
+    ]
   },
   {
     "id": 4,
@@ -244,13 +255,13 @@
     "levelSelect": null,
     "result": [
       {
-        "headline": 4,
-        "touch": 2,
-        "service": 5,
-        "frontDesk": 4,
-        "defense": 3,
-        "attack": 3,
-        "lock": 4,
+        "headline": 1,
+        "touch": 3,
+        "service": 1,
+        "frontDesk": 1,
+        "defense": 1,
+        "attack": 1,
+        "lock": 1,
         "appraiser": "Diackson"
       }
     ]
@@ -275,13 +286,13 @@
     "levelSelect": null,
     "result": [
       {
-        "headline": 2,
-        "touch": 2,
-        "service": 2,
-        "frontDesk": 3,
-        "defense": 3,
-        "attack": 3,
-        "lock": 3,
+        "headline": 1,
+        "touch": 1,
+        "service": 1,
+        "frontDesk": 1,
+        "defense": 1,
+        "attack": 1,
+        "lock": 1,
         "appraiser": "Diackson"
       }
     ]
