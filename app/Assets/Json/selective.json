@@ -73,16 +73,27 @@
     "levelSelect": null,
     "result": [
       {
-        "headline": 3,
+        "headline": null,
+        "touch": null,
+        "service": null,
+        "frontDesk": null,
+        "defense": null,
+        "attack": null,
+        "lock": null,
+        "appraiser": "D"
+      },
+      {
+        "headline": 4,
         "touch": 3,
-        "service": 3,
+        "service": 4,
         "frontDesk": 3,
-        "defense": 3,
+        "defense": 4,
         "attack": 3,
-        "lock": 4,
-        "appraiser": "Diackson"
+        "lock": 3,
+        "appraiser": "DDD"
       }
-    ]
+    ],
+    "level": 0
   },
   {
     "id": 4,
@@ -184,16 +195,17 @@
     "levelSelect": null,
     "result": [
       {
-        "headline": 1,
-        "touch": 1,
-        "service": 1,
-        "frontDesk": 1,
-        "defense": 1,
-        "attack": 1,
-        "lock": 1,
-        "appraiser": "Diackson"
+        "headline": null,
+        "touch": null,
+        "service": null,
+        "frontDesk": null,
+        "defense": null,
+        "attack": null,
+        "lock": null,
+        "appraiser": "D"
       }
-    ]
+    ],
+    "level": 1
   },
   {
     "id": 9,
@@ -252,38 +264,6 @@
     "approvedPix": true,
     "approvedRegistration": true,
     "approvedSelective": false,
-    "levelSelect": null,
-    "result": [
-      {
-        "headline": 1,
-        "touch": 3,
-        "service": 1,
-        "frontDesk": 1,
-        "defense": 1,
-        "attack": 1,
-        "lock": 1,
-        "appraiser": "Diackson"
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "name": "Francisco ackson",
-    "birthDate": "2003-04-23",
-    "height": "324",
-    "weight": "234",
-    "gender": "MASCULINO",
-    "ddPhone": "43",
-    "numberPhone": "345345345",
-    "educationLevel": 0,
-    "school_id": null,
-    "cpf": "32423423534",
-    "enrollment": "2024012",
-    "namePix": "Francisco ackson",
-    "approvedPix": true,
-    "approvedRegistration": true,
-    "approvedSelective": false,
-    "levelSelect": null,
     "result": [
       {
         "headline": 1,
@@ -293,8 +273,19 @@
         "defense": 1,
         "attack": 1,
         "lock": 1,
-        "appraiser": "Diackson"
+        "appraiser": "DDDD"
+      },
+      {
+        "headline": 5,
+        "touch": 5,
+        "service": 5,
+        "frontDesk": 5,
+        "defense": 5,
+        "attack": 5,
+        "lock": 5,
+        "appraiser": "D"
       }
-    ]
+    ],
+    "levelSelect": 3
   }
 ]

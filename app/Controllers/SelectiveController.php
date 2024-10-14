@@ -132,15 +132,17 @@ class SelectiveController extends ResourceController{
 
         $candidateIndex = array_search($data->enrollment, array_column($candidates, 'enrollment'));
 
+        $candidates[$candidateIndex]->levelSelect = $data->level;
+
         if($candidates[$candidateIndex]->result == null){
           $candidates[$candidateIndex]->result = [];
         }
 
         $candidateResultIndex = array_search($data->result->appraiser, array_column($candidates[$candidateIndex]->result, 'appraiser'));
         
-        if($candidateResultIndex != false || $candidateResultIndex == 0){
+        if(gettype($candidateResultIndex) == "integer"){
           $candidates[$candidateIndex]->result[$candidateResultIndex] = $data->result;
-        } else {
+        }else if(gettype($candidateResultIndex) == "boolean") {
           $candidates[$candidateIndex]->result[] =  $data->result;
         }
 
