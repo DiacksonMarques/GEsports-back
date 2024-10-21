@@ -272,7 +272,7 @@
         "frontDesk": 1,
         "defense": 1,
         "attack": 1,
-        "lock": 1,
+        "lock": null,
         "appraiser": "DDDD"
       },
       {
@@ -282,7 +282,7 @@
         "frontDesk": 5,
         "defense": 5,
         "attack": 5,
-        "lock": 5,
+        "lock": null,
         "appraiser": "D"
       }
     ],

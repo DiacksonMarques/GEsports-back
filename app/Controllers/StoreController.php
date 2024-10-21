@@ -60,7 +60,7 @@ class StoreController extends ResourceController{
 
     public function dowloadRegulation() {
         try{
-            $file  = ROOTPATH.'/app/Assets/Document/REGULAMENT_ I_COPA_ACE_2024.pdf';
+            $file  = ROOTPATH.'/app/Assets/Document/REGULAMENT_ I_FESTIVAL_CARIRI_2024.pdf';
             return $this->response->download($file , null );
         } catch (Exception $e) {
             return $this->fail($e->getMessage());
