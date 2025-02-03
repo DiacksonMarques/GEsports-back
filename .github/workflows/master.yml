@@ -21,5 +21,4 @@ jobs:
         server: ${{ secrets.SERVER }}
         username: ${{ secrets.PROD_USER }}
         password: ${{ secrets.PROD_PASSWORD }}
-        server-dir: ./apia.gesport.com.br
-        dangerous-clean-slate: true
+        server-dir: ./apia.gesport.com.br/
