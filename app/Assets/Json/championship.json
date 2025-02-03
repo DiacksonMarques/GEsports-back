@@ -1,14 +1,14 @@
 {
   "teams": [
     {
-      "name": "Nenhum",
-      "acronym": "---",
-      "responsible": { "name": "Alexsandro", "phone": "(88) 9 9732-3010" },
+      "name": "TESTE",
+      "acronym": "TES",
+      "responsible": { "name": "TESTE", "phone": "(00) 0 0000-0000" },
       "city": { "name": "Juazeiro do norte", "uf": "CE" },
-      "category": "@fenixvoleibolclube",
+      "category": "TESTE",
       "naipe": "AMB",
       "id": 100,
-      "enrollment": "02050"
+      "enrollment": "0000"
     },
     {
       "name": "Atl\u00e9tico Barbalhense de voleibol ",
@@ -55,22 +55,180 @@
       },
       "city": { "name": "Juazeiro do Norte", "uf": "Ce" },
       "category": "Sub-18",
-      "naipe": "FEM",
+      "naipe": "AMB",
       "id": 4,
       "enrollment": "42050"
     },
     {
-      "name": "Figueiredo Correia",
-      "acronym": "FCV",
-      "responsible": {
-        "name": "An\u00e1gela Ranielly",
-        "phone": "(88) 9 8861-6614"
-      },
-      "city": { "name": "Juazeiro do Norte", "uf": "Ce" },
-      "category": "Sub-18",
-      "naipe": "MAS",
+      "name": "Ju\u00e1 Fu ",
+      "acronym": "JUF",
+      "responsible": { "name": "Tais Soares", "phone": "(88) 9 9918-8590" },
+      "city": { "name": "Juazeiro do Norte ", "uf": "Ce" },
+      "category": "Aberto",
+      "naipe": "FEM",
       "id": 6,
       "enrollment": "62050"
+    },
+    {
+      "name": "Atletas Mautienses de Volleyball ",
+      "acronym": "AMV",
+      "responsible": { "name": "Leon ", "phone": "(88) 8 8981-5244" },
+      "city": { "name": "Mauriti ", "uf": "Ce" },
+      "category": "Aberto",
+      "naipe": "MAS",
+      "id": 7,
+      "enrollment": "72050"
+    },
+    {
+      "name": "Carcar\u00e1",
+      "acronym": "AAC",
+      "responsible": { "name": "Wendel", "phone": "(88) 9 9963-1333" },
+      "city": { "name": "Juazeiro do norte ", "uf": "Ce" },
+      "category": "Aberto",
+      "naipe": "FEM",
+      "id": 9,
+      "enrollment": "92050"
+    },
+    {
+      "name": "Figueiredo",
+      "acronym": "FIG",
+      "responsible": {
+        "name": "Jos\u00e9 Agustinho de Ara\u00fajo filho",
+        "phone": "(88) 9 8802-8607"
+      },
+      "city": { "name": "Juazeiro do Norte ", "uf": "CE" },
+      "category": "Sub-18",
+      "naipe": "MAS",
+      "id": 10,
+      "enrollment": "102050"
+    },
+    {
+      "name": "Aurora v\u00f4lei ",
+      "acronym": "ARV",
+      "responsible": {
+        "name": "L\u00e1zaro da Silva Magalh\u00e3es ",
+        "phone": "(73) 9 8202-2886"
+      },
+      "city": { "name": "Aurora, Ce", "uf": "Ce" },
+      "category": "Sub-18",
+      "naipe": "AMB",
+      "id": 11,
+      "enrollment": "112050"
+    },
+    {
+      "name": "Atl\u00e9tico Kariri",
+      "acronym": "A.K",
+      "responsible": {
+        "name": "Paulo Henrick de Sousa",
+        "phone": "(88) 9 9695-7535"
+      },
+      "city": { "name": "Juazeiro do Norte ", "uf": "CE" },
+      "category": "Aberto",
+      "naipe": "AMB",
+      "id": 12,
+      "enrollment": "122050"
+    },
+    {
+      "name": "Carcará",
+      "acronym": "AAC",
+      "responsible": { "name": "Gabriel ", "phone": "(88) 9 9963-1333" },
+      "city": { "name": "Juazeiro do Norte", "uf": "CE" },
+      "category": "Aberto",
+      "naipe": "MAS",
+      "id": 15,
+      "enrollment": "152050"
+    },
+    {
+      "name": "V\u00f4lei V\u00e1rzea ",
+      "acronym": "VVA",
+      "responsible": { "name": "Felipe Renan ", "phone": "(88) 9 9347-4341" },
+      "city": { "name": "V\u00e1rzea Alegre ", "uf": "Ce" },
+      "category": "Sub-18",
+      "naipe": "MAS",
+      "id": 16,
+      "enrollment": "162050"
+    },
+    {
+      "name": "Po\u00e7o de Jac\u00f3 jr",
+      "acronym": "PO\u00c7",
+      "responsible": {
+        "name": "Jos\u00e9 Cicero Bernardino dos Santos ",
+        "phone": "(88) 9 9855-2992"
+      },
+      "city": { "name": "Juazeiro do Norte ce", "uf": "Ju" },
+      "category": "Sub-18",
+      "naipe": "MAS",
+      "id": 18,
+      "enrollment": "182050"
+    },
+    {
+      "name": "Aurora v\u00f4lei",
+      "acronym": "ARV",
+      "responsible": { "name": "Fabr\u00edcio", "phone": "(88) 9 9948-9194" },
+      "city": { "name": "Aurora", "uf": "Ce" },
+      "category": "Aberto",
+      "naipe": "MAS",
+      "id": 19,
+      "enrollment": "192050"
+    },
+    {
+      "name": "V\u00e1rzea 17",
+      "acronym": "VA1",
+      "responsible": { "name": "Simery", "phone": "(55) 8 8996-1773" },
+      "city": { "name": "V\u00e1rzea Alegre ", "uf": "Ce" },
+      "category": "Sub-18",
+      "naipe": "FEM",
+      "id": 20,
+      "enrollment": "202050"
+    },
+    {
+      "name": "CZV\u00d4LEI",
+      "acronym": "CVC",
+      "responsible": {
+        "name": "Jordon Felix Alves",
+        "phone": "(83) 9 9183-6060"
+      },
+      "city": { "name": "Cajazeiras", "uf": "Pb" },
+      "category": "Sub-18",
+      "naipe": "MAS",
+      "id": 22,
+      "enrollment": "222050"
+    },
+    {
+      "name": "CZV\u00d4LEI",
+      "acronym": "CVC",
+      "responsible": {
+        "name": "Jordon Felix Alves",
+        "phone": "(83) 9 9183-6060"
+      },
+      "city": { "name": "Cajazeiras", "uf": "Pb" },
+      "category": "Aberto",
+      "naipe": "AMB",
+      "id": 23,
+      "enrollment": "232050"
+    },
+    {
+      "name": "CPM",
+      "acronym": "CPM",
+      "responsible": {
+        "name": "Samuel Macedo Silva",
+        "phone": "(88) 9 8829-7437"
+      },
+      "city": { "name": "Juazeiro do Norte", "uf": "CE" },
+      "category": "Sub-18",
+      "naipe": "AMB",
+      "id": 25,
+      "enrollment": "252050"
+    },
+    {
+      "name": "Aurora V\u00f4lei ",
+      "acronym": "AVC",
+      "responsible": { "name": "Luan ", "phone": "(88) 9 9616-1639" },
+      "city": { "name": "Aurora", "uf": "Ce" },
+      "category": "Sub-18",
+      "naipe": "MAS",
+      "id": 26,
+      "enrollment": "262050"
     }
   ],
   "group": [
