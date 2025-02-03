@@ -1,0 +1,25 @@
+name: Deploy gesporte back
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  web-deploy:
+
+    name: Deploy Codegniter 4
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Get latest code
+      uses: actions/checkout@v2.3.2
+
+    - name: Sync Files
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      with:
+        server: ${{ secrets.SERVER }}
+        username: ${{ secrets.PROD_USER }}
+        password: ${{ secrets.PROD_PASSWORD }}
+        server-dir: ./apia.gesport.com.br
+        dangerous-clean-slate: true
