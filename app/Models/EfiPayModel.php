@@ -23,7 +23,7 @@ class EfiPayModel {
 
         $body = [
             "calendario" => [
-                "dataDeVencimento" => $dueDate,
+                "dataDeVencimento" => "2025-02-11",
                 "validadeAposVencimento"=> 0
             ],
             "devedor" => [
