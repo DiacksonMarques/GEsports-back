@@ -22,3 +22,8 @@ jobs:
         username: ${{ secrets.PROD_USER }}
         password: ${{ secrets.PROD_PASSWORD }}
         server-dir: ./apia.gesport.com.br/
+
+    - name: Install dependencies
+      uses: "php-actions/composer@v6"
+      with:
+        command: composer install
