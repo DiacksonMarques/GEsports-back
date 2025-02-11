@@ -147,3 +147,5 @@ $routes->get('candidates', 'SelectiveController::getAllCandidate');
 $routes->get('candidatesNotDefer', 'SelectiveController::getCandidateNotDefer');
 $routes->get('candidateDefer', 'SelectiveController::getCandidateDefer');
 $routes->get('candidateForEvaluation/(:segment)/(:segment)', 'SelectiveController::getCandidateForEvaluation/$1/$2');
+
+$routes->get('TESTE', 'EfiPayController::teste');

@@ -1,0 +1,183 @@
+CRITICAL - 2025-02-11 11:21:23 --> Error: Undefined constant "fase"
+in APPPATH\EfiPayConfig\Credentials\options.php on line 6.
+ 1 APPPATH\Models\EfiPayModel.php(14): include()
+ 2 APPPATH\Models\EfiPayModel.php(20): App\Models\EfiPayModel->createEfiApi()
+ 3 APPPATH\Controllers\EfiPayController.php(14): App\Models\EfiPayModel->teste()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EfiPayController->teste()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EfiPayController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 11:21:48 --> Error: Undefined constant "fase"
+in APPPATH\EfiPayConfig\Credentials\options.php on line 6.
+ 1 APPPATH\Models\EfiPayModel.php(14): include()
+ 2 APPPATH\Models\EfiPayModel.php(20): App\Models\EfiPayModel->createEfiApi()
+ 3 APPPATH\Controllers\EfiPayController.php(14): App\Models\EfiPayModel->teste()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EfiPayController->teste()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EfiPayController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 12:29:31 --> Error: Call to undefined method App\Models\EfiPayModel::teste()
+in APPPATH\Controllers\EfiPayController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EfiPayController->teste()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EfiPayController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 12:29:48 --> Error: Call to undefined method App\Models\EfiPayModel::teste()
+in APPPATH\Controllers\EfiPayController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EfiPayController->teste()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EfiPayController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 12:36:40 --> ArgumentCountError: preg_replace() expects at least 3 arguments, 2 given
+in APPPATH\Models\EfiPayModel.php on line 19.
+ 1 APPPATH\Models\EfiPayModel.php(19): preg_replace('/^[a-zA-Z0-9]{26,35}$/', '')
+ 2 APPPATH\Controllers\EfiPayController.php(14): App\Models\EfiPayModel->createPixMaturity()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EfiPayController->teste()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EfiPayController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 17:24:00 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\SelectiveController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->createCandidate()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 17:25:06 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\SelectiveController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->createCandidate()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 17:25:15 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\SelectiveController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->createCandidate()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 17:28:45 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\SelectiveController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->createCandidate()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 17:32:32 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\SelectiveController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->createCandidate()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 17:53:26 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\SelectiveController.php on line 191.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidate('202502')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 17:53:34 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\SelectiveController.php on line 191.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidate('202502')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 17:54:34 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\SelectiveController.php on line 190.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidate('202502')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 18:14:13 --> ErrorException: Attempt to read property "loc" on array
+in APPPATH\Controllers\SelectiveController.php on line 192.
+ 1 APPPATH\Controllers\SelectiveController.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "loc" on array', 'D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SelectiveController.php', 192)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidate('202502')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 18:14:48 --> ErrorException: Attempt to read property "loc" on array
+in APPPATH\Controllers\SelectiveController.php on line 191.
+ 1 APPPATH\Controllers\SelectiveController.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "loc" on array', 'D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SelectiveController.php', 191)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidate('202502')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 18:15:01 --> ErrorException: Attempt to read property "loc" on array
+in APPPATH\Controllers\SelectiveController.php on line 191.
+ 1 APPPATH\Controllers\SelectiveController.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "loc" on array', 'D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SelectiveController.php', 191)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidate('202502')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 18:16:01 --> ErrorException: Attempt to read property "loc" on array
+in APPPATH\Controllers\SelectiveController.php on line 191.
+ 1 APPPATH\Controllers\SelectiveController.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "loc" on array', 'D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SelectiveController.php', 191)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidate('202502')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 18:16:38 --> ErrorException: Attempt to read property "id" on array
+in APPPATH\Controllers\SelectiveController.php on line 191.
+ 1 APPPATH\Controllers\SelectiveController.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SelectiveController.php', 191)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidate('202502')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 18:19:47 --> ErrorException: Undefined property: CodeIgniter\HTTP\Response::$imagemQrcode
+in APPPATH\Controllers\SelectiveController.php on line 194.
+ 1 APPPATH\Controllers\SelectiveController.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\Response::$imagemQrcode', 'D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SelectiveController.php', 194)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidate('202502')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 18:20:03 --> Error: Cannot use object of type CodeIgniter\HTTP\Response as array
+in APPPATH\Controllers\SelectiveController.php on line 194.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidate('202502')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 18:21:53 --> ErrorException: Undefined property: CodeIgniter\HTTP\Response::$imagemQrcode
+in APPPATH\Controllers\SelectiveController.php on line 194.
+ 1 APPPATH\Controllers\SelectiveController.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\Response::$imagemQrcode', 'D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SelectiveController.php', 194)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidate('202502')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 18:22:08 --> Error: Cannot use object of type CodeIgniter\HTTP\Response as array
+in APPPATH\Controllers\SelectiveController.php on line 194.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidate('202502')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 18:24:00 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\SelectiveController.php on line 194.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->getCandidate('202502')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 19:10:25 --> Error: Cannot use object of type Efi\Exception\EfiException as array
+in APPPATH\Controllers\SelectiveController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->createCandidate()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 19:11:31 --> Error: Cannot use object of type Efi\Exception\EfiException as array
+in APPPATH\Controllers\SelectiveController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->createCandidate()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 19:14:01 --> Error: Cannot use object of type Efi\Exception\EfiException as array
+in APPPATH\Controllers\SelectiveController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->createCandidate()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 19:17:34 --> Error: Cannot use object of type Efi\Exception\EfiException as array
+in APPPATH\Controllers\SelectiveController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->createCandidate()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 19:18:11 --> Error: Cannot use object of type Efi\Exception\EfiException as array
+in APPPATH\Controllers\SelectiveController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->createCandidate()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

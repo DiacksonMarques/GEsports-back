@@ -3,6 +3,7 @@
 use CodeIgniter\RESTful\ResourceController;
 use CodeIgniter\API\ResponseTrait;
 use \DateTime; 
+use App\Models\EfiPayModel;
 use Exception;
 
 class SelectiveController extends ResourceController{
@@ -29,13 +30,21 @@ class SelectiveController extends ResourceController{
           if($valueCheck){
             return $this->respond($valueCheck);
           }
+
+          $modelEdi = new EfiPayModel();
+          if($data->gender == "MASCULINO"){
+            $responseEfi = $modelEdi->createPixMaturity("2025-02-24", $data->cpf, $data->name, "0.01");
+          } else if($data->gender == "FEMININO"){
+            $responseEfi = $modelEdi->createPixMaturity("2025-02-25", $data->cpf, $data->name, "0.01");
+          }
+          if($responseEfi['status'] != 201){
+            return $this->fail($responseEfi);
+          }
+
           $newId = count($candidates);
           $data->id = $newId;
-          $data->enrollment = '20240'.$newId;
-          $data->namePix = "";
-          $data->approvedPix = false;
-          $data->approvedRegistration = false;
-          $data->approvedSelective = false;
+          $data->enrollment = '20250'.$newId;
+          $data->txid = $responseEfi['body']['txid'];
           $data->levelSelect = null;
           $data->result = null;
 
@@ -164,20 +173,29 @@ class SelectiveController extends ResourceController{
       if($candidateIndex == false){
         $candidateIndex = array_search($data, array_column($candidates, 'cpf'));
       }
-      
-      
-
+           
       $response = [
         "status" => 200,
         "value" => ["enrollment" => null]
       ];
 
       if($candidateIndex == false){
-        
         return $this->respond($response);
       }
       
       $response['value'] = $candidates[$candidateIndex];
+
+      $modelEdi = new EfiPayModel();
+      $responsePix = $modelEdi->searchPix($response['value']->txid);
+
+      $qrCodPix = $modelEdi->generatePixQrCode($responsePix['body']['loc']['id']);
+      
+      $response['value']->pixQrCode = $qrCodPix['body']['imagemQrcode'];
+      $response['value']->pixCopyPaste = $responsePix['body']['pixCopiaECola'];
+      $response['value']->pixName = $responsePix['body']['recebedor']['nome'];
+      $response['value']->pixValue = $responsePix['body']['valor']['original'];
+      $response['value']->pixMaturity = $responsePix['body']['calendario']['dataDeVencimento'];
+      $response['value']->pixStatus = $responsePix['body']['status'];
 
       return $this->respond($response);
     }
