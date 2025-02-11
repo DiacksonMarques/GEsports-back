@@ -16,7 +16,12 @@ class EfiPayModel {
     }
 
     public function teste() {
-        return $this->createEfiApi();
+        $optionsFile = __DIR__ . "../../EfiPayConfig/Credentials/options.php";
+        if (!file_exists($optionsFile)) {
+            return "Options file not found or on path!";
+        }
+        $options = include $optionsFile;
+        return new EfiPay($options);
     }
 
     public function createPixMaturity($dueDate, $cpf, $name, $value){
