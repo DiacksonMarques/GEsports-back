@@ -9,7 +9,7 @@ class EfiPayModel {
     private function createEfiApi(){
         $optionsFile = __DIR__ . "../../EfiPayConfig/Credentials/options.php";
         if (!file_exists($optionsFile)) {
-            return "Options file not found or on path!";
+            die("Options file not found or on path <code>$options</code>.");
         }
         $options = include $optionsFile;
         return new EfiPay($options);
@@ -17,12 +17,10 @@ class EfiPayModel {
 
     public function teste() {
         $optionsFile = __DIR__ . "../../EfiPayConfig/Credentials/options.php";
-        return file_exists($optionsFile);
-        if (!file_exists($optionsFile)) {
-            return "Options file not found or on path!";
-        }
-        $options = include $optionsFile;
-        return new EfiPay($options);
+        return [
+            "camienh"=> $optionsFile,
+            "exist" => file_exists($optionsFile)
+        ];
     }
 
     public function createPixMaturity($dueDate, $cpf, $name, $value){
