@@ -16,8 +16,7 @@ class EfiPayModel {
     }
 
     public function teste() {
-        $optionsFile = ROOTPATH . "../../EfiPayConfig/Credentials/options.php";
-        return ROOTPATH;
+        return file_exists(ROOTPATH . "/app/EfiPayConfig/Credentials/options.php");
     }
 
     public function createPixMaturity($dueDate, $cpf, $name, $value){
