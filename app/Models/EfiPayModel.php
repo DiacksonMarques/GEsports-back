@@ -17,6 +17,7 @@ class EfiPayModel {
 
     public function teste() {
         $optionsFile = __DIR__ . "../../EfiPayConfig/Credentials/options.php";
+        return file_exists($optionsFile);
         if (!file_exists($optionsFile)) {
             return "Options file not found or on path!";
         }
