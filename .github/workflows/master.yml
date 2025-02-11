@@ -22,8 +22,15 @@ jobs:
         username: ${{ secrets.PROD_USER }}
         password: ${{ secrets.PROD_PASSWORD }}
         server-dir: ./apia.gesport.com.br/
-
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          **/vendor/**
+    
     - name: Install dependencies
-      uses: "php-actions/composer@v6"
-      with:
-        command: composer install
+      uses: php-actions/composer@v6
+    
+    - name: Install Composer
+      run: composer install
+    
