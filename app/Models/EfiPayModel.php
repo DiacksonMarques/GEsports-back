@@ -15,6 +15,11 @@ class EfiPayModel {
         return new EfiPay($options);
     }
 
+    public function teste() {
+        $optionsFile = __DIR__ . "../../EfiPayConfig/Credentials/options.php";
+        return $optionsFile;
+    }
+
     public function createPixMaturity($dueDate, $cpf, $name, $value){
         $bytes = random_bytes(rand(13, 16));
         $params = [

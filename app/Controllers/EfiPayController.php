@@ -11,7 +11,7 @@ class EfiPayController extends ResourceController{
     public function teste() {
         try{
             $model = new EfiPayModel();
-            $data = $model->createPixMaturity();
+            $data = $model->teste();
             
             return $this->respond($data);
         } catch (Exception $e) {
