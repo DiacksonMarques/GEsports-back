@@ -7,7 +7,7 @@ use Exception;
 class EfiPayModel {
 
     private function createEfiApi(){
-        $optionsFile = __DIR__ . "../../EfiPayConfig/Credentials/options.php";
+        $optionsFile = ROOTPATH . "../../EfiPayConfig/Credentials/options.php";
         if (!file_exists($optionsFile)) {
             die("Options file not found or on path <code>$options</code>.");
         }
@@ -16,7 +16,7 @@ class EfiPayModel {
     }
 
     public function teste() {
-        $optionsFile = __DIR__ . "../../EfiPayConfig/Credentials/options.php";
+        $optionsFile = ROOTPATH . "../../EfiPayConfig/Credentials/options.php";
         return [
             "camienh"=> $optionsFile,
             "exist" => file_exists($optionsFile)
