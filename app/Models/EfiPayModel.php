@@ -16,9 +16,7 @@ class EfiPayModel {
     }
 
     public function teste() {
-        $optionsFile = __DIR__ . "../../EfiPayConfig/Credentials/options.php";
-        $options = include $optionsFile;
-        return new EfiPay($options);
+        return $this->createEfiApi();
     }
 
     public function createPixMaturity($dueDate, $cpf, $name, $value){
