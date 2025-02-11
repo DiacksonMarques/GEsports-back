@@ -9,7 +9,7 @@ class EfiPayModel {
     private function createEfiApi(){
         $optionsFile = __DIR__ . "../../EfiPayConfig/Credentials/options.php";
         if (!file_exists($optionsFile)) {
-            die("Options file not found or on path <code>$options</code>.");
+            return "Options file not found or on path!";
         }
         $options = include $optionsFile;
         return new EfiPay($options);
