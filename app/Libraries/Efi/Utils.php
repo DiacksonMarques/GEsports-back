@@ -47,7 +47,7 @@ class Utils
      */
     public static function getComposerData(): array
     {
-        $composerJsonPath = __DIR__ . '/../../composer.json';
+        $composerJsonPath = ROOTPATH . 'composer.json';
         return json_decode(file_get_contents($composerJsonPath), true);
     }
 
