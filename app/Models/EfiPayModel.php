@@ -31,7 +31,7 @@ class EfiPayModel {
                 "nome" => "TESTE"
             ],
             "valor" => [
-                "original" => "0.001"
+                "original" => "0.01"
             ],
             "chave" => "4716dec1-2697-42f6-a3f5-2d2b58b716a8",
             "solicitacaoPagador" => "Cobrança para seletiva ACE.",
