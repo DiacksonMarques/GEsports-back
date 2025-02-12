@@ -33,9 +33,9 @@ class SelectiveController extends ResourceController{
 
           $modelEdi = new EfiPayModel();
           if($data->gender == "MASCULINO"){
-            $responseEfi = $modelEdi->createPixMaturity("2025-02-24", $data->cpf, $data->name, "10.00");
+            $responseEfi = $modelEdi->createPixMaturity("2025-02-24", $data->cpf, $data->name, "0.01");
           } else if($data->gender == "FEMININO"){
-            $responseEfi = $modelEdi->createPixMaturity("2025-02-25", $data->cpf, $data->name, "10.00");
+            $responseEfi = $modelEdi->createPixMaturity("2025-02-25", $data->cpf, $data->name, "0.01");
           }
 
           if($responseEfi['status'] != 201){
