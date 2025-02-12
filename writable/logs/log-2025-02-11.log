@@ -1,8 +1,0 @@
-CRITICAL - 2025-02-11 23:33:30 --> Error: Class "Efi\EfiPay" not found
-in APPPATH\Models\EfiPayModel.php on line 15.
- 1 APPPATH\Models\EfiPayModel.php(47): App\Models\EfiPayModel->createEfiApi()
- 2 APPPATH\Controllers\EfiPayController.php(14): App\Models\EfiPayModel->teste()
- 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EfiPayController->teste()
- 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EfiPayController))
- 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

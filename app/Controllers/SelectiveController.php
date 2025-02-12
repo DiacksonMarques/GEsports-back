@@ -37,6 +37,7 @@ class SelectiveController extends ResourceController{
           } else if($data->gender == "FEMININO"){
             $responseEfi = $modelEdi->createPixMaturity("2025-02-25", $data->cpf, $data->name, "0.01");
           }
+
           if($responseEfi['status'] != 201){
             return $this->fail($responseEfi);
           }
@@ -188,7 +189,15 @@ class SelectiveController extends ResourceController{
       $modelEdi = new EfiPayModel();
       $responsePix = $modelEdi->searchPix($response['value']->txid);
 
+      if($responsePix['status'] != 201){
+        return $this->fail($responsePix);
+      }
+
       $qrCodPix = $modelEdi->generatePixQrCode($responsePix['body']['loc']['id']);
+
+      if($qrCodPix['status'] != 201){
+        return $this->fail($qrCodPix);
+      }
       
       $response['value']->pixQrCode = $qrCodPix['body']['imagemQrcode'];
       $response['value']->pixCopyPaste = $responsePix['body']['pixCopiaECola'];
