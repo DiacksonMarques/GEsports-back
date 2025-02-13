@@ -11,7 +11,7 @@ class EfiPayController extends ResourceController{
     public function teste() {
         try{
             $model = new EfiPayModel();
-            $data = $model->teste();
+            $data = $model->searchPix("b997834a7be22f70a603b874d88f8325");
             
             return $this->respond($data);
         } catch (Exception $e) {
