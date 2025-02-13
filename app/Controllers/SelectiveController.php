@@ -205,19 +205,27 @@ class SelectiveController extends ResourceController{
       array_shift($candidates);
 
       foreach($candidates as &$candidate){
-        $modelEdi = new EfiPayModel();
-        $responsePix = $modelEdi->searchPix($candidate->txid);
-
-        if($responsePix['status'] != 201){
-          return $this->fail($responsePix);
-        }
-
-        if($responsePix['body']['status'] == "CONCLUIDA"){
+        if(property_exists($candidate, 'pixStatus') && $candidate->pixStatus == "CONCLUIDA"){
           $response[] = $candidate;
+        } else if (!property_exists($candidate, 'pixStatus')){
+          $modelEdi = new EfiPayModel();
+          $responsePix = $modelEdi->searchPix($candidate->txid);
+
+          if($responsePix['status'] != 201){
+            return $this->fail($responsePix);
+          }
+
+          $candidate->pixStatus = $responsePix['body']['status'];
+
+          if($responsePix['body']['status'] == "CONCLUIDA"){
+            $response[] = $candidate;
+          }
         }
+
       }
 
-      return $this->respond($candidates);
+      $this->saveSelective($candidates);
+      return $this->respond($response);
     }
 
     public function getCandidateForEvaluation($hour=null, $gender=null){
