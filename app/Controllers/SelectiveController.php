@@ -96,25 +96,6 @@ class SelectiveController extends ResourceController{
       }
     }
 
-    public function putDeferCanditate(){
-      try{
-        $data = $this->request->getJSON();
-
-        $candidates  = $this->returnDb();
-
-        $candidateIndex = array_search($data->enrollment, array_column($candidates, 'enrollment'));
-
-        $candidates[$candidateIndex]->approvedPix = true;
-
-        $this->saveSelective($candidates);
-          
-        return $this->respond($candidates[$candidateIndex]);
-
-      } catch (Exception $e) {
-        return $this->fail($e->getMessage());
-      }
-    }
-
     public function putConfirmPresenceCanditate(){
       try{
         $data = $this->request->getJSON();
@@ -217,34 +198,26 @@ class SelectiveController extends ResourceController{
       return $this->respond($candidates);
     }
 
-    public function getCandidateNotDefer(){
+    public function getCandidatePayment(){
       $candidates  = $this->returnDb();
       $response = [];
 
       array_shift($candidates);
 
       foreach($candidates as &$candidate){
-        if($candidate->namePix != "" && $candidate->approvedPix == false){
+        $modelEdi = new EfiPayModel();
+        $responsePix = $modelEdi->searchPix($candidate->txid);
+
+        if($responsePix['status'] != 201){
+          return $this->fail($responsePix);
+        }
+
+        if($responsePix['body']['status'] == "CONCLUIDA"){
           $response[] = $candidate;
         }
-    }
+      }
 
-      return $this->respond($response);
-    }
-
-    public function getCandidateDefer(){
-      $candidates  = $this->returnDb();
-      $response = [];
-
-      array_shift($candidates);
-
-      foreach($candidates as &$candidate){
-        if($candidate->namePix != "" && $candidate->approvedPix == true && $candidate->approvedRegistration == false){
-          $response[] = $candidate;
-        }
-    }
-
-      return $this->respond($response);
+      return $this->respond($candidates);
     }
 
     public function getCandidateForEvaluation($hour=null, $gender=null){
