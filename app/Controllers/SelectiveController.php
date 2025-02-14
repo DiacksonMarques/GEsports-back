@@ -204,16 +204,27 @@ class SelectiveController extends ResourceController{
 
       array_shift($candidates);
 
-      foreach($candidates as &$candidate){
-        $modelEdi = new EfiPayModel();
-        $responsePix = $modelEdi->searchPix($candidate->txid);
-
-        if($responsePix['status'] != 201){
-          return $this->fail($responsePix);
-        }
-
-        if($responsePix['body']['status'] == "CONCLUIDA"){
-          $response[] = $candidate;
+      foreach($candidates as $key=>$candidate){
+        if(!property_exists($candidate, "approvedRegistration") || 
+          (property_exists($candidate, "approvedRegistration") && !$candidate->approvedRegistration)
+        ){
+          if(property_exists($candidate, "pixStatus") && $candidate->pixStatus == "CONCLUIDA"){
+            $response[] = $candidate;
+            
+          } else if(!property_exists($candidate, "pixStatus") || 
+            (property_exists($candidate, "pixStatus") && $candidate->pixStatus != "CONCLUIDA")
+          ){
+            $modelEdi = new EfiPayModel();
+            $responsePix = $modelEdi->searchPix($candidate->txid);
+  
+            if($responsePix['status'] != 201){
+              return $this->fail($responsePix);
+            }
+            if($responsePix['body']['status'] == "CONCLUIDA"){
+              $response[] = $candidate;
+              $candidates[$key]->pixStatus = $responsePix['body']['status'];
+            }
+          }
         }
       }
       
