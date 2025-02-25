@@ -222,7 +222,6 @@ class SelectiveController extends ResourceController{
             }
             if($responsePix['body']['status'] == "CONCLUIDA"){
               $response[] = $candidate;
-              $candidates[$key]->pixStatus = $responsePix['body']['status'];
             }
           }
         }
@@ -238,27 +237,73 @@ class SelectiveController extends ResourceController{
       array_shift($candidates);
 
       foreach($candidates as &$candidate){
-        if($candidate->approvedRegistration == true){
+        if(property_exists($candidate, "approvedRegistration") && $candidate->approvedRegistration == true){
           $yearToday = date('Y');
           $birthYear = new DateTime($candidate->birthDate);
 
           $age = $yearToday - $birthYear->format('Y');
           $hourSelective = '0';
 
-          if($age > 18){
-            $hourSelective = '20';
-          } else if($age > 15 && $age <= 18 ){
-            $hourSelective ='19';
-          } else if($age <= 15 ){
-            $hourSelective = '18';
-          } 
 
+          if(in_array($birthYear->format('Y'), ["2013","2012","2011","2010"])){
+            $hourSelective = '17';
+          } else if(in_array($birthYear->format('Y'), ["2009","2008","2007","2006"])){
+            $hourSelective = '18';
+          } else if(in_array($birthYear->format('Y'), ["2005", "2004", "2003", "2002"])){
+            $hourSelective = '19';
+          }else if($age >= 18){
+            $hourSelective = '19';
+          } else {
+            $hourSelective = '17';
+          }
 
           if($hourSelective == $hour && $candidate->gender == $gender){
             $response[] = $candidate;
           } 
         }
+      }
+
+      return $this->respond($response);
     }
+
+    public function getCandidateForEvaluationPage($hour=null, $gender=null){
+      $candidates  = $this->returnDb();
+      $response = [];
+      
+      $modelEdi = new EfiPayModel();
+      array_shift($candidates);
+      
+      foreach($candidates as &$candidate){
+        $responsePix = $modelEdi->searchPix($candidate->txid);
+
+        if($responsePix['status'] != 201){
+          return $this->fail($responsePix);
+        }
+ 
+        if($responsePix['body']['status'] == "CONCLUIDA"){
+          $yearToday = date('Y');
+          $birthYear = new DateTime($candidate->birthDate);
+
+          $age = $yearToday - $birthYear->format('Y');
+          $hourSelective = '0';
+
+          if(in_array($birthYear->format('Y'), ["2013","2012","2011","2010"])){
+            $hourSelective = '17';
+          } else if(in_array($birthYear->format('Y'), ["2009", "2008", "2007", "2006"])){
+            $hourSelective = '18';
+          } else if(in_array($birthYear->format('Y'), ["2005", "2004", "2003", "2002"])){
+            $hourSelective = '19';
+          } else if($age >= 18){
+            $hourSelective = '19';
+          } else {
+            $hourSelective = '17';
+          }
+
+          if($hourSelective == $hour && $candidate->gender == $gender){
+            $response[] = $candidate;
+          } 
+        }
+      }
 
       return $this->respond($response);
     }
