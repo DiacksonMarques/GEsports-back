@@ -35,7 +35,7 @@ class SelectiveController extends ResourceController{
           if($data->gender == "MASCULINO"){
             $responseEfi = $modelEdi->createPixMaturity("2025-02-26", $data->cpf, $data->name, "10.00");
           } else if($data->gender == "FEMININO"){
-            $responseEfi = $modelEdi->createPixMaturity("2025-02-25", $data->cpf, $data->name, "10.00");
+            $responseEfi = $modelEdi->createPixMaturity("2025-02-26", $data->cpf, $data->name, "10.00");
           }
 
           if($responseEfi['status'] != 201){
