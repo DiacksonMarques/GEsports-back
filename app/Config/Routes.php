@@ -145,5 +145,6 @@ $routes->get('candidates', 'SelectiveController::getAllCandidate');
 $routes->get('candidatePayment', 'SelectiveController::getCandidatePayment');
 $routes->get('candidateForEvaluation/(:segment)/(:segment)', 'SelectiveController::getCandidateForEvaluation/$1/$2');
 $routes->get('candidateForEvaluationPage/(:segment)/(:segment)', 'SelectiveController::getCandidateForEvaluationPage/$1/$2');
+$routes->get('createPix/(:segment)/(:segment)', 'SelectiveController::createPix/$1/$2');
 
 $routes->get('TESTE', 'EfiPayController::teste');

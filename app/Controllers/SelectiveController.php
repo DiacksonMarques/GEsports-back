@@ -272,7 +272,7 @@ class SelectiveController extends ResourceController{
       
       $modelEdi = new EfiPayModel();
       array_shift($candidates);
-      
+
       foreach($candidates as &$candidate){
         $responsePix = $modelEdi->searchPix($candidate->txid);
 
@@ -306,6 +306,17 @@ class SelectiveController extends ResourceController{
       }
 
       return $this->respond($response);
+    }
+
+    public function createPix($cpf=null, $name=null){
+      $modelEdi = new EfiPayModel();
+      $responsePix = $modelEdi->createPixMaturity("2025-02-26", $cpf, $name, "10.00");
+
+      if($responsePix['status'] != 201){
+        return $this->fail($responsePix);
+      }
+
+      return $this->respond($responsePix);
     }
 
     private function checkCandidate($candidate){
