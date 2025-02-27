@@ -319,13 +319,24 @@ class SelectiveController extends ResourceController{
       return $this->respond($responsePix);
     }
 
+    public function searchPix($txid = null){
+      $modelEdi = new EfiPayModel();
+      $responsePix = $modelEdi->searchPix($txid);
+
+      if($responsePix['status'] != 201){
+        return $this->fail($responsePix);
+      }
+
+      return $this->respond($responsePix);
+    }
+
     private function checkCandidate($candidate){
-        $jsonObj  = $this->returnDb();
+      $jsonObj  = $this->returnDb();
 
-        foreach($jsonObj as &$candidateSave){
-            if($candidate->cpf == $candidateSave->cpf) return $candidateSave;
-        }
+      foreach($jsonObj as &$candidateSave){
+          if($candidate->cpf == $candidateSave->cpf) return $candidateSave;
+      }
 
-        return null;
+      return null;
     }
 }
