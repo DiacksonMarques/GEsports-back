@@ -67,6 +67,54 @@ class EfiPayModel {
         }
     }
 
+    public function createPixMaturityName($dueDate, $name, $value){
+        $bytes = random_bytes(rand(13, 16));
+        $params = [
+            "txid" => bin2hex($bytes)
+        ];
+
+        $body = [
+            "calendario" => [
+                "dataDeVencimento" => $dueDate,
+                "validadeAposVencimento"=> 0
+            ],
+            "devedor" => [
+                "nome" => $name,
+                "cpf" => "12345678909"
+            ],
+            "valor" => [
+                "original" => $value
+            ],
+            "chave" => "4716dec1-2697-42f6-a3f5-2d2b58b716a8",
+            "solicitacaoPagador" => "Cobrança para Açai do ACE.",
+            "infoAdicionais" => [
+                [
+                    "nome" => "Venda do Açai",
+                    "valor" => "Açai do ACE"
+                ]
+	        ]
+        ];
+
+        try {
+            $api = $this->createEfiApi();
+            $response = $api->pixCreateDueCharge($params, $body);
+            return [
+                "status"=>201,
+                "body"=> $response->body
+            ];
+        } catch (EfiException $e) {
+            return [
+                "status"=>$e->status,
+                "error"=> $e->errorDescription
+            ];
+        }catch (Exception $e) {
+            return [
+                "status"=> 500,
+                "error"=> $e->getMessage()
+            ];
+        }
+    }
+
     public function searchPix($txid){
         try {
             $params = [

@@ -148,4 +148,14 @@ $routes->get('candidateForEvaluationPage/(:segment)/(:segment)', 'SelectiveContr
 $routes->get('createPix/(:segment)/(:segment)', 'SelectiveController::createPix/$1/$2');
 $routes->get('searchPix/(:segment)', 'SelectiveController::searchPix/$1');
 
+//Sale
+$routes->post('createSale', 'SaleController::createSale');
+$routes->put('updatePaymentMethod', 'SaleController::updatePaymentMethod');
+$routes->get('checkSaleSeller/(:segment)', 'SaleController::getCheckSaleSeller/$1');
+$routes->get('allSale', 'SaleController::getAllSale');
+$routes->get('allProduct', 'SaleController::getAllProduct');
+$routes->get('seller/(:segment)', 'SaleController::getSeller/$1');
+$routes->get('sale/(:segment)', 'SaleController::getSale/$1');
+$routes->get('searchPixSale/(:segment)', 'SaleController::searchPixSale/$1');
+
 $routes->get('TESTE', 'EfiPayController::teste');

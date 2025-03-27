@@ -1,0 +1,16 @@
+[
+  {
+    "id": 0,
+    "product": [{ "idProduct": 0, "followUp": [{ "id": 0, "amount": 2 }] }],
+    "totalValue": 15,
+    "address": "TESTE",
+    "neighborhood": "Teste",
+    "number": 0,
+    "referencePoint": "TESTE",
+    "phone": "",
+    "buyerName": "",
+    "sellerId": 0,
+    "numberSale": "202500",
+    "paymentMehod": { "paymentMehodId": 1, "paid": false, "linkCard": "ADD" }
+  }
+]

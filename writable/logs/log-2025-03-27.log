@@ -1,0 +1,76 @@
+CRITICAL - 2025-03-27 11:35:35 --> TypeError: array_column(): Argument #1 ($array) must be of type array, stdClass given
+in APPPATH\Controllers\SaleController.php on line 73.
+ 1 APPPATH\Controllers\SaleController.php(73): array_column(Object(stdClass), 'numberSale')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SaleController->updatePaymentMethod()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-27 12:35:44 --> ParseError: syntax error, unexpected double-quoted string "cpf", expecting "]"
+in APPPATH\Models\EfiPayModel.php on line 83.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xamp\\htdocs\\GEsports-back\\app\\Models\\EfiPayModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\EfiPayModel')
+ 3 APPPATH\Controllers\SaleController.php(81): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\EfiPayModel')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SaleController->updatePaymentMethod()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-27 14:51:06 --> Error: Attempt to assign property "pixQrCode" on null
+in APPPATH\Controllers\SaleController.php on line 120.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SaleController->searchPixSale('a1bde84e40f96a63a6c31eafdc')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-27 14:51:52 --> Error: Attempt to assign property "pixQrCode" on array
+in APPPATH\Controllers\SaleController.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SaleController->searchPixSale('a1bde84e40f96a63a6c31eafdc')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-27 14:52:12 --> Error: Attempt to assign property "pixQrCode" on null
+in APPPATH\Controllers\SaleController.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SaleController->searchPixSale('a1bde84e40f96a63a6c31eafdc')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-27 14:52:58 --> Error: Attempt to assign property "pixQrCode" on array
+in APPPATH\Controllers\SaleController.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SaleController->searchPixSale('a1bde84e40f96a63a6c31eafdc')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-27 14:53:00 --> Error: Attempt to assign property "pixQrCode" on array
+in APPPATH\Controllers\SaleController.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SaleController->searchPixSale('a1bde84e40f96a63a6c31eafdc')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-27 14:53:47 --> Error: Attempt to assign property "pixCopyPaste" on array
+in APPPATH\Controllers\SaleController.php on line 126.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SaleController->searchPixSale('a1bde84e40f96a63a6c31eafdc')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-27 18:54:32 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\SaleController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SaleController->updatePaymentMethod()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-27 19:18:26 --> ParseError: syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\SaleController.php on line 101.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SaleController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SaleController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SaleController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\SaleController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-27 19:18:32 --> ParseError: syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\SaleController.php on line 101.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SaleController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SaleController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SaleController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\SaleController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
