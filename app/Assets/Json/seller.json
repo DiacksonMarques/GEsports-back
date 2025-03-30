@@ -1,10 +1,3 @@
 [
-    {
-        "id": 0,
-        "name": "ID"
-    },
-    {
-        "id": 1,
-        "name": "TESTE"
-    }
+  { "id": 0, "name": "ID" }
 ]

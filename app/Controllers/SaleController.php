@@ -30,6 +30,10 @@ class SaleController extends ResourceController{
       file_put_contents(ROOTPATH.'/app/Assets/Json/sale.json', json_encode($jsonObj));
     }
 
+    private function saveSeller($jsonObj = null) {
+        file_put_contents(ROOTPATH.'/app/Assets/Json/seller.json', json_encode($jsonObj));
+    }
+
     public function createSale() {
         try {
             $data = $this->request->getJSON();
@@ -42,6 +46,23 @@ class SaleController extends ResourceController{
 
             $sales[$newId] = $data;
             $this->saveSale($sales);
+
+            return $this->respond($data);
+        } catch (Exception $e) {
+            return $this->fail($e->getMessage());
+          }
+    }
+
+    public function createSeller() {
+        try {
+            $data = $this->request->getJSON();
+            $sellers  = $this->returnSellerDb();
+
+            $newId = count($sellers);
+            $data->id = $newId;
+
+            $sellers[$newId] = $data;
+            $this->saveSeller($sellers);
 
             return $this->respond($data);
         } catch (Exception $e) {
@@ -138,8 +159,30 @@ class SaleController extends ResourceController{
             $sales  = $this->returnSaleDb();
 
             array_shift($sales);
+
+            $response = [
+                'status'   => 200,
+                'value'    => $sales
+            ];
             
-            return $this->respond($sales);
+            return $this->respond($response);
+        } catch (Exception $e) {
+            return $this->fail($e->getMessage());
+          }
+    }
+
+    public function getAllSeller() {
+        try {
+            $sellers  = $this->returnSellerDb();
+
+            array_shift($sellers);
+
+            $response = [
+                'status'   => 200,
+                'value'    => $sellers
+            ];
+            
+            return $this->respond($response);
         } catch (Exception $e) {
             return $this->fail($e->getMessage());
           }
@@ -185,13 +228,17 @@ class SaleController extends ResourceController{
     public function getCheckSaleSeller($id=null) {
         try {
             $sales  = $this->returnSaleDb();
-            $response = [];
 
             array_shift($sales);
 
+            $response = [
+                'status'   => 200,
+                'value'    => null
+            ];
+
             foreach($sales as $key=>$sale){
                 if($sale->sellerId == $id){
-                    $response[] = $sale;
+                    $response['value'][] = $sale;
                 }
             }
 
