@@ -157,6 +157,27 @@ class SaleController extends ResourceController{
     public function getAllSale() {
         try {
             $sales  = $this->returnSaleDb();
+            $updated = false;
+
+            foreach($sales as $key=>$sale){
+                if(property_exists($sale, "paymentMehod") && $sale->paymentMehod->paymentMehodId == 0 && !$sale->paymentMehod->paid){
+                    $modelEdi = new EfiPayModel();
+                    $responsePix = $modelEdi->searchPix($sale->paymentMehod->txid);
+
+                    if($responsePix['status'] != 201){
+                        return $this->fail($responsePix);
+                    }
+
+                    if($responsePix['body']['status'] == "CONCLUIDA"){
+                        $sale->paymentMehod->paid = true;
+                        $updated = true;
+                    }
+                }
+            }
+
+            if($updated){
+                $this->saveSale($sales);
+            }
 
             array_shift($sales);
 
@@ -228,6 +249,7 @@ class SaleController extends ResourceController{
     public function getCheckSaleSeller($id=null) {
         try {
             $sales  = $this->returnSaleDb();
+            $products  = $this->returnProductDb();
 
             array_shift($sales);
 
@@ -238,6 +260,12 @@ class SaleController extends ResourceController{
 
             foreach($sales as $key=>$sale){
                 if($sale->sellerId == $id){
+                    foreach($sale->product as $key=>$product){
+                        $productIndex = array_search($product->idProduct, array_column($products, 'id'));
+        
+                        $product->description = $products[$productIndex]->description;
+                        $product->value = $products[$productIndex]->value;
+                    }
                     $response['value'][] = $sale;
                 }
             }
