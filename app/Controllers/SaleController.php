@@ -143,6 +143,25 @@ class SaleController extends ResourceController{
         return $this->respond($response);
     }
 
+    public function updatePaidCardPayment(){
+        $data = $this->request->getJSON();
+        $sales  = $this->returnSaleDb();
+
+        $saleIndex = array_search($data->numberSale, array_column($sales, 'numberSale'));
+        
+        if(property_exists($sales[$saleIndex], "paymentMehod")){
+            $sales[$saleIndex]->paymentMehod->paid = $data->paid;
+        };
+
+        $this->saveSale($sales);
+
+        $response = [
+            'status'   => 200,
+            'value'    => $sales[$saleIndex]
+        ];
+        return $this->respond($response);
+    }
+
     public function searchPixSale($txid = null){
 
         $response = [
