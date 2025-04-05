@@ -192,6 +192,30 @@ class SaleController extends ResourceController{
           }
     }
 
+    public function getAllSalePaid() {
+        try {
+            $sales  = $this->returnSaleDb();
+            $updated = false;
+
+            array_shift($sales);
+
+            $response = [
+                'status'   => 200,
+                'value'    => null
+            ];
+
+            foreach($sales as $key=>$sale){
+                if(property_exists($sale, "paymentMehod") && $sale->paymentMehod->paid == true){
+                    $response['value'][] = $sale;
+                }
+            }
+            
+            return $this->respond($response);
+        } catch (Exception $e) {
+            return $this->fail($e->getMessage());
+          }
+    }
+
     public function getAllSeller() {
         try {
             $sellers  = $this->returnSellerDb();

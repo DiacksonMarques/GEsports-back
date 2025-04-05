@@ -154,6 +154,7 @@ $routes->post('createSeller', 'SaleController::createSeller');
 $routes->put('updatePaymentMethod', 'SaleController::updatePaymentMethod');
 $routes->get('checkSaleSeller/(:segment)', 'SaleController::getCheckSaleSeller/$1');
 $routes->get('allSale', 'SaleController::getAllSale');
+$routes->get('allSalePaid', 'SaleController::getAllSalePaid');
 $routes->get('allSeller', 'SaleController::getAllSeller');
 $routes->get('allProduct', 'SaleController::getAllProduct');
 $routes->get('seller/(:segment)', 'SaleController::getSeller/$1');
