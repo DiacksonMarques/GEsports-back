@@ -3,6 +3,80 @@
         "id": 0,
         "description": "Copo de Açai 500ml",
         "value": 23,
+        "followUpQuantity": 4,
+        "followUps": [
+            {
+                "id": 0,
+                "description": "Banana",
+                "value":  1.20
+            },
+            {
+                "id": 1,
+                "description": "Morango",
+                "value":  3
+            },
+            {
+                "id": 2,
+                "description": "Kiwi",
+                "value":  3
+            },
+            {
+                "id": 3,
+                "description": "Chocoball",
+                "value":  2
+            },
+            {
+                "id": 4,
+                "description": "Confete",
+                "value":  2
+            },
+            {
+                "id": 5,
+                "description": "Leite em pó",
+                "value":  3
+            },
+            {
+                "id": 6,
+                "description": "Leite condensado",
+                "value":  2
+            },
+            {
+                "id": 7,
+                "description": "Nutella",
+                "value":  3
+            },
+            {
+                "id": 8,
+                "description": "Creme de Ninho",
+                "value":  3
+            },
+            {
+                "id": 9,
+                "description": "Paçoca",
+                "value":  2
+            },
+            {
+                "id": 10,
+                "description": "Gotas de chocolate",
+                "value":  2.50
+            },
+            {
+                "id": 11,
+                "description": "Mousse de Maracujá",
+                "value":  3
+            },
+            {
+                "id": 12,
+                "description": "Mousse de Morango",
+                "value":  3
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "description": "Copo de Açai 350ml",
+        "value": 15,
+        "followUpQuantity": 3,
         "followUps": [
             {
                 "id": 0,

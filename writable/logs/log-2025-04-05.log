@@ -1,0 +1,26 @@
+CRITICAL - 2025-04-05 19:13:26 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Controllers\SaleController.php on line 179.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SaleController->getAllSale()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-05 19:14:50 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\SaleController.php on line 181.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SaleController->getAllSale()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-05 20:43:13 --> ErrorException: Undefined property: stdClass::$paymentMethod
+in APPPATH\Controllers\SaleController.php on line 96.
+ 1 APPPATH\Controllers\SaleController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$paymentMethod', 'D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SaleController.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SaleController->updatePaymentMethod()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-05 20:43:37 --> ErrorException: Undefined variable $sale
+in APPPATH\Controllers\SaleController.php on line 133.
+ 1 APPPATH\Controllers\SaleController.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sale', 'D:\\xamp\\htdocs\\GEsports-back\\app\\Controllers\\SaleController.php', 133)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SaleController->updateLinkCardPayment()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

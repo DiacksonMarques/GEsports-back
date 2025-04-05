@@ -152,6 +152,7 @@ $routes->get('searchPix/(:segment)', 'SelectiveController::searchPix/$1');
 $routes->post('createSale', 'SaleController::createSale');
 $routes->post('createSeller', 'SaleController::createSeller');
 $routes->put('updatePaymentMethod', 'SaleController::updatePaymentMethod');
+$routes->put('updateLinkCard', 'SaleController::updateLinkCardPayment');
 $routes->get('checkSaleSeller/(:segment)', 'SaleController::getCheckSaleSeller/$1');
 $routes->get('allSale', 'SaleController::getAllSale');
 $routes->get('allSalePaid', 'SaleController::getAllSalePaid');

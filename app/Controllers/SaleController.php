@@ -124,6 +124,25 @@ class SaleController extends ResourceController{
         return $this->respond($response);
     }
 
+    public function updateLinkCardPayment(){
+        $data = $this->request->getJSON();
+        $sales  = $this->returnSaleDb();
+
+        $saleIndex = array_search($data->numberSale, array_column($sales, 'numberSale'));
+        
+        if(property_exists($sales[$saleIndex], "paymentMehod")){
+            $sales[$saleIndex]->paymentMehod->linkCard = $data->link;
+        };
+
+        $this->saveSale($sales);
+
+        $response = [
+            'status'   => 200,
+            'value'    => $sales[$saleIndex]
+        ];
+        return $this->respond($response);
+    }
+
     public function searchPixSale($txid = null){
 
         $response = [
@@ -157,6 +176,7 @@ class SaleController extends ResourceController{
     public function getAllSale() {
         try {
             $sales  = $this->returnSaleDb();
+            $sellers  = $this->returnSellerDb();
             $updated = false;
 
             foreach($sales as $key=>$sale){
@@ -171,6 +191,13 @@ class SaleController extends ResourceController{
                     if($responsePix['body']['status'] == "CONCLUIDA"){
                         $sale->paymentMehod->paid = true;
                         $updated = true;
+                    }
+                }
+
+                if(property_exists($sale, "sellerId") && !property_exists($sale, "nameSeller")){
+                    $sellerIndex = array_search($sale->sellerId, array_column($sellers, 'id'));
+                    if($sellerIndex != false){
+                        $sale->nameSeller = $sellers[$sellerIndex]->name;
                     }
                 }
             }
