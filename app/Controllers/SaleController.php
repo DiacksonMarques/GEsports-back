@@ -215,9 +215,18 @@ class SaleController extends ResourceController{
         try {
             $sales  = $this->returnSaleDb();
             $sellers  = $this->returnSellerDb();
+            $products  = $this->returnProductDb();
             $updated = false;
 
             foreach($sales as $key=>$sale){
+                
+                foreach($sale->product as $key=>$product){
+                    $productIndex = array_search($product->idProduct, array_column($products, 'id'));
+    
+                    $product->description = $products[$productIndex]->description;
+                    $product->value = $products[$productIndex]->value;
+                }
+
                 if(property_exists($sale, "paymentMehod") && $sale->paymentMehod->paymentMehodId == 0 && !$sale->paymentMehod->paid){
                     $modelEdi = new EfiPayModel();
                     $responsePix = $modelEdi->searchPix($sale->paymentMehod->txid);
