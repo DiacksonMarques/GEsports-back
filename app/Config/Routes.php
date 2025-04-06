@@ -157,6 +157,7 @@ $routes->put('updatePaidCard', 'SaleController::updatePaidCardPayment');
 $routes->put('updateDeliveryStatus', 'SaleController::updateDeliveryStatus');
 $routes->get('checkSaleSeller/(:segment)', 'SaleController::getCheckSaleSeller/$1');
 $routes->get('allSale', 'SaleController::getAllSale');
+$routes->get('allSaleStatus', 'SaleController::getAllSaleStatus');
 $routes->get('allSalePaid', 'SaleController::getAllSalePaid');
 $routes->get('allSeller', 'SaleController::getAllSeller');
 $routes->get('allProduct', 'SaleController::getAllProduct');

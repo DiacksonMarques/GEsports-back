@@ -268,7 +268,38 @@ class SaleController extends ResourceController{
             return $this->respond($response);
         } catch (Exception $e) {
             return $this->fail($e->getMessage());
-          }
+        }
+    }
+
+    public function getAllSaleStatus() {
+        try {
+            $sales  = $this->returnSaleDb();
+            $products  = $this->returnProductDb();
+
+            $response = [
+                'status'   => 200,
+                'value'    => null
+            ];
+
+            array_shift($sales);
+
+            foreach($sales as $key=>$sale){
+                if(property_exists($sale, "deliveryStatus") && $sale->deliveryStatus < 2){
+                    foreach($sale->product as $key=>$product){
+                        $productIndex = array_search($product->idProduct, array_column($products, 'id'));
+        
+                        $product->description = $products[$productIndex]->description;
+                        $product->value = $products[$productIndex]->value;
+                    }
+
+                    $response['value'][] = $sale;
+                }
+            }
+
+            return $this->respond($response);
+        } catch (Exception $e) {
+            return $this->fail($e->getMessage());
+        }
     }
 
     public function getAllSalePaid() {
