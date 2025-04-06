@@ -162,6 +162,25 @@ class SaleController extends ResourceController{
         return $this->respond($response);
     }
 
+    public function updateDeliveryStatus(){
+        $data = $this->request->getJSON();
+        $sales  = $this->returnSaleDb();
+
+        $saleIndex = array_search($data->numberSale, array_column($sales, 'numberSale'));
+        
+        if(property_exists($sales[$saleIndex], "deliveryStatus")){
+            $sales[$saleIndex]->deliveryStatus = $data->statusId;
+        };
+
+        $this->saveSale($sales);
+
+        $response = [
+            'status'   => 200,
+            'value'    => $sales[$saleIndex]
+        ];
+        return $this->respond($response);
+    }
+
     public function searchPixSale($txid = null){
 
         $response = [
@@ -209,6 +228,7 @@ class SaleController extends ResourceController{
 
                     if($responsePix['body']['status'] == "CONCLUIDA"){
                         $sale->paymentMehod->paid = true;
+                        $sale->deliveryStatus = 1;
                         $updated = true;
                     }
                 }
@@ -218,6 +238,10 @@ class SaleController extends ResourceController{
                     if($sellerIndex != false){
                         $sale->nameSeller = $sellers[$sellerIndex]->name;
                     }
+                }
+
+                if((property_exists($sale, "deliveryStatus") && property_exists($sale, "paymentMehod")) && $sale->deliveryStatus == 0 && $sale->paymentMehod->paid == true){
+                    $sale->deliveryStatus = 1;
                 }
             }
 
