@@ -51,11 +51,11 @@ class ChampionshipController extends ResourceController{
 
       foreach ($teams  as &$team) {
         switch ($team->naipe) {
-          case 'MAS':
+          case 'MASCULINO':
             $team->naipe = 'Masc';
             break;
 
-          case 'FEM':
+          case 'FEMININO':
             $team->naipe = 'Femi';
             break;
           
