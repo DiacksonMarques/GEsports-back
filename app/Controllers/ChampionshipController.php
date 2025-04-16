@@ -41,6 +41,8 @@ class ChampionshipController extends ResourceController{
     try {
       $teams  = $this->returnDb();
 
+      array_shift($teams);
+
       $response = [
         'status'   => 200,
         'value'    => null
