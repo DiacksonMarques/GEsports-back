@@ -102,10 +102,10 @@ class ComposerStaticInit24e7cb8a37c5aee6ddb51a048563e9e3
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
-        'Efi\\' => 
+        /* 'Efi\\' => 
         array (
             0 => __DIR__ . '/..' . '/efipay/sdk-php-apis-efi/src/Efi',
-        ),
+        ), */
         'CodeIgniter\\' => 
         array (
             0 => __DIR__ . '/../..' . '/system',
@@ -488,7 +488,7 @@ class ComposerStaticInit24e7cb8a37c5aee6ddb51a048563e9e3
         'CodeIgniter\\View\\ViewDecoratorInterface' => __DIR__ . '/../..' . '/system/View/ViewDecoratorInterface.php',
         'CodeIgniter\\View\\ViewDecoratorTrait' => __DIR__ . '/../..' . '/system/View/ViewDecoratorTrait.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'Efi\\ApiRequest' => __DIR__ . '/..' . '/efipay/sdk-php-apis-efi/src/Efi/ApiRequest.php',
+        /* 'Efi\\ApiRequest' => __DIR__ . '/..' . '/efipay/sdk-php-apis-efi/src/Efi/ApiRequest.php',
         'Efi\\Auth' => __DIR__ . '/..' . '/efipay/sdk-php-apis-efi/src/Efi/Auth.php',
         'Efi\\BaseModel' => __DIR__ . '/..' . '/efipay/sdk-php-apis-efi/src/Efi/BaseModel.php',
         'Efi\\CacheRetriever' => __DIR__ . '/..' . '/efipay/sdk-php-apis-efi/src/Efi/CacheRetriever.php',
@@ -505,7 +505,7 @@ class ComposerStaticInit24e7cb8a37c5aee6ddb51a048563e9e3
         'Efi\\Request' => __DIR__ . '/..' . '/efipay/sdk-php-apis-efi/src/Efi/Request.php',
         'Efi\\Response' => __DIR__ . '/..' . '/efipay/sdk-php-apis-efi/src/Efi/Response.php',
         'Efi\\Security' => __DIR__ . '/..' . '/efipay/sdk-php-apis-efi/src/Efi/Security.php',
-        'Efi\\Utils' => __DIR__ . '/..' . '/efipay/sdk-php-apis-efi/src/Efi/Utils.php',
+        'Efi\\Utils' => __DIR__ . '/..' . '/efipay/sdk-php-apis-efi/src/Efi/Utils.php', */
         'GuzzleHttp\\BodySummarizer' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/BodySummarizer.php',
         'GuzzleHttp\\BodySummarizerInterface' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/BodySummarizerInterface.php',
         'GuzzleHttp\\Client' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Client.php',
@@ -734,7 +734,7 @@ class ComposerStaticInit24e7cb8a37c5aee6ddb51a048563e9e3
         'Symfony\\Contracts\\Service\\ServiceProviderInterface' => __DIR__ . '/..' . '/symfony/service-contracts/ServiceProviderInterface.php',
         'Symfony\\Contracts\\Service\\ServiceSubscriberInterface' => __DIR__ . '/..' . '/symfony/service-contracts/ServiceSubscriberInterface.php',
         'Symfony\\Contracts\\Service\\ServiceSubscriberTrait' => __DIR__ . '/..' . '/symfony/service-contracts/ServiceSubscriberTrait.php',
-        '©' => __DIR__ . '/..' . '/symfony/cache/Traits/ValueWrapper.php',
+        'ï¿½' => __DIR__ . '/..' . '/symfony/cache/Traits/ValueWrapper.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
