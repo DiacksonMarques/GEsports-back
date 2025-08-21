@@ -27,9 +27,9 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
-        'username'     => 'gespor33_diackson',
-        'password'     => '!D2D3d4d5d',
-        'database'     => 'gespor33_ace-db',
+        'username'     => 'root',
+        'password'     => '',
+        'database'     => 'ace-db',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
