@@ -19,7 +19,7 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        /* 'efipay/sdk-php-apis-efi' => array(
+        'efipay/sdk-php-apis-efi' => array(
             'pretty_version' => '1.11.3',
             'version' => '1.11.3.0',
             'reference' => '08569e08ccff2756db98a0ab5828f05250334b5e',
@@ -27,7 +27,7 @@
             'install_path' => __DIR__ . '/../efipay/sdk-php-apis-efi',
             'aliases' => array(),
             'dev_requirement' => false,
-        ), */
+        ),
         'guzzlehttp/guzzle' => array(
             'pretty_version' => '7.9.2',
             'version' => '7.9.2.0',

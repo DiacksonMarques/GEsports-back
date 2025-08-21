@@ -381,7 +381,7 @@ return array(
     'CodeIgniter\\View\\ViewDecoratorInterface' => $baseDir . '/system/View/ViewDecoratorInterface.php',
     'CodeIgniter\\View\\ViewDecoratorTrait' => $baseDir . '/system/View/ViewDecoratorTrait.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    /* 'Efi\\ApiRequest' => $vendorDir . '/efipay/sdk-php-apis-efi/src/Efi/ApiRequest.php',
+    'Efi\\ApiRequest' => $vendorDir . '/efipay/sdk-php-apis-efi/src/Efi/ApiRequest.php',
     'Efi\\Auth' => $vendorDir . '/efipay/sdk-php-apis-efi/src/Efi/Auth.php',
     'Efi\\BaseModel' => $vendorDir . '/efipay/sdk-php-apis-efi/src/Efi/BaseModel.php',
     'Efi\\CacheRetriever' => $vendorDir . '/efipay/sdk-php-apis-efi/src/Efi/CacheRetriever.php',
@@ -398,7 +398,7 @@ return array(
     'Efi\\Request' => $vendorDir . '/efipay/sdk-php-apis-efi/src/Efi/Request.php',
     'Efi\\Response' => $vendorDir . '/efipay/sdk-php-apis-efi/src/Efi/Response.php',
     'Efi\\Security' => $vendorDir . '/efipay/sdk-php-apis-efi/src/Efi/Security.php',
-    'Efi\\Utils' => $vendorDir . '/efipay/sdk-php-apis-efi/src/Efi/Utils.php', */
+    'Efi\\Utils' => $vendorDir . '/efipay/sdk-php-apis-efi/src/Efi/Utils.php',
     'GuzzleHttp\\BodySummarizer' => $vendorDir . '/guzzlehttp/guzzle/src/BodySummarizer.php',
     'GuzzleHttp\\BodySummarizerInterface' => $vendorDir . '/guzzlehttp/guzzle/src/BodySummarizerInterface.php',
     'GuzzleHttp\\Client' => $vendorDir . '/guzzlehttp/guzzle/src/Client.php',
