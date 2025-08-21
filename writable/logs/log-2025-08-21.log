@@ -27,3 +27,11 @@ in APPPATH\Models\EfiPayModel.php on line 15.
  4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
  5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-21 18:20:14 --> Error: Class "Efi\EfiPay" not found
+in APPPATH\Models\EfiPayModel.php on line 15.
+ 1 APPPATH\Models\EfiPayModel.php(51): App\Models\EfiPayModel->createEfiApi()
+ 2 APPPATH\Controllers\SelectiveController.php(36): App\Models\EfiPayModel->createPixMaturity('2025-02-24', '00000000000', 'Teste 1', '10.00')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SelectiveController->createCandidate()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SelectiveController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
