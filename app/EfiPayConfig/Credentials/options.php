@@ -3,7 +3,7 @@
 /**
  * Environment
  */
-$sandbox = false; // false = Production | true = Homologation
+$sandbox = true; // false = Production | true = Homologation
 
 /**
  * Credentials of Production
