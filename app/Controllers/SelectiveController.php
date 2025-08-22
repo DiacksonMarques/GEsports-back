@@ -23,17 +23,32 @@ class SelectiveController extends ResourceController{
     public function createCandidate() {
         try {
           $data = $this->request->getJSON();
-    
           $candidates  = $this->returnDb();
+          $yearsAccepted = array(2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014);
 
           $valueCheck = $this->checkCandidate($data);
           if($valueCheck){
             return $this->respond($valueCheck);
           }
 
+          $birthDate = date('Y' ,strtotime($data->birthDate));
+          if(!in_array($birthDate, $yearsAccepted)){
+            return $this->fail("Idade fora da faixa permitida");
+          }
+
           $modelEdi = new EfiPayModel();
           if($data->gender == "MASCULINO"){
-            $responseEfi = $modelEdi->createPixMaturity("2025-02-24", $data->cpf, $data->name, "10.00");
+            $yearsNotPage = array(2012,2013,2014);
+            $yearsPageDay02 = array(2009, 2010, 2011);
+            $yearsPageDay04 = array(2003, 2004, 2005, 2006, 2007, 2008);
+
+            if(in_array($birthDate, $yearsPageDay02)){
+              $responseEfi = $modelEdi->createPixMaturity("2025-09-02", $data->cpf, $data->name, "0.10");
+            } else if(in_array($birthDate, $yearsPageDay04)) {
+              $responseEfi = $modelEdi->createPixMaturity("2025-09-04", $data->cpf, $data->name, "0.10");
+            } else if(in_array($birthDate, $yearsNotPage)) {
+              $responseEfi = ["status" => 201, "body" => ["txid" => "NOTPAGE"]];
+            }
           } else if($data->gender == "FEMININO"){
             $responseEfi = $modelEdi->createPixMaturity("2025-02-26", $data->cpf, $data->name, "10.00");
           }
@@ -167,25 +182,29 @@ class SelectiveController extends ResourceController{
       
       $response['value'] = $candidates[$candidateIndex];
 
-      $modelEdi = new EfiPayModel();
-      $responsePix = $modelEdi->searchPix($response['value']->txid);
+      if($candidates[$candidateIndex]->txid == "NOTPAGE"){
+        $response['value']->pixStatus = "CONCLUIDA";
+      } else {
+        $modelEdi = new EfiPayModel();
+        $responsePix = $modelEdi->searchPix($response['value']->txid);
 
-      if($responsePix['status'] != 201){
-        return $this->fail($responsePix);
-      }
+        if($responsePix['status'] != 201){
+          return $this->fail($responsePix);
+        }
 
-      $qrCodPix = $modelEdi->generatePixQrCode($responsePix['body']['loc']['id']);
+        $qrCodPix = $modelEdi->generatePixQrCode($responsePix['body']['loc']['id']);
 
-      if($qrCodPix['status'] != 201){
-        return $this->fail($qrCodPix);
-      }
-      
-      $response['value']->pixQrCode = $qrCodPix['body']['imagemQrcode'];
-      $response['value']->pixCopyPaste = $responsePix['body']['pixCopiaECola'];
-      $response['value']->pixName = $responsePix['body']['recebedor']['nome'];
-      $response['value']->pixValue = $responsePix['body']['valor']['original'];
-      $response['value']->pixMaturity = $responsePix['body']['calendario']['dataDeVencimento'];
-      $response['value']->pixStatus = $responsePix['body']['status'];
+        if($qrCodPix['status'] != 201){
+          return $this->fail($qrCodPix);
+        }
+        
+        $response['value']->pixQrCode = $qrCodPix['body']['imagemQrcode'];
+        $response['value']->pixCopyPaste = $responsePix['body']['pixCopiaECola'];
+        $response['value']->pixName = $responsePix['body']['recebedor']['nome'];
+        $response['value']->pixValue = $responsePix['body']['valor']['original'];
+        $response['value']->pixMaturity = $responsePix['body']['calendario']['dataDeVencimento'];
+        $response['value']->pixStatus = $responsePix['body']['status'];
+        }
 
       return $this->respond($response);
     }
