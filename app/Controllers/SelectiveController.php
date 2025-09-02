@@ -220,27 +220,34 @@ class SelectiveController extends ResourceController{
     public function getCandidatePayment(){
       $candidates  = $this->returnDb();
       $response = [];
+      $yearsNotPage = array(2012,2013,2014);
 
       array_shift($candidates);
 
       foreach($candidates as $key=>$candidate){
+        $birthDateYear = date('Y' ,strtotime($candidate->birthDate));
         if(!property_exists($candidate, "approvedRegistration") || 
           (property_exists($candidate, "approvedRegistration") && !$candidate->approvedRegistration)
         ){
+
           if(property_exists($candidate, "pixStatus") && $candidate->pixStatus == "CONCLUIDA"){
             $response[] = $candidate;
             
           } else if(!property_exists($candidate, "pixStatus") || 
             (property_exists($candidate, "pixStatus") && $candidate->pixStatus != "CONCLUIDA")
           ){
-            $modelEdi = new EfiPayModel();
-            $responsePix = $modelEdi->searchPix($candidate->txid);
-  
-            if($responsePix['status'] != 201){
-              return $this->fail($responsePix);
-            }
-            if($responsePix['body']['status'] == "CONCLUIDA"){
+            if(in_array($birthDateYear, $yearsNotPage)){
               $response[] = $candidate;
+            } else {
+              $modelEdi = new EfiPayModel();
+              $responsePix = $modelEdi->searchPix($candidate->txid);
+    
+              if($responsePix['status'] != 201){
+                return $this->fail($responsePix);
+              }
+              if($responsePix['body']['status'] == "CONCLUIDA"){
+                $response[] = $candidate;
+              }
             }
           }
         }
