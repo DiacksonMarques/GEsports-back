@@ -271,9 +271,9 @@ class SelectiveController extends ResourceController{
           $hourSelective = '0';
 
 
-          if(in_array($birthYear->format('Y'), ["2013","2012","2011","2010"])){
+          if(in_array($birthYear->format('Y'), [2012, 2013, 2014])){
             $hourSelective = '17';
-          } else if(in_array($birthYear->format('Y'), ["2009","2008","2007","2006"])){
+          } else if(in_array($birthYear->format('Y'), [2009, 2010, 2011])){
             $hourSelective = '18';
           } else if(in_array($birthYear->format('Y'), ["2005", "2004", "2003", "2002"])){
             $hourSelective = '19';
