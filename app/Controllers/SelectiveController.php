@@ -24,7 +24,7 @@ class SelectiveController extends ResourceController{
         try {
           $data = $this->request->getJSON();
           $candidates  = $this->returnDb();
-          $yearsAccepted = array(2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014);
+          $yearsAccepted = array(2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014);
 
           $valueCheck = $this->checkCandidate($data);
           if($valueCheck){
@@ -40,7 +40,7 @@ class SelectiveController extends ResourceController{
           if($data->gender == "MASCULINO"){
             $yearsNotPage = array(2012,2013,2014);
             $yearsPageDay02 = array(2009, 2010, 2011);
-            $yearsPageDay04 = array(2003, 2004, 2005, 2006, 2007, 2008);
+            $yearsPageDay04 = array(2002,2003, 2004, 2005, 2006, 2007, 2008);
 
             if(in_array($birthDate, $yearsPageDay02)){
               $responseEfi = $modelEdi->createPixMaturity("2025-09-02", $data->cpf, $data->name, "10.00");
