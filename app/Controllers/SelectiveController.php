@@ -36,21 +36,28 @@ class SelectiveController extends ResourceController{
             return $this->fail("Idade fora da faixa permitida");
           }
 
-          $modelEdi = new EfiPayModel();
+          $modelEfi = new EfiPayModel();
           if($data->gender == "MASCULINO"){
             $yearsNotPage = array(2012,2013,2014);
             $yearsPageDay02 = array(2009, 2010, 2011);
             $yearsPageDay04 = array(2002,2003, 2004, 2005, 2006, 2007, 2008);
 
             if(in_array($birthDate, $yearsPageDay02)){
-              $responseEfi = $modelEdi->createPixMaturity("2025-09-02", $data->cpf, $data->name, "10.00");
+              $responseEfi = $modelEfi->createPixMaturity("2025-09-24", $data->cpf, $data->name, "10.00");
             } else if(in_array($birthDate, $yearsPageDay04)) {
-              $responseEfi = $modelEdi->createPixMaturity("2025-09-04", $data->cpf, $data->name, "10.00");
+              $responseEfi = $modelEfi->createPixMaturity("2025-09-24", $data->cpf, $data->name, "10.00");
             } else if(in_array($birthDate, $yearsNotPage)) {
               $responseEfi = ["status" => 201, "body" => ["txid" => "NOTPAGE"]];
             }
           } else if($data->gender == "FEMININO"){
-            $responseEfi = $modelEdi->createPixMaturity("2025-02-26", $data->cpf, $data->name, "10.00");
+            $yearsNotPage = array(2012,2013,2014);
+            $yearsPage = array(2002,2003, 2004, 2005, 2006, 2007, 2008,2009, 2010, 2011);
+
+            if(in_array($birthDate, $yearsPage)){
+              $responseEfi = $modelEfi->createPixMaturity("2025-09-24", $data->cpf, $data->name, "10.00");
+            }  else if(in_array($birthDate, $yearsNotPage)) {
+              $responseEfi = ["status" => 201, "body" => ["txid" => "NOTPAGE"]];
+            }
           }
 
           if($responseEfi['status'] != 201){
