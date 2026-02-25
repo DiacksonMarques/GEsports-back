@@ -118,7 +118,10 @@ $routes->put('personEnrollment/(:segment)', 'EnrolmentController::updateEnrollme
 
 //Championship
 $routes->post('createTeam', 'ChampionshipController::createTeam');
+$routes->put('editTeam', 'ChampionshipController::editTeam');
+$routes->delete('deleteTeam/(:segment)', 'ChampionshipController::deleteTeam/$1');
 $routes->get('teams', 'ChampionshipController::allTeams');
+$routes->get('team/(:segment)', 'ChampionshipController::getTeam/$1');
 
 
 //Raffle
