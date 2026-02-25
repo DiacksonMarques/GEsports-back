@@ -26,12 +26,61 @@ class ChampionshipController extends ResourceController{
 
       $newId = count($teams);
       $data->id = $newId;
-      $data->enrollment = '202501'.$newId;
+      $data->enrollment = '202603'.$newId;
       $teams[$newId] = $data;
 
       $this->saveChampionship($teams);
       
       return $this->respond($teams[$newId]);
+    } catch (Exception $e) {
+      return $this->fail($e->getMessage());
+    }
+  }
+
+  public function editTeam(){
+    try{
+      $data = $this->request->getJSON();
+      $teams  = $this->returnDb();
+
+      $teamIndex = array_search($data->enrollment, array_column($teams, 'enrollment'));
+
+      if($teamIndex == false){
+        return $this->respond("ERROR enrollment Não encontrado");
+      }
+
+      $teams[$teamIndex] = $data;
+
+      
+      $this->saveChampionship($teams);
+        
+      return $this->respond($teams[$teamIndex]);
+
+    } catch (Exception $e) {
+      return $this->fail($e->getMessage());
+    }
+  }
+
+  public function deleteTeam($data=null){
+    try{
+      $teams  = $this->returnDb();
+
+      $teamIndex = array_search($data, array_column($teams, 'enrollment'));
+
+      if($teamIndex == false){
+        return $this->respond("ERROR enrollment Não encontrado");
+      }
+
+      array_splice($teams, $teamIndex, 1);
+      
+      $this->saveChampionship($teams);
+
+      $response = [
+        'status'   => 200,
+        'value'    => true
+      ];
+        
+      return $this->respond($response);
+
     } catch (Exception $e) {
       return $this->fail($e->getMessage());
     }
@@ -77,28 +126,23 @@ class ChampionshipController extends ResourceController{
     }
   }
 
+  public function getTeam($data=null){
+    $teams  = $this->returnDb();
+    
+    $teamIndex = array_search($data, array_column($teams, 'enrollment'));
+
+    $response = [
+      "status" => 200,
+      "value" => ["enrollment" => null]
+    ];
+
+    if($teamIndex == false){
+      return $this->respond($response);
+    }
+    
+    $response['value'] = $teams[$teamIndex];
+
+    return $this->respond($response);
+  }
+
 }
-/* {
-  "id": 0,
-  "groupId": 0,
-  "teamHome": 28,
-  "teamAway": 29,
-  "setHome": 2,
-  "setAway": 0,
-  "pointHome": 3,
-  "pointAway": 0,
-  "sets": [
-      {
-          "teamOne": 25,
-          "teamTwo": 20
-      },
-      {
-          "teamOne": 25,
-          "teamTwo": 15
-      },
-      {
-          "teamOne": 0,
-          "teamTwo": 0
-      }
-  ]
-} */

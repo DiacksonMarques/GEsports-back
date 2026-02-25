@@ -1,12 +1,22 @@
 [
-  {
-    "name": "TESTE",
-    "acronym": "TES",
-    "responsible": { "name": "TESTE", "phone": "(00) 0 0000-0000" },
-    "city": { "name": "Juazeiro do norte", "uf": "CE" },
-    "category": "TESTE",
-    "naipe": "AMB",
-    "id": 0,
-    "enrollment": "0000"
-  }
+    {
+        "name": "TESTE",
+        "acronym": "TES",
+        "responsible": {
+            "name": "TESTE",
+            "phone": "(00) 0 0000-0000"
+        },
+        "city": {
+            "name": "Juazeiro do norte",
+            "uf": "CE"
+        },
+        "categories": [
+            {
+                "category": "TESTE",
+                "naipe": "AMB"
+            }
+        ],
+        "id": 0,
+        "enrollment": "0000"
+    }
 ]

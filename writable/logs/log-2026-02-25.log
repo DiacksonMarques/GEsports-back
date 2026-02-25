@@ -1,0 +1,6 @@
+CRITICAL - 2026-02-25 00:01:29 --> Error: Call to undefined method App\Controllers\ChampionshipController::saveSelective()
+in APPPATH\Controllers\ChampionshipController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChampionshipController->editTeam()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChampionshipController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
